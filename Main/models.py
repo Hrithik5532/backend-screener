@@ -1,4 +1,4 @@
-# models.py - UPDATED WITH LARGER FIELD SIZES
+# Main/models.py - UPDATED WITH LARGER FIELD SIZES
 from django.db import models
 import uuid
 from datetime import datetime
@@ -410,3 +410,4 @@ class TransformedData(models.Model):
     class Meta:
         db_table = 'transformed_data'
         # managed = True  <- remove managed = False
+

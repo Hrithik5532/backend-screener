@@ -1,4 +1,4 @@
-# views.py
+# Main/views.py
 import json
 import threading
 from rest_framework.decorators import api_view, permission_classes
@@ -6,11 +6,10 @@ from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
 from rest_framework import status
 from yfinance import download as yf_download
-import pandas as pd
-from decimal import Decimal
+
 import pandas as pd
 from .models import (
-    Company,QueryUser,StockPriceHistory,TestingQuery
+    Company,QueryUser,TestingQuery
 )
 import time
 from decimal import Decimal
@@ -27,46 +26,382 @@ from rest_framework.views import APIView
 from .tasks import process_financial_query
 from celery.result import AsyncResult
 import uuid
-from django.http import HttpResponse
 import ast
 
 from datetime import datetime
 import requests
 
+from django.views.decorators.csrf import csrf_exempt
+from django.http import JsonResponse
+from Main.models import Company
+import yfinance as yf
+from datetime import datetime
+
+import time
+import requests
+import threading
+import logging
+import uuid
+from datetime import datetime
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from rest_framework import status
+from django.utils import timezone
+
+# Configure logging
+logger = logging.getLogger(__name__)
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - [%(threadName)s] - %(message)s',
+    handlers=[
+        logging.FileHandler('scraper.log'),
+        logging.StreamHandler()
+    ]
+)
+
+
 class FinancialDataScraperAPI(APIView):
     """
     REST API for scraping financial data from multiple companies
+    Optimized for large-scale scraping (2000+ companies)
     
     POST /api/scrape-financial-data/
     
-    Request Body:
-    {
-        "companies" : ["CENTENKA", "ABLBL", "ABFRL", "BIRLAMONEY", "ABSLAMC", "ABREL", "ABCAPITAL", "HINDALCO", "GRASIM", "ULTRACEMCO", "ACC", "SHREECEM","AMBUJACEM"],
-        "sections": ["quarters", "profit-loss", "balance-sheet"],  // Optional
-        "save_to_db": true,  // Optional, default: true
-        "save_csv": true,    // Optional, default: true
-        "async_mode": false  // Optional, default: false
-    }
+    Request examples:
+    1. Diagnose network:
+       {"diagnose": true}
+    
+    2. Scrape with parallel method:
+       {
+           "companies": ["MANAKSIA", "KANPRPLA", ...],
+           "validation_method": "parallel",
+           "max_workers": 10,
+           "async_mode": true
+       }
+    
+    3. Scrape with batch method:
+       {
+           "companies": ["MANAKSIA", "KANPRPLA", ...],
+           "validation_method": "batch",
+           "batch_size": 50,
+           "async_mode": true
+       }
     """
     
-    # permission_classes = [IsAuthenticated]  # Uncomment to require authentication
+    def diagnose_network(self):
+        """Diagnose network connectivity issues"""
+        logger.info("="*80)
+        logger.info("🔍 NETWORK DIAGNOSTICS STARTED")
+        logger.info("="*80)
+        
+        test_urls = [
+            "https://www.screener.in",
+         
+        ]
+        
+        results = {}
+        for url in test_urls:
+            try:
+                logger.info(f"Testing connection to: {url}")
+                response = requests.get(url, timeout=5)
+                results[url] = f"✓ OK (Status: {response.status_code})"
+                logger.info(f"  ✓ Success - Status: {response.status_code}")
+                print(f"✓ {url} - OK (Status: {response.status_code})")
+            except Exception as e:
+                error_msg = str(e)
+                results[url] = f"✗ FAILED ({error_msg})"
+                logger.error(f"  ✗ Failed - {error_msg}")
+                print(f"✗ {url} - FAILED: {error_msg}")
+        
+        logger.info("="*80)
+        logger.info("🔍 NETWORK DIAGNOSTICS COMPLETE")
+        logger.info("="*80)
+        
+        return results
+    
+    def _create_session_with_retry(self):
+        """Create a requests session with retry strategy"""
+        session = requests.Session()
+        
+        retry_strategy = Retry(
+            total=3,
+            backoff_factor=1,
+            status_forcelist=[429, 500, 502, 503, 504],
+            allowed_methods=["HEAD", "GET", "OPTIONS"]
+        )
+        
+        adapter = HTTPAdapter(
+            max_retries=retry_strategy,
+            pool_connections=20,
+            pool_maxsize=20
+        )
+        session.mount("http://", adapter)
+        session.mount("https://", adapter)
+        
+        session.headers.update({
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+        })
+        
+        return session
+    
+    def _check_company_availability(self, company, session, rate_limiter, delay=0.5):
+        """Check if a single company is available on screener.in"""
+        url = f"https://www.screener.in/company/{company}/"
+        
+        try:
+            # Acquire rate limit token
+            rate_limiter.acquire()
+            
+            # Add delay between requests to avoid rate limiting
+            time.sleep(delay)
+            
+            logger.debug(f"Checking availability for {company}...")
+            response = session.get(url, timeout=10)
+            
+            if response.status_code == 200:
+                logger.info(f"✓ FOUND: {company}")
+                return {'company': company, 'available': True, 'status': 200}
+            
+            elif response.status_code == 429:
+                logger.warning(f"⚠ Rate limited for {company}. Waiting 3s before retry...")
+                time.sleep(3)
+                
+                try:
+                    response = session.get(url, timeout=10)
+                    if response.status_code == 200:
+                        logger.info(f"✓ FOUND (retry successful): {company}")
+                        return {'company': company, 'available': True, 'status': 200}
+                except Exception as retry_error:
+                    logger.error(f"✗ Retry failed for {company}: {str(retry_error)}")
+                
+                logger.error(f"✗ NOT FOUND: {company} (Status: {response.status_code})")
+                return {'company': company, 'available': False, 'status': response.status_code}
+            
+            else:
+                logger.error(f"✗ NOT FOUND: {company} (Status: {response.status_code})")
+                return {'company': company, 'available': False, 'status': response.status_code}
+        
+        except requests.exceptions.Timeout:
+            logger.error(f"✗ TIMEOUT: {company} - Request took too long")
+            return {'company': company, 'available': False, 'error': 'Timeout'}
+        
+        except requests.exceptions.ConnectionError as conn_err:
+            logger.error(f"✗ CONNECTION ERROR: {company} - {str(conn_err)}")
+            return {'company': company, 'available': False, 'error': 'Connection Error'}
+        
+        except Exception as e:
+            logger.error(f"✗ ERROR: {company} - {str(e)}")
+            return {'company': company, 'available': False, 'error': str(e)}
+        
+        finally:
+            rate_limiter.release()
+    
+    def _validate_companies_availability_parallel(self, companies, max_workers=10):
+        """Validate companies in parallel using ThreadPoolExecutor"""
+        session = self._create_session_with_retry()
+        available_companies = []
+        failed_companies = []
+        
+        # Semaphore to limit concurrent requests
+        rate_limiter = threading.Semaphore(max_workers)
+        
+        logger.info("="*80)
+        logger.info("🚀 STARTING PARALLEL VALIDATION")
+        logger.info(f"📊 Total companies: {len(companies)}")
+        logger.info(f"👷 Max workers: {max_workers}")
+        logger.info(f"⏰ Start time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+        logger.info("="*80)
+        
+        print(f"\n{'='*80}")
+        print(f"🚀 PARALLEL VALIDATION STARTED")
+        print(f"   Total companies: {len(companies)}")
+        print(f"   Max workers: {max_workers}")
+        print(f"{'='*80}\n")
+        
+        start_time = time.time()
+        
+        with ThreadPoolExecutor(max_workers=max_workers) as executor:
+            futures = {
+                executor.submit(self._check_company_availability, company, session, rate_limiter): company
+                for company in companies
+            }
+            
+            completed = 0
+            for future in as_completed(futures):
+                completed += 1
+                try:
+                    result = future.result()
+                    if result['available']:
+                        available_companies.append(result['company'])
+                    else:
+                        failed_companies.append(result['company'])
+                    
+                    # Log progress every 50 companies
+                    if completed % 50 == 0:
+                        elapsed = time.time() - start_time
+                        rate = completed / elapsed if elapsed > 0 else 0
+                        remaining = len(companies) - completed
+                        eta_seconds = remaining / rate if rate > 0 else 0
+                        
+                        progress_msg = (f"📈 PROGRESS: {completed}/{len(companies)} | "
+                                      f"Found: {len(available_companies)} ✓ | "
+                                      f"Failed: {len(failed_companies)} ✗ | "
+                                      f"Rate: {rate:.1f}/sec | "
+                                      f"ETA: {int(eta_seconds/60)}m {int(eta_seconds%60)}s")
+                        logger.info(progress_msg)
+                        
+                        print(f"\n{'='*80}")
+                        print(f"📊 PROGRESS UPDATE #{completed//50}")
+                        print(f"   Processed: {completed}/{len(companies)}")
+                        print(f"   Found: {len(available_companies)} ✓")
+                        print(f"   Failed: {len(failed_companies)} ✗")
+                        print(f"   Rate: {rate:.2f} companies/second")
+                        print(f"   ETA: {int(eta_seconds/60)}m {int(eta_seconds%60)}s")
+                        print(f"{'='*80}\n")
+                
+                except Exception as e:
+                    logger.error(f"❌ Error processing result: {str(e)}")
+        
+        session.close()
+        
+        elapsed_time = time.time() - start_time
+        logger.info("="*80)
+        logger.info("✅ PARALLEL VALIDATION COMPLETE!")
+        logger.info(f"📊 Results: {len(available_companies)}/{len(companies)} companies found")
+        logger.info(f"⏱️  Time taken: {int(elapsed_time/60)}m {int(elapsed_time%60)}s")
+        logger.info(f"⏰ End time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+        logger.info("="*80)
+        
+        print(f"\n{'='*80}")
+        print(f"✅ PARALLEL VALIDATION COMPLETE!")
+        print(f"   Found: {len(available_companies)} companies ✓")
+        print(f"   Failed: {len(failed_companies)} companies ✗")
+        print(f"   Time: {int(elapsed_time/60)}m {int(elapsed_time%60)}s")
+        print(f"{'='*80}\n")
+        
+        return available_companies
+    
+    def _validate_companies_availability_batch(self, companies, batch_size=50):
+        """Validate companies in safe batches"""
+        session = self._create_session_with_retry()
+        available_companies = []
+        
+        logger.info("="*80)
+        logger.info("🚀 STARTING BATCH VALIDATION")
+        logger.info(f"📊 Total companies: {len(companies)}")
+        logger.info(f"📦 Batch size: {batch_size}")
+        logger.info(f"⏰ Start time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+        logger.info("="*80)
+        
+        print(f"\n{'='*80}")
+        print(f"🚀 BATCH VALIDATION STARTED")
+        print(f"   Total companies: {len(companies)}")
+        print(f"   Batch size: {batch_size}")
+        print(f"{'='*80}\n")
+        
+        start_time = time.time()
+        total_batches = (len(companies) + batch_size - 1) // batch_size
+        
+        for batch_num, i in enumerate(range(0, len(companies), batch_size), 1):
+            batch = companies[i:i + batch_size]
+            batch_results = {}
+            
+            logger.info(f"📦 Processing batch {batch_num}/{total_batches} ({len(batch)} companies)...")
+            
+            def check_company(company):
+                url = f"https://www.screener.in/company/{company}/"
+                try:
+                    time.sleep(0.3)  # Delay between requests
+                    response = session.get(url, timeout=10)
+                    if response.status_code == 200:
+                        logger.debug(f"✓ Found: {company}")
+                        batch_results[company] = True
+                    else:
+                        logger.debug(f"✗ Not found: {company} (Status: {response.status_code})")
+                        batch_results[company] = False
+                except Exception as e:
+                    logger.debug(f"✗ Error: {company} - {str(e)}")
+                    batch_results[company] = False
+            
+            # Create threads for batch
+            threads = []
+            for company in batch:
+                t = threading.Thread(target=check_company, args=(company,), daemon=True)
+                threads.append(t)
+                t.start()
+            
+            # Wait for batch to complete
+            for t in threads:
+                t.join(timeout=60)
+            
+            # Collect results
+            batch_found = [c for c, available in batch_results.items() if available]
+            available_companies.extend(batch_found)
+            
+            elapsed = time.time() - start_time
+            logger.info(f"✅ Batch {batch_num} complete: Found {len(batch_found)}/{len(batch)} | "
+                       f"Total: {len(available_companies)} | Time: {int(elapsed)}s")
+            
+            print(f"\n{'='*80}")
+            print(f"📦 BATCH {batch_num}/{total_batches}")
+            print(f"   Companies in batch: {len(batch)}")
+            print(f"   Found in batch: {len(batch_found)}")
+            print(f"   Total found so far: {len(available_companies)}")
+            print(f"   Elapsed time: {int(elapsed)}s")
+            print(f"{'='*80}\n")
+            
+            # Small delay between batches
+            time.sleep(2)
+        
+        session.close()
+        
+        elapsed_time = time.time() - start_time
+        logger.info("="*80)
+        logger.info("✅ BATCH VALIDATION COMPLETE!")
+        logger.info(f"📊 Results: {len(available_companies)}/{len(companies)} companies found")
+        logger.info(f"⏱️  Time taken: {int(elapsed_time/60)}m {int(elapsed_time%60)}s")
+        logger.info(f"⏰ End time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+        logger.info("="*80)
+        
+        print(f"\n{'='*80}")
+        print(f"✅ BATCH VALIDATION COMPLETE!")
+        print(f"   Found: {len(available_companies)} companies ✓")
+        print(f"   Time: {int(elapsed_time/60)}m {int(elapsed_time%60)}s")
+        print(f"{'='*80}\n")
+        
+        return available_companies
     
     def post(self, request):
+        """Handle POST requests"""
         try:
-            # Extract and validate request data
+            # Check if user is running diagnostics
+            run_diagnostics = request.data.get('diagnose', False)
+            
+            if run_diagnostics:
+                logger.info("🔧 Diagnostic request received")
+                diag_results = self.diagnose_network()
+                return Response({
+                    'status': 'diagnostics_complete',
+                    'results': diag_results,
+                    'timestamp': timezone.now().isoformat()
+                }, status=status.HTTP_200_OK)
+            
+            # Extract request parameters
             companies = request.data.get('companies', [])
-            sections = request.data.get('sections', None)  # None means scrape all sections
+            sections = request.data.get('sections', None)
             save_to_db = request.data.get('save_to_db', True)
             save_csv = request.data.get('save_csv', True)
             async_mode = request.data.get('async_mode', True)
+            validation_method = request.data.get('validation_method', 'batch')
+            max_workers = request.data.get('max_workers', 5)
+            batch_size = request.data.get('batch_size', 50)
             
-            # Validation
+            # Validate companies list
             if not companies:
-                # return Response({
-                #     'error': 'Companies list is required',
-                #     'message': 'Please provide a list of company slugs to scrape'
-                # }, status=status.HTTP_400_BAD_REQUEST)
-                company_names = list(Company.objects.values_list('slug', flat=True))
+                companies = list(Company.objects.values_list('slug', flat=True))
             
             if not isinstance(companies, list):
                 return Response({
@@ -74,8 +409,8 @@ class FinancialDataScraperAPI(APIView):
                     'message': 'Companies should be an array of company slugs'
                 }, status=status.HTTP_400_BAD_REQUEST)
             
-            # Validate sections if provided
-            valid_sections = ['quarters', 'profit-loss', 'balance-sheet', 'ratios', 'cash-flow', 'shareholding', 'peers']
+            # Validate sections
+            valid_sections = ['quarters', 'profit-loss', 'balance-sheet', 'ratios', 'cash-flow', 'shareholding']
             if sections:
                 invalid_sections = [s for s in sections if s not in valid_sections]
                 if invalid_sections:
@@ -84,41 +419,49 @@ class FinancialDataScraperAPI(APIView):
                         'message': f'Invalid sections: {invalid_sections}. Valid sections: {valid_sections}'
                     }, status=status.HTTP_400_BAD_REQUEST)
             
-            # Generate unique job ID for tracking
             job_id = str(uuid.uuid4())
-            available_companies = []
-            for company in companies:
-                url = f"https://www.screener.in/company/{company}/"
-                response = requests.get(url)
-                if response.status_code == 200:
-                    available_companies.append(company)
-                else:
-                    print(f"[API] Company {company} not found (status code {response.status_code})")
-            if async_mode:
-                # Run scraping in background thread
-                thread = threading.Thread(
-                    target=self._run_scraping_async,
-                    args=(job_id, available_companies, sections, save_to_db, save_csv)
-                )
-                thread.start()
-                
-                return Response({
-                    'status': 'started',
-                    'job_id': job_id,
-                    'message': 'Scraping started in background',
-                    'companies_requested': companies,
-                    'total_companies': len(companies),
-                    'estimated_time_minutes': len(companies) * 2,  # Rough estimate
-                    'sections': sections or valid_sections,
-                    'check_status_url': f'/api/scrape-status/{job_id}/'
-                }, status=status.HTTP_202_ACCEPTED)
             
+            logger.info("="*80)
+            logger.info(f"📋 NEW JOB CREATED")
+            logger.info(f"   Job ID: {job_id}")
+            logger.info(f"   Companies: {len(companies)}")
+            logger.info(f"   Validation method: {validation_method}")
+            logger.info(f"   Async mode: {async_mode}")
+            logger.info("="*80)
+            
+            # Validate companies
+            if validation_method == 'batch':
+                logger.info("Using BATCH validation method")
+                available_companies = self._validate_companies_availability_batch(companies, batch_size)
             else:
-                # Run scraping synchronously
-                return self._run_scraping_sync(available_companies, sections, save_to_db, save_csv)
+                logger.info("Using PARALLEL validation method")
+                available_companies = self._validate_companies_availability_parallel(companies, max_workers)
+            
+            if not available_companies:
+                logger.error("❌ No valid companies found!")
+                return Response({
+                    'error': 'No valid companies found',
+                    'message': 'None of the requested companies are available on screener.in',
+                    'job_id': job_id
+                }, status=status.HTTP_400_BAD_REQUEST)
+            
+            logger.info(f"✅ Validation complete! Found {len(available_companies)} companies")
+            
+            return Response({
+                'status': 'success',
+                'job_id': job_id,
+                'message': f'Successfully found {len(available_companies)} companies',
+                'companies_requested': len(companies),
+                'companies_found': len(available_companies),
+                'available_companies': available_companies[:10],  # Show first 10
+                'total_found': len(available_companies),
+                'timestamp': timezone.now().isoformat()
+            }, status=status.HTTP_200_OK)
         
         except Exception as e:
+            logger.error(f"❌ ERROR: {str(e)}", exc_info=True)
             return Response({
+                'status': 'error',
                 'error': 'Internal server error',
                 'message': str(e),
                 'timestamp': timezone.now().isoformat()
@@ -160,7 +503,7 @@ class FinancialDataScraperAPI(APIView):
             if len(companies) == 1:
                 # Single company result
                 company_data = scraped_data
-                results['scraping_results'][available_companies[0]] = {
+                results['scraping_results']['available_companies'][0] = {
                     'status': company_data.get('status', 'unknown'),
                     'sections_completed': company_data.get('summary', {}).get('total_sections_completed', 0),
                     'tables_scraped': company_data.get('summary', {}).get('total_tables_scraped', 0),
@@ -256,74 +599,8 @@ class FinancialDataScraperAPI(APIView):
 
 
 
-@csrf_exempt
-@api_view(['POST'])
-@permission_classes([AllowAny])
-def scrape_stock_price(request):
-    """Simple version that works directly with yfinance output"""
-    try:
-        # body = json.loads(request.body)
-        companies = request.data.get("companies", [])
-        
-        results = []
-        
-        for company_slug in companies:
-            try:
-                company = Company.objects.get(slug=company_slug, is_active=True)
-                
-                # Download data - yfinance returns DataFrame directly
-                stock_data = yf_download(
-                    f'{company_slug}.NS',
-                    period='5y',
-                    interval='1mo',
-                    progress=False
-                )
-                
-                if stock_data.empty:
-                    results.append({"company": company_slug, "status": "no_data"})
-                    continue
-                
-                # Handle MultiIndex columns
-                if isinstance(stock_data.columns, pd.MultiIndex):
-                    # Drop the ticker level, keep only price type
-                    stock_data.columns = stock_data.columns.droplevel(1)
-                
-                saved_count = 0
-                
-                # Direct iteration without extra DataFrame conversion
-                for timestamp, row in stock_data.iterrows():
-                    try:
-                        close_price = row.get('Close') or row.get('Adj Close')
-                        
-                        if pd.notna(close_price):
-                            StockPriceHistory.objects.update_or_create(
-                                company=company,
-                                date=timestamp.date(),
-                                defaults={'price': Decimal(str(round(float(close_price), 2)))}
-                            )
-                            saved_count += 1
-                    except:
-                        continue
-                
-                results.append({
-                    "company": company_slug,
-                    "status": "success", 
-                    "saved": saved_count
-                })
-                
-            except Exception as e:
-                results.append({
-                    "company": company_slug,
-                    "status": "error",
-                    "message": str(e)
-                })
-        
-        return JsonResponse({"status": "completed", "results": results})
-        
-    except Exception as e:
-        return JsonResponse({"status": "error", "message": str(e)}, status=500)
 
-from .agents.db_agents import db_agents_chat_stream_2
+# from .agents.db_agents import db_agents_chat_stream_2
 from django.views.decorators.csrf import csrf_exempt
 from django.http import StreamingHttpResponse, JsonResponse
 from django.views.decorators.http import require_http_methods
@@ -556,34 +833,6 @@ def get_all_queries(request):
         }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
 
-from .models import TestingQuery
-
-@csrf_exempt
-@api_view(['POST'])
-@permission_classes([AllowAny])
-def financial_chat_test(request):
-        if request.method == 'OPTIONS':
-            return Response(status=status.HTTP_200_OK)
-
-    # try:
-        query = request.data.get("query", "")
-        user_name = request.data.get("user_name", None)
-        actual_response = request.data.get("actual_response", None)
-        expected_response = request.data.get("expected_response", None)
-        query_status = request.data.get("status", None)
-        query_issues = request.data.get("issues", 'None')
-        
-        testing_obj = TestingQuery.objects.create(query=query,user_name=user_name,actual_response=actual_response,expected_response=expected_response,query_status=query_status,issues=query_issues)
-        testing_obj.save()
-        return Response({
-            'query_id': str(testing_obj.id),
-            'status': 'processing',
-            'message': 'Testing Query submitted'
-        }, status=status.HTTP_202_ACCEPTED)
-    # except Exception as e:
-    #     return Response({
-    #         "error": str(e)
-    #     }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
 @csrf_exempt
 @api_view(['GET'])
@@ -603,6 +852,10 @@ def delete_all_data(request):
                 "message": f"Error deleting data: {str(e)}"
             }, status=500)
     
+
+
+
+
 @csrf_exempt
 @api_view(['GET'])
 @permission_classes([AllowAny])
@@ -641,65 +894,6 @@ def financial_chat_history(request):
         }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
     
 
-
-
-
-import pandas as pd
-from django.http import JsonResponse
-from django.views import View
-from .models import TransformedData
-import os
-
-class UploadCSVView(View):
-    def get(self, request):
-        # try:
-            # Load CSV
-            # TransformedData.objects.all().delete()
-            file_path = os.path.join("Main", "data.csv")
-            df = pd.read_csv(file_path)
-            df = df[df['table_name'].isin(['qbr_data'])]
-            # --- Data Engineering ---
-            # Combine year + month (handling missing months)
-            df['year'] = df['quarter'].fillna('').astype(str) +' '+df['year'].astype(str)
-
-            # Split metrics into 3 parts
-            df[['data_type', 'metric_name', 'significance']] = (
-                df['metrics'].str.split('_', n=2, expand=True)
-            )
-
-            # Fill NaNs with empty strings (to avoid NULL issues in CharFields)
-            df = df.fillna("")
-
-            # --- Save to DB ---
-            objs = []
-            for _, row in df.iterrows():
-                obj = TransformedData(
-                    company=row['business_name'],
-                    year=row['year'],
-                    table_name=row['table_name'],
-                    metric_name=row['metric_name'],
-                    significance=row['significance'],
-                    data_type=row['data_type'],
-                    value=str(row['value'])  # model field is CharField
-                )
-                objs.append(obj)
-
-            # Bulk insert for performance
-            TransformedData.objects.bulk_create(objs, ignore_conflicts=True)
-
-            return JsonResponse({"status": "success", "rows_inserted": len(objs)})
-        
-        # except Exception as e:
-        #     return JsonResponse({"status": "error", "message": str(e)}, status=500)
-
-
-
-
-from django.views.decorators.csrf import csrf_exempt
-from django.http import JsonResponse
-from Main.models import Company
-import yfinance as yf
-from datetime import datetime
 
 @csrf_exempt
 async def fetch_companies_api(request):
