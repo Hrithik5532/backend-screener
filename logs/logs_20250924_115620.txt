@@ -1,0 +1,704 @@
+
+Analysis Started with Query: what is shareholder's funds and ROA for ACC, UTCL, Ambuja in FY2024.
+
+
+Decomposition LLM raw output: [{'id': '#000_0', 'company': 'ACC', 'metric_name': "shareholder's funds", 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#000_1', 'company': 'ACC', 'metric_name': 'ROA', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_0', 'company': 'ULTRACEMCO', 'metric_name': "shareholder's funds", 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_1', 'company': 'ULTRACEMCO', 'metric_name': 'ROA', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_0', 'company': 'AMBUJACEM', 'metric_name': "shareholder's funds", 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_1', 'company': 'AMBUJACEM', 'metric_name': 'ROA', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}]
+
+
+company_slug: ACC, metric_name: shareholder's funds, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ACC, metric_name: ROA, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: shareholder's funds, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: ROA, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: shareholder's funds, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: ROA, Period: Mar 2024, Period Type: Annual
+
+
+
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20250924_115620_474118
+Query: what is shareholder's funds and ROA for ACC, UTCL, Ambuja in FY2024.
+Total Duration: 98803.02ms
+Total Records: 17
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 15,875
+Total Output Tokens: 3,208
+Total Tokens: 19,083
+Estimated Cost: $0.6687
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 2 (Root: 2, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 2,560 (Input: 2,055, Output: 505)
+  - Duration: 7564.56ms (Avg: 3782.28ms)
+  - Cost: $0.0919 (Avg: $0.0460)
+  - Recursion: Max Depth 0, Cost $0.0000
+DATA_RETRIEVAL:
+  - Total Calls: 12 (Root: 12, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 15,189 (Input: 12,691, Output: 2,498)
+  - Duration: 45822.77ms (Avg: 3818.56ms)
+  - Cost: $0.5306 (Avg: $0.0442)
+  - Recursion: Max Depth 0, Cost $0.0000
+FORMULA_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 1,334 (Input: 1,129, Output: 205)
+  - Duration: 2780.85ms (Avg: 2780.85ms)
+  - Cost: $0.0462 (Avg: $0.0462)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 37270.33ms (Avg: 37270.33ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+
+
+DETAILED_RECURSION_ANALYSIS_JSON:
+{
+  "session_id": "session_20250924_115620_474118",
+  "query": "what is shareholder's funds and ROA for ACC, UTCL, Ambuja in FY2024.",
+  "start_time": "2025-09-24T11:56:20.474138",
+  "end_time": "2025-09-24T11:57:59.277160",
+  "total_duration_ms": 98803.022,
+  "total_records": 17,
+  "total_tokens": {
+    "input": 15875,
+    "output": 3208,
+    "total": 19083
+  },
+  "total_cost_usd": 0.6687299999999999,
+  "success_rate": 1.0,
+  "recursion_analysis": {
+    "total_recursive_chains": 0,
+    "max_recursion_depth": 0,
+    "recursive_metrics": [],
+    "call_tree": {},
+    "depth_distribution": {},
+    "recursive_costs": 0.0
+  },
+  "summary_by_type": {
+    "query_decomposition": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "total_duration_ms": 0.0,
+      "avg_duration_ms": 0.0,
+      "total_cost_usd": 0.0,
+      "avg_cost_usd": 0.0,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "table_filtering": {
+      "total_calls": 2,
+      "root_calls": 2,
+      "recursive_calls": 0,
+      "successful_calls": 2,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 2055,
+        "output": 505,
+        "total": 2560
+      },
+      "total_duration_ms": 7564.562082290649,
+      "avg_duration_ms": 3782.2810411453247,
+      "total_cost_usd": 0.09194999999999999,
+      "avg_cost_usd": 0.045974999999999995,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "data_retrieval": {
+      "total_calls": 12,
+      "root_calls": 12,
+      "recursive_calls": 0,
+      "successful_calls": 12,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 12691,
+        "output": 2498,
+        "total": 15189
+      },
+      "total_duration_ms": 45822.76749610901,
+      "avg_duration_ms": 3818.563958009084,
+      "total_cost_usd": 0.5306099999999999,
+      "avg_cost_usd": 0.04421749999999999,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "formula_generation": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 1129,
+        "output": 205,
+        "total": 1334
+      },
+      "total_duration_ms": 2780.8518409729004,
+      "avg_duration_ms": 2780.8518409729004,
+      "total_cost_usd": 0.046169999999999996,
+      "avg_cost_usd": 0.046169999999999996,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "response_generation": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "total_duration_ms": 37270.325999999994,
+      "avg_duration_ms": 37270.325999999994,
+      "total_cost_usd": 0.0,
+      "avg_cost_usd": 0.0,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    }
+  },
+  "records": [
+    {
+      "call_id": "10eb519d",
+      "parent_call_id": null,
+      "llm_type": "query_decomposition",
+      "company_slug": null,
+      "metric_name": null,
+      "recursion_depth": 0,
+      "recursion_path": [],
+      "start_time": "2025-09-24T11:56:24.712293",
+      "end_time": "2025-09-24T11:56:24.712296",
+      "duration_ms": 0,
+      "tokens_used": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "cost_usd": 0.0,
+      "model_name": null,
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "metrics_focus": [
+          "shareholder's funds",
+          "ROA"
+        ],
+        "result_count": 6,
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "a7f46ad7",
+      "parent_call_id": null,
+      "llm_type": "table_filtering",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:56:27.797789",
+      "end_time": "2025-09-24T11:56:27.797793",
+      "duration_ms": 3085.2348804473877,
+      "tokens_used": {
+        "input": 1013,
+        "output": 193,
+        "total": 1206
+      },
+      "cost_usd": 0.04196999999999999,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "a337a6b8",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:56:31.976111",
+      "end_time": "2025-09-24T11:56:31.976113",
+      "duration_ms": 4134.09161567688,
+      "tokens_used": {
+        "input": 1094,
+        "output": 227,
+        "total": 1321
+      },
+      "cost_usd": 0.046439999999999995,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "961eaae2",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:56:35.835085",
+      "end_time": "2025-09-24T11:56:35.835088",
+      "duration_ms": 3813.521385192871,
+      "tokens_used": {
+        "input": 976,
+        "output": 193,
+        "total": 1169
+      },
+      "cost_usd": 0.040859999999999994,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "067bdc35",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:56:41.969972",
+      "end_time": "2025-09-24T11:56:41.969975",
+      "duration_ms": 6100.280046463013,
+      "tokens_used": {
+        "input": 1106,
+        "output": 195,
+        "total": 1301
+      },
+      "cost_usd": 0.04487999999999999,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "50e8d76b",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:56:46.717950",
+      "end_time": "2025-09-24T11:56:46.717953",
+      "duration_ms": 4709.52033996582,
+      "tokens_used": {
+        "input": 976,
+        "output": 248,
+        "total": 1224
+      },
+      "cost_usd": 0.04416,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "5a08dabe",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:56:50.103333",
+      "end_time": "2025-09-24T11:56:50.103336",
+      "duration_ms": 3351.2566089630127,
+      "tokens_used": {
+        "input": 1106,
+        "output": 198,
+        "total": 1304
+      },
+      "cost_usd": 0.04505999999999999,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "47654bb3",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:56:54.601076",
+      "end_time": "2025-09-24T11:56:54.601079",
+      "duration_ms": 4463.183879852295,
+      "tokens_used": {
+        "input": 976,
+        "output": 237,
+        "total": 1213
+      },
+      "cost_usd": 0.0435,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "c93b82fe",
+      "parent_call_id": null,
+      "llm_type": "formula_generation",
+      "company_slug": "multiple",
+      "metric_name": [
+        "shareholder's funds",
+        "ROA"
+      ],
+      "recursion_depth": 0,
+      "recursion_path": [
+        [
+          "shareholder's funds",
+          "ROA"
+        ]
+      ],
+      "start_time": "2025-09-24T11:56:57.417796",
+      "end_time": "2025-09-24T11:56:57.417798",
+      "duration_ms": 2780.8518409729004,
+      "tokens_used": {
+        "input": 1129,
+        "output": 205,
+        "total": 1334
+      },
+      "cost_usd": 0.046169999999999996,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "parameters_count": 0,
+        "confidence_score": 0.0,
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "fec9b364",
+      "parent_call_id": null,
+      "llm_type": "table_filtering",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:57:01.897400",
+      "end_time": "2025-09-24T11:57:01.897402",
+      "duration_ms": 4479.327201843262,
+      "tokens_used": {
+        "input": 1042,
+        "output": 312,
+        "total": 1354
+      },
+      "cost_usd": 0.04998,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "6ccd8630",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:57:05.765419",
+      "end_time": "2025-09-24T11:57:05.765422",
+      "duration_ms": 3824.7458934783936,
+      "tokens_used": {
+        "input": 1101,
+        "output": 255,
+        "total": 1356
+      },
+      "cost_usd": 0.04833,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "65fe18fd",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:57:08.400841",
+      "end_time": "2025-09-24T11:57:08.400843",
+      "duration_ms": 2599.374532699585,
+      "tokens_used": {
+        "input": 1045,
+        "output": 150,
+        "total": 1195
+      },
+      "cost_usd": 0.04035,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "22a9a6bb",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:57:11.702785",
+      "end_time": "2025-09-24T11:57:11.702787",
+      "duration_ms": 3268.1503295898438,
+      "tokens_used": {
+        "input": 1113,
+        "output": 247,
+        "total": 1360
+      },
+      "cost_usd": 0.048209999999999996,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "6b936d50",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:57:14.388879",
+      "end_time": "2025-09-24T11:57:14.388881",
+      "duration_ms": 2652.74977684021,
+      "tokens_used": {
+        "input": 1039,
+        "output": 143,
+        "total": 1182
+      },
+      "cost_usd": 0.039749999999999994,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "b1962da2",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:57:18.644044",
+      "end_time": "2025-09-24T11:57:18.644046",
+      "duration_ms": 4221.194267272949,
+      "tokens_used": {
+        "input": 1113,
+        "output": 263,
+        "total": 1376
+      },
+      "cost_usd": 0.04916999999999999,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "62b3d9ef",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:57:21.361813",
+      "end_time": "2025-09-24T11:57:21.361815",
+      "duration_ms": 2684.6988201141357,
+      "tokens_used": {
+        "input": 1046,
+        "output": 142,
+        "total": 1188
+      },
+      "cost_usd": 0.0399,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "42e92bf8",
+      "parent_call_id": null,
+      "llm_type": "response_generation",
+      "company_slug": null,
+      "metric_name": null,
+      "recursion_depth": 0,
+      "recursion_path": [],
+      "start_time": "2025-09-24T11:57:59.277055",
+      "end_time": "2025-09-24T11:57:59.277055",
+      "duration_ms": 37270.325999999994,
+      "tokens_used": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "cost_usd": 0.0,
+      "model_name": null,
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "response_type": "crew_ai_response",
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    }
+  ]
+}
+

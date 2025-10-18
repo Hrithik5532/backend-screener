@@ -1,0 +1,288 @@
+
+Analysis Started with Query: ebitda of utcl for 2025
+
+
+Decomposition LLM raw output: [{'id': '#000_0', 'company': 'ULTRACEMCO', 'metric_name': 'ebitda', 'periods': [{'period': 'Mar 2025', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}]
+
+
+company_slug: ULTRACEMCO, metric_name: ebitda, Period: Mar 2025, Period Type: Annual
+
+
+
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20250924_105948_246887
+Query: ebitda of utcl for 2025
+Total Duration: 21653.54ms
+Total Records: 4
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 2,037
+Total Output Tokens: 397
+Total Tokens: 2,434
+Estimated Cost: $0.0849
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 1,115 (Input: 997, Output: 118)
+  - Duration: 2206.02ms (Avg: 2206.02ms)
+  - Cost: $0.0370 (Avg: $0.0370)
+  - Recursion: Max Depth 0, Cost $0.0000
+DATA_RETRIEVAL:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 1,319 (Input: 1,040, Output: 279)
+  - Duration: 4324.07ms (Avg: 4324.07ms)
+  - Cost: $0.0479 (Avg: $0.0479)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 11547.98ms (Avg: 11547.98ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+
+
+DETAILED_RECURSION_ANALYSIS_JSON:
+{
+  "session_id": "session_20250924_105948_246887",
+  "query": "ebitda of utcl for 2025",
+  "start_time": "2025-09-24T10:59:48.246915",
+  "end_time": "2025-09-24T11:00:09.900453",
+  "total_duration_ms": 21653.538,
+  "total_records": 4,
+  "total_tokens": {
+    "input": 2037,
+    "output": 397,
+    "total": 2434
+  },
+  "total_cost_usd": 0.08492999999999999,
+  "success_rate": 1.0,
+  "recursion_analysis": {
+    "total_recursive_chains": 0,
+    "max_recursion_depth": 0,
+    "recursive_metrics": [],
+    "call_tree": {},
+    "depth_distribution": {},
+    "recursive_costs": 0.0
+  },
+  "summary_by_type": {
+    "query_decomposition": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "total_duration_ms": 0.0,
+      "avg_duration_ms": 0.0,
+      "total_cost_usd": 0.0,
+      "avg_cost_usd": 0.0,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "table_filtering": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 997,
+        "output": 118,
+        "total": 1115
+      },
+      "total_duration_ms": 2206.0182094573975,
+      "avg_duration_ms": 2206.0182094573975,
+      "total_cost_usd": 0.036989999999999995,
+      "avg_cost_usd": 0.036989999999999995,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "data_retrieval": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 1040,
+        "output": 279,
+        "total": 1319
+      },
+      "total_duration_ms": 4324.0673542022705,
+      "avg_duration_ms": 4324.0673542022705,
+      "total_cost_usd": 0.047939999999999997,
+      "avg_cost_usd": 0.047939999999999997,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "response_generation": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "total_duration_ms": 11547.978000000001,
+      "avg_duration_ms": 11547.978000000001,
+      "total_cost_usd": 0.0,
+      "avg_cost_usd": 0.0,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    }
+  },
+  "records": [
+    {
+      "call_id": "d5ca3300",
+      "parent_call_id": null,
+      "llm_type": "query_decomposition",
+      "company_slug": null,
+      "metric_name": null,
+      "recursion_depth": 0,
+      "recursion_path": [],
+      "start_time": "2025-09-24T10:59:51.629893",
+      "end_time": "2025-09-24T10:59:51.629897",
+      "duration_ms": 0,
+      "tokens_used": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "cost_usd": 0.0,
+      "model_name": null,
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "metrics_focus": [
+          "ebitda"
+        ],
+        "result_count": 1,
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "e8dd8021",
+      "parent_call_id": null,
+      "llm_type": "table_filtering",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T10:59:53.836206",
+      "end_time": "2025-09-24T10:59:53.836209",
+      "duration_ms": 2206.0182094573975,
+      "tokens_used": {
+        "input": 997,
+        "output": 118,
+        "total": 1115
+      },
+      "cost_usd": 0.036989999999999995,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "48ddd2c9",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T10:59:58.201265",
+      "end_time": "2025-09-24T10:59:58.201268",
+      "duration_ms": 4324.0673542022705,
+      "tokens_used": {
+        "input": 1040,
+        "output": 279,
+        "total": 1319
+      },
+      "cost_usd": 0.047939999999999997,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "2f5ba61c",
+      "parent_call_id": null,
+      "llm_type": "response_generation",
+      "company_slug": null,
+      "metric_name": null,
+      "recursion_depth": 0,
+      "recursion_path": [],
+      "start_time": "2025-09-24T11:00:09.900415",
+      "end_time": "2025-09-24T11:00:09.900416",
+      "duration_ms": 11547.978000000001,
+      "tokens_used": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "cost_usd": 0.0,
+      "model_name": null,
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "response_type": "crew_ai_response",
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    }
+  ]
+}
+

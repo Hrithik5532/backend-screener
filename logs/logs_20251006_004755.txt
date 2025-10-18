@@ -1,0 +1,339 @@
+
+Analysis Started with Query: compare ebidta projected value and deviation for the month of April 2024 and march 2024 also q1and q2 of abcapital and ABML
+
+
+Decomposition LLM raw output: [{'id': '#000_0', 'company': 'AB Capital', 'metric_name': 'ebitda', 'period': 'March 2024', 'period_type': 'mbr', 'period_available_status': True, 'data_type': 'ftm', 'significance': 'p_b', 'company_available_status': True}, {'id': '#001_0', 'company': 'AB Capital', 'metric_name': 'ebitda', 'period': 'March 2024', 'period_type': 'mbr', 'period_available_status': True, 'data_type': 'ftm', 'significance': 'dev', 'company_available_status': True}, {'id': '#002_0', 'company': 'AB Capital', 'metric_name': 'ebitda', 'period': 'April 2024', 'period_type': 'mbr', 'period_available_status': True, 'data_type': 'ftm', 'significance': 'p_b', 'company_available_status': True}, {'id': '#003_0', 'company': 'AB Capital', 'metric_name': 'ebitda', 'period': 'April 2024', 'period_type': 'mbr', 'period_available_status': True, 'data_type': 'ftm', 'significance': 'dev', 'company_available_status': True}, {'id': '#004_0', 'company': 'AB Capital', 'metric_name': 'ebitda', 'period': 'Q1 2025', 'period_type': 'qbr', 'period_available_status': True, 'data_type': 'qtd', 'significance': 'p_b', 'company_available_status': True}, {'id': '#005_0', 'company': 'AB Capital', 'metric_name': 'ebitda', 'period': 'Q1 2025', 'period_type': 'qbr', 'period_available_status': True, 'data_type': 'qtd', 'significance': 'dev', 'company_available_status': True}, {'id': '#006_0', 'company': 'AB Capital', 'metric_name': 'ebitda', 'period': 'Q2 2025', 'period_type': 'qbr', 'period_available_status': True, 'data_type': 'qtd', 'significance': 'p_b', 'company_available_status': True}, {'id': '#007_0', 'company': 'AB Capital', 'metric_name': 'ebitda', 'period': 'Q2 2025', 'period_type': 'qbr', 'period_available_status': True, 'data_type': 'qtd', 'significance': 'dev', 'company_available_status': True}, {'id': '#008_0', 'company': 'ABML', 'metric_name': 'ebitda', 'period': 'March 2024', 'period_type': 'mbr', 'period_available_status': True, 'data_type': 'ftm', 'significance': 'p_b', 'company_available_status': True}, {'id': '#009_0', 'company': 'ABML', 'metric_name': 'ebitda', 'period': 'March 2024', 'period_type': 'mbr', 'period_available_status': True, 'data_type': 'ftm', 'significance': 'dev', 'company_available_status': True}, {'id': '#0010_0', 'company': 'ABML', 'metric_name': 'ebitda', 'period': 'April 2024', 'period_type': 'mbr', 'period_available_status': True, 'data_type': 'ftm', 'significance': 'p_b', 'company_available_status': True}, {'id': '#0011_0', 'company': 'ABML', 'metric_name': 'ebitda', 'period': 'April 2024', 'period_type': 'mbr', 'period_available_status': True, 'data_type': 'ftm', 'significance': 'dev', 'company_available_status': True}, {'id': '#0012_0', 'company': 'ABML', 'metric_name': 'ebitda', 'period': 'Q1 2025', 'period_type': 'qbr', 'period_available_status': False, 'data_type': 'qtd', 'significance': 'p_b', 'company_available_status': True}, {'id': '#0013_0', 'company': 'ABML', 'metric_name': 'ebitda', 'period': 'Q1 2025', 'period_type': 'qbr', 'period_available_status': False, 'data_type': 'qtd', 'significance': 'dev', 'company_available_status': True}, {'id': '#0014_0', 'company': 'ABML', 'metric_name': 'ebitda', 'period': 'Q2 2025', 'period_type': 'qbr', 'period_available_status': False, 'data_type': 'qtd', 'significance': 'p_b', 'company_available_status': True}, {'id': '#0015_0', 'company': 'ABML', 'metric_name': 'ebitda', 'period': 'Q2 2025', 'period_type': 'qbr', 'period_available_status': False, 'data_type': 'qtd', 'significance': 'dev', 'company_available_status': True}]
+
+
+
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20251006_004755_608962
+Query: compare ebidta projected value and deviation for the month of April 2024 and march 2024 also q1and q2 of abcapital and ABML
+Total Duration: 30912.10ms
+Total Records: 6
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 4,254
+Total Output Tokens: 695
+Total Tokens: 4,949
+Estimated Cost: $0.1693
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 1,023 (Input: 643, Output: 380)
+  - Duration: 3711.17ms (Avg: 3711.17ms)
+  - Cost: $0.0421 (Avg: $0.0421)
+  - Recursion: Max Depth 0, Cost $0.0000
+DATA_RETRIEVAL:
+  - Total Calls: 3 (Root: 3, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 3,926 (Input: 3,611, Output: 315)
+  - Duration: 6167.90ms (Avg: 2055.97ms)
+  - Cost: $0.1272 (Avg: $0.0424)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 13851.79ms (Avg: 13851.79ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+
+
+DETAILED_RECURSION_ANALYSIS_JSON:
+{
+  "session_id": "session_20251006_004755_608962",
+  "query": "compare ebidta projected value and deviation for the month of April 2024 and march 2024 also q1and q2 of abcapital and ABML",
+  "start_time": "2025-10-06T00:47:55.608991",
+  "end_time": "2025-10-06T00:48:26.521096",
+  "total_duration_ms": 30912.105,
+  "total_records": 6,
+  "total_tokens": {
+    "input": 4254,
+    "output": 695,
+    "total": 4949
+  },
+  "total_cost_usd": 0.16931999999999997,
+  "success_rate": 1.0,
+  "recursion_analysis": {
+    "total_recursive_chains": 0,
+    "max_recursion_depth": 0,
+    "recursive_metrics": [],
+    "call_tree": {},
+    "depth_distribution": {},
+    "recursive_costs": 0.0
+  },
+  "summary_by_type": {
+    "query_decomposition": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "total_duration_ms": 0.0,
+      "avg_duration_ms": 0.0,
+      "total_cost_usd": 0.0,
+      "avg_cost_usd": 0.0,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "table_filtering": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 643,
+        "output": 380,
+        "total": 1023
+      },
+      "total_duration_ms": 3711.1737728118896,
+      "avg_duration_ms": 3711.1737728118896,
+      "total_cost_usd": 0.042089999999999995,
+      "avg_cost_usd": 0.042089999999999995,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "data_retrieval": {
+      "total_calls": 3,
+      "root_calls": 3,
+      "recursive_calls": 0,
+      "successful_calls": 3,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 3611,
+        "output": 315,
+        "total": 3926
+      },
+      "total_duration_ms": 6167.898416519165,
+      "avg_duration_ms": 2055.9661388397217,
+      "total_cost_usd": 0.12723,
+      "avg_cost_usd": 0.04241,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "response_generation": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "total_duration_ms": 13851.792,
+      "avg_duration_ms": 13851.792,
+      "total_cost_usd": 0.0,
+      "avg_cost_usd": 0.0,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    }
+  },
+  "records": [
+    {
+      "call_id": "2ed6ccef",
+      "parent_call_id": null,
+      "llm_type": "query_decomposition",
+      "company_slug": null,
+      "metric_name": null,
+      "recursion_depth": 0,
+      "recursion_path": [],
+      "start_time": "2025-10-06T00:48:02.134256",
+      "end_time": "2025-10-06T00:48:02.134261",
+      "duration_ms": 0,
+      "tokens_used": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "cost_usd": 0.0,
+      "model_name": null,
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "metrics_focus": [],
+        "result_count": 16,
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "0c96a432",
+      "parent_call_id": null,
+      "llm_type": "table_filtering",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-10-06T00:48:05.845911",
+      "end_time": "2025-10-06T00:48:05.845918",
+      "duration_ms": 3711.1737728118896,
+      "tokens_used": {
+        "input": 643,
+        "output": 380,
+        "total": 1023
+      },
+      "cost_usd": 0.042089999999999995,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "3ed43b1a",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-10-06T00:48:07.970229",
+      "end_time": "2025-10-06T00:48:07.970235",
+      "duration_ms": 2085.522174835205,
+      "tokens_used": {
+        "input": 1268,
+        "output": 105,
+        "total": 1373
+      },
+      "cost_usd": 0.04434,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "144c56b1",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-10-06T00:48:10.047301",
+      "end_time": "2025-10-06T00:48:10.047306",
+      "duration_ms": 2042.7427291870117,
+      "tokens_used": {
+        "input": 1177,
+        "output": 105,
+        "total": 1282
+      },
+      "cost_usd": 0.041609999999999994,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "b86ad9c3",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-10-06T00:48:12.121036",
+      "end_time": "2025-10-06T00:48:12.121042",
+      "duration_ms": 2039.6335124969482,
+      "tokens_used": {
+        "input": 1166,
+        "output": 105,
+        "total": 1271
+      },
+      "cost_usd": 0.04128,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "7df8a1c3",
+      "parent_call_id": null,
+      "llm_type": "response_generation",
+      "company_slug": null,
+      "metric_name": null,
+      "recursion_depth": 0,
+      "recursion_path": [],
+      "start_time": "2025-10-06T00:48:26.520653",
+      "end_time": "2025-10-06T00:48:26.520655",
+      "duration_ms": 13851.792,
+      "tokens_used": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "cost_usd": 0.0,
+      "model_name": null,
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "response_type": "crew_ai_response",
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    }
+  ]
+}
+

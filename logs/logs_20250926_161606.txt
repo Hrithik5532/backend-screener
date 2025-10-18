@@ -1,0 +1,528 @@
+
+Analysis Started with Query: Give me Debt ratio, Ebit margin, Ebitda margin, and net debt for UltraTech Cement from FY21 to FY25.
+
+
+Decomposition LLM raw output: [{'id': '#000_0', 'company': 'ULTRACEMCO', 'metric_name': 'debt ratio', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#000_1', 'company': 'ULTRACEMCO', 'metric_name': 'ebit margin', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#000_2', 'company': 'ULTRACEMCO', 'metric_name': 'ebitda margin', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#000_3', 'company': 'ULTRACEMCO', 'metric_name': 'net debt', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_0', 'company': 'ULTRACEMCO', 'metric_name': 'debt ratio', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_1', 'company': 'ULTRACEMCO', 'metric_name': 'ebit margin', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_2', 'company': 'ULTRACEMCO', 'metric_name': 'ebitda margin', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_3', 'company': 'ULTRACEMCO', 'metric_name': 'net debt', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_0', 'company': 'ULTRACEMCO', 'metric_name': 'debt ratio', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_1', 'company': 'ULTRACEMCO', 'metric_name': 'ebit margin', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_2', 'company': 'ULTRACEMCO', 'metric_name': 'ebitda margin', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_3', 'company': 'ULTRACEMCO', 'metric_name': 'net debt', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_0', 'company': 'ULTRACEMCO', 'metric_name': 'debt ratio', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_1', 'company': 'ULTRACEMCO', 'metric_name': 'ebit margin', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_2', 'company': 'ULTRACEMCO', 'metric_name': 'ebitda margin', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_3', 'company': 'ULTRACEMCO', 'metric_name': 'net debt', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_0', 'company': 'ULTRACEMCO', 'metric_name': 'debt ratio', 'periods': [{'period': 'Mar 2025', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_1', 'company': 'ULTRACEMCO', 'metric_name': 'ebit margin', 'periods': [{'period': 'Mar 2025', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_2', 'company': 'ULTRACEMCO', 'metric_name': 'ebitda margin', 'periods': [{'period': 'Mar 2025', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_3', 'company': 'ULTRACEMCO', 'metric_name': 'net debt', 'periods': [{'period': 'Mar 2025', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}]
+
+
+company_slug: ULTRACEMCO, metric_name: debt ratio, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: ebit margin, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: ebitda margin, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: net debt, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: debt ratio, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: ebit margin, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: ebitda margin, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: net debt, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: debt ratio, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: ebit margin, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: ebitda margin, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: net debt, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: debt ratio, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: ebit margin, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: ebitda margin, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: net debt, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: debt ratio, Period: Mar 2025, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: ebit margin, Period: Mar 2025, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: ebitda margin, Period: Mar 2025, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: net debt, Period: Mar 2025, Period Type: Annual
+
+
+
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20250926_161606_357120
+Query: Give me Debt ratio, Ebit margin, Ebitda margin, and net debt for UltraTech Cement from FY21 to FY25.
+Total Duration: 53492.11ms
+Total Records: 9
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 7,810
+Total Output Tokens: 2,494
+Total Tokens: 10,304
+Estimated Cost: $0.3839
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 2 (Root: 2, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 3,019 (Input: 2,132, Output: 887)
+  - Duration: 10565.47ms (Avg: 5282.74ms)
+  - Cost: $0.1172 (Avg: $0.0586)
+  - Recursion: Max Depth 0, Cost $0.0000
+DATA_RETRIEVAL:
+  - Total Calls: 4 (Root: 4, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 5,685 (Input: 4,539, Output: 1,146)
+  - Duration: 15433.09ms (Avg: 3858.27ms)
+  - Cost: $0.2049 (Avg: $0.0512)
+  - Recursion: Max Depth 0, Cost $0.0000
+FORMULA_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 1,600 (Input: 1,139, Output: 461)
+  - Duration: 4574.00ms (Avg: 4574.00ms)
+  - Cost: $0.0618 (Avg: $0.0618)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 18097.09ms (Avg: 18097.09ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+
+
+DETAILED_RECURSION_ANALYSIS_JSON:
+{
+  "session_id": "session_20250926_161606_357120",
+  "query": "Give me Debt ratio, Ebit margin, Ebitda margin, and net debt for UltraTech Cement from FY21 to FY25.",
+  "start_time": "2025-09-26T16:16:06.357147",
+  "end_time": "2025-09-26T16:16:59.849252",
+  "total_duration_ms": 53492.105,
+  "total_records": 9,
+  "total_tokens": {
+    "input": 7810,
+    "output": 2494,
+    "total": 10304
+  },
+  "total_cost_usd": 0.38393999999999995,
+  "success_rate": 1.0,
+  "recursion_analysis": {
+    "total_recursive_chains": 0,
+    "max_recursion_depth": 0,
+    "recursive_metrics": [],
+    "call_tree": {},
+    "depth_distribution": {},
+    "recursive_costs": 0.0
+  },
+  "summary_by_type": {
+    "query_decomposition": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "total_duration_ms": 0.0,
+      "avg_duration_ms": 0.0,
+      "total_cost_usd": 0.0,
+      "avg_cost_usd": 0.0,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "table_filtering": {
+      "total_calls": 2,
+      "root_calls": 2,
+      "recursive_calls": 0,
+      "successful_calls": 2,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 2132,
+        "output": 887,
+        "total": 3019
+      },
+      "total_duration_ms": 10565.470457077026,
+      "avg_duration_ms": 5282.735228538513,
+      "total_cost_usd": 0.11717999999999998,
+      "avg_cost_usd": 0.05858999999999999,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "data_retrieval": {
+      "total_calls": 4,
+      "root_calls": 4,
+      "recursive_calls": 0,
+      "successful_calls": 4,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 4539,
+        "output": 1146,
+        "total": 5685
+      },
+      "total_duration_ms": 15433.091640472412,
+      "avg_duration_ms": 3858.272910118103,
+      "total_cost_usd": 0.20493,
+      "avg_cost_usd": 0.0512325,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "formula_generation": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 1139,
+        "output": 461,
+        "total": 1600
+      },
+      "total_duration_ms": 4573.997735977173,
+      "avg_duration_ms": 4573.997735977173,
+      "total_cost_usd": 0.061829999999999996,
+      "avg_cost_usd": 0.061829999999999996,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "response_generation": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "total_duration_ms": 18097.093,
+      "avg_duration_ms": 18097.093,
+      "total_cost_usd": 0.0,
+      "avg_cost_usd": 0.0,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    }
+  },
+  "records": [
+    {
+      "call_id": "6655ebbd",
+      "parent_call_id": null,
+      "llm_type": "query_decomposition",
+      "company_slug": null,
+      "metric_name": null,
+      "recursion_depth": 0,
+      "recursion_path": [],
+      "start_time": "2025-09-26T16:16:10.299469",
+      "end_time": "2025-09-26T16:16:10.299478",
+      "duration_ms": 0,
+      "tokens_used": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "cost_usd": 0.0,
+      "model_name": null,
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "metrics_focus": [
+          "debt ratio",
+          "ebit margin",
+          "ebitda margin",
+          "net debt"
+        ],
+        "result_count": 20,
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "5c3dd6e4",
+      "parent_call_id": null,
+      "llm_type": "table_filtering",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-26T16:16:15.242033",
+      "end_time": "2025-09-26T16:16:15.242039",
+      "duration_ms": 4941.891670227051,
+      "tokens_used": {
+        "input": 1045,
+        "output": 334,
+        "total": 1379
+      },
+      "cost_usd": 0.05138999999999999,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "a581178b",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-26T16:16:19.277142",
+      "end_time": "2025-09-26T16:16:19.277148",
+      "duration_ms": 3992.544174194336,
+      "tokens_used": {
+        "input": 1164,
+        "output": 282,
+        "total": 1446
+      },
+      "cost_usd": 0.05184,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "c7798b55",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-26T16:16:23.819096",
+      "end_time": "2025-09-26T16:16:23.819101",
+      "duration_ms": 4507.988691329956,
+      "tokens_used": {
+        "input": 1101,
+        "output": 263,
+        "total": 1364
+      },
+      "cost_usd": 0.04880999999999999,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "99f772d9",
+      "parent_call_id": null,
+      "llm_type": "formula_generation",
+      "company_slug": "multiple",
+      "metric_name": [
+        "debt ratio",
+        "net debt",
+        "ebit margin",
+        "ebitda margin"
+      ],
+      "recursion_depth": 0,
+      "recursion_path": [
+        [
+          "debt ratio",
+          "net debt",
+          "ebit margin",
+          "ebitda margin"
+        ]
+      ],
+      "start_time": "2025-09-26T16:16:28.426549",
+      "end_time": "2025-09-26T16:16:28.426552",
+      "duration_ms": 4573.997735977173,
+      "tokens_used": {
+        "input": 1139,
+        "output": 461,
+        "total": 1600
+      },
+      "cost_usd": 0.061829999999999996,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "parameters_count": 0,
+        "confidence_score": 0.0,
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "04c42e88",
+      "parent_call_id": null,
+      "llm_type": "table_filtering",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-26T16:16:34.050652",
+      "end_time": "2025-09-26T16:16:34.050657",
+      "duration_ms": 5623.578786849976,
+      "tokens_used": {
+        "input": 1087,
+        "output": 553,
+        "total": 1640
+      },
+      "cost_usd": 0.06578999999999999,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "17b703e3",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-26T16:16:37.472479",
+      "end_time": "2025-09-26T16:16:37.472484",
+      "duration_ms": 3380.596876144409,
+      "tokens_used": {
+        "input": 1169,
+        "output": 287,
+        "total": 1456
+      },
+      "cost_usd": 0.052289999999999996,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "8c3275e6",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-26T16:16:41.058941",
+      "end_time": "2025-09-26T16:16:41.058950",
+      "duration_ms": 3551.961898803711,
+      "tokens_used": {
+        "input": 1105,
+        "output": 314,
+        "total": 1419
+      },
+      "cost_usd": 0.051989999999999995,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "eb2c9910",
+      "parent_call_id": null,
+      "llm_type": "response_generation",
+      "company_slug": null,
+      "metric_name": null,
+      "recursion_depth": 0,
+      "recursion_path": [],
+      "start_time": "2025-09-26T16:16:59.848940",
+      "end_time": "2025-09-26T16:16:59.848942",
+      "duration_ms": 18097.093,
+      "tokens_used": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "cost_usd": 0.0,
+      "model_name": null,
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "response_type": "crew_ai_response",
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    }
+  ]
+}
+

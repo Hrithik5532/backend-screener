@@ -1,0 +1,17 @@
+django
+django_rest-framework
+crewai
+crewai_tools
+django-cors-headers
+celery
+psycopg2-binary
+yfinance
+pydantic
+python-dotenv
+selenium
+webdriver_manager
+rapidfuzz
+aiohttp
+gunicorn
+weasyprint
+markdown

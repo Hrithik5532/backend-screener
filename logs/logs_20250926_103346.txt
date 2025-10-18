@@ -1,0 +1,494 @@
+
+Analysis Started with Query: what is Cash from Operating Activity, Profit after Tax, Total Income and EBITDA Margin for UTCL in FY2020–FY2024.
+
+
+Decomposition LLM raw output: [{'id': '#000_0', 'company': 'ULTRACEMCO', 'metric_name': 'Cash from Operating Activity', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#000_1', 'company': 'ULTRACEMCO', 'metric_name': 'Profit after Tax', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#000_2', 'company': 'ULTRACEMCO', 'metric_name': 'Total Income', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#000_3', 'company': 'ULTRACEMCO', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_0', 'company': 'ULTRACEMCO', 'metric_name': 'Cash from Operating Activity', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_1', 'company': 'ULTRACEMCO', 'metric_name': 'Profit after Tax', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_2', 'company': 'ULTRACEMCO', 'metric_name': 'Total Income', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_3', 'company': 'ULTRACEMCO', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_0', 'company': 'ULTRACEMCO', 'metric_name': 'Cash from Operating Activity', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_1', 'company': 'ULTRACEMCO', 'metric_name': 'Profit after Tax', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_2', 'company': 'ULTRACEMCO', 'metric_name': 'Total Income', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_3', 'company': 'ULTRACEMCO', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_0', 'company': 'ULTRACEMCO', 'metric_name': 'Cash from Operating Activity', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_1', 'company': 'ULTRACEMCO', 'metric_name': 'Profit after Tax', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_2', 'company': 'ULTRACEMCO', 'metric_name': 'Total Income', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_3', 'company': 'ULTRACEMCO', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_0', 'company': 'ULTRACEMCO', 'metric_name': 'Cash from Operating Activity', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_1', 'company': 'ULTRACEMCO', 'metric_name': 'Profit after Tax', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_2', 'company': 'ULTRACEMCO', 'metric_name': 'Total Income', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_3', 'company': 'ULTRACEMCO', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}]
+
+
+company_slug: ULTRACEMCO, metric_name: Cash from Operating Activity, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Profit after Tax, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Total Income, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: EBITDA Margin, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Cash from Operating Activity, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Profit after Tax, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Total Income, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: EBITDA Margin, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Cash from Operating Activity, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Profit after Tax, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Total Income, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: EBITDA Margin, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Cash from Operating Activity, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Profit after Tax, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Total Income, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: EBITDA Margin, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Cash from Operating Activity, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Profit after Tax, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Total Income, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: EBITDA Margin, Period: Mar 2024, Period Type: Annual
+
+
+
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20250926_103346_566166
+Query: what is Cash from Operating Activity, Profit after Tax, Total Income and EBITDA Margin for UTCL in FY2020–FY2024.
+Total Duration: 46501.91ms
+Total Records: 8
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 6,382
+Total Output Tokens: 1,673
+Total Tokens: 8,055
+Estimated Cost: $0.2918
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 2 (Root: 2, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 2,738 (Input: 2,072, Output: 666)
+  - Duration: 8669.64ms (Avg: 4334.82ms)
+  - Cost: $0.1021 (Avg: $0.0511)
+  - Recursion: Max Depth 0, Cost $0.0000
+DATA_RETRIEVAL:
+  - Total Calls: 3 (Root: 3, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 4,026 (Input: 3,185, Output: 841)
+  - Duration: 10264.64ms (Avg: 3421.55ms)
+  - Cost: $0.1460 (Avg: $0.0487)
+  - Recursion: Max Depth 0, Cost $0.0000
+FORMULA_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 1,291 (Input: 1,125, Output: 166)
+  - Duration: 2602.96ms (Avg: 2602.96ms)
+  - Cost: $0.0437 (Avg: $0.0437)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 19923.92ms (Avg: 19923.92ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+
+
+DETAILED_RECURSION_ANALYSIS_JSON:
+{
+  "session_id": "session_20250926_103346_566166",
+  "query": "what is Cash from Operating Activity, Profit after Tax, Total Income and EBITDA Margin for UTCL in FY2020\u2013FY2024.",
+  "start_time": "2025-09-26T10:33:46.566190",
+  "end_time": "2025-09-26T10:34:33.068105",
+  "total_duration_ms": 46501.91499999999,
+  "total_records": 8,
+  "total_tokens": {
+    "input": 6382,
+    "output": 1673,
+    "total": 8055
+  },
+  "total_cost_usd": 0.29184,
+  "success_rate": 1.0,
+  "recursion_analysis": {
+    "total_recursive_chains": 0,
+    "max_recursion_depth": 0,
+    "recursive_metrics": [],
+    "call_tree": {},
+    "depth_distribution": {},
+    "recursive_costs": 0.0
+  },
+  "summary_by_type": {
+    "query_decomposition": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "total_duration_ms": 0.0,
+      "avg_duration_ms": 0.0,
+      "total_cost_usd": 0.0,
+      "avg_cost_usd": 0.0,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "table_filtering": {
+      "total_calls": 2,
+      "root_calls": 2,
+      "recursive_calls": 0,
+      "successful_calls": 2,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 2072,
+        "output": 666,
+        "total": 2738
+      },
+      "total_duration_ms": 8669.635772705078,
+      "avg_duration_ms": 4334.817886352539,
+      "total_cost_usd": 0.10211999999999999,
+      "avg_cost_usd": 0.051059999999999994,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "data_retrieval": {
+      "total_calls": 3,
+      "root_calls": 3,
+      "recursive_calls": 0,
+      "successful_calls": 3,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 3185,
+        "output": 841,
+        "total": 4026
+      },
+      "total_duration_ms": 10264.63532447815,
+      "avg_duration_ms": 3421.5451081593833,
+      "total_cost_usd": 0.14600999999999997,
+      "avg_cost_usd": 0.04866999999999999,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "formula_generation": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 1125,
+        "output": 166,
+        "total": 1291
+      },
+      "total_duration_ms": 2602.9603481292725,
+      "avg_duration_ms": 2602.9603481292725,
+      "total_cost_usd": 0.04370999999999999,
+      "avg_cost_usd": 0.04370999999999999,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "response_generation": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "total_duration_ms": 19923.916999999998,
+      "avg_duration_ms": 19923.916999999998,
+      "total_cost_usd": 0.0,
+      "avg_cost_usd": 0.0,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    }
+  },
+  "records": [
+    {
+      "call_id": "0592334e",
+      "parent_call_id": null,
+      "llm_type": "query_decomposition",
+      "company_slug": null,
+      "metric_name": null,
+      "recursion_depth": 0,
+      "recursion_path": [],
+      "start_time": "2025-09-26T10:33:50.830268",
+      "end_time": "2025-09-26T10:33:50.830272",
+      "duration_ms": 0,
+      "tokens_used": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "cost_usd": 0.0,
+      "model_name": null,
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "metrics_focus": [
+          "Cash from Operating Activity",
+          "Profit after Tax",
+          "Total Income",
+          "EBITDA Margin"
+        ],
+        "result_count": 20,
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "04ebb340",
+      "parent_call_id": null,
+      "llm_type": "table_filtering",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-26T10:33:55.507247",
+      "end_time": "2025-09-26T10:33:55.507250",
+      "duration_ms": 4676.364183425903,
+      "tokens_used": {
+        "input": 1046,
+        "output": 374,
+        "total": 1420
+      },
+      "cost_usd": 0.05381999999999999,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "6544015e",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-26T10:33:57.957413",
+      "end_time": "2025-09-26T10:33:57.957415",
+      "duration_ms": 2407.5655937194824,
+      "tokens_used": {
+        "input": 1088,
+        "output": 152,
+        "total": 1240
+      },
+      "cost_usd": 0.04175999999999999,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "9910e4fd",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-26T10:34:02.560055",
+      "end_time": "2025-09-26T10:34:02.560058",
+      "duration_ms": 4567.732810974121,
+      "tokens_used": {
+        "input": 1050,
+        "output": 422,
+        "total": 1472
+      },
+      "cost_usd": 0.056819999999999996,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "67267af4",
+      "parent_call_id": null,
+      "llm_type": "formula_generation",
+      "company_slug": "multiple",
+      "metric_name": [
+        "EBITDA Margin"
+      ],
+      "recursion_depth": 0,
+      "recursion_path": [
+        [
+          "EBITDA Margin"
+        ]
+      ],
+      "start_time": "2025-09-26T10:34:05.305602",
+      "end_time": "2025-09-26T10:34:05.305605",
+      "duration_ms": 2602.9603481292725,
+      "tokens_used": {
+        "input": 1125,
+        "output": 166,
+        "total": 1291
+      },
+      "cost_usd": 0.04370999999999999,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "parameters_count": 0,
+        "confidence_score": 0.0,
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "5f60e8f3",
+      "parent_call_id": null,
+      "llm_type": "table_filtering",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-26T10:34:09.299280",
+      "end_time": "2025-09-26T10:34:09.299283",
+      "duration_ms": 3993.271589279175,
+      "tokens_used": {
+        "input": 1026,
+        "output": 292,
+        "total": 1318
+      },
+      "cost_usd": 0.048299999999999996,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "653ccc8b",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-26T10:34:12.629555",
+      "end_time": "2025-09-26T10:34:12.629558",
+      "duration_ms": 3289.336919784546,
+      "tokens_used": {
+        "input": 1047,
+        "output": 267,
+        "total": 1314
+      },
+      "cost_usd": 0.04743,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "f3e54d76",
+      "parent_call_id": null,
+      "llm_type": "response_generation",
+      "company_slug": null,
+      "metric_name": null,
+      "recursion_depth": 0,
+      "recursion_path": [],
+      "start_time": "2025-09-26T10:34:33.067783",
+      "end_time": "2025-09-26T10:34:33.067784",
+      "duration_ms": 19923.916999999998,
+      "tokens_used": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "cost_usd": 0.0,
+      "model_name": null,
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "response_type": "crew_ai_response",
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    }
+  ]
+}
+

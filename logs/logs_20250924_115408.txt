@@ -1,0 +1,96 @@
+
+Analysis Started with Query: what is Inventory, Debt to Equity ratio, net debt, shareholder's funds and PAT/ CFO for Century enka, UTCL, Ambuja, ACC, Shreecem in FY2024.
+
+
+Decomposition LLM raw output: [{'id': '#000_0', 'company': 'CENTENKA', 'metric_name': 'Inventory', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#000_1', 'company': 'CENTENKA', 'metric_name': 'Debt to Equity ratio', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#000_2', 'company': 'CENTENKA', 'metric_name': 'Net Debt', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#000_3', 'company': 'CENTENKA', 'metric_name': "Shareholder's Funds", 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#000_4', 'company': 'CENTENKA', 'metric_name': 'PAT', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#000_5', 'company': 'CENTENKA', 'metric_name': 'CFO', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_0', 'company': 'ULTRACEMCO', 'metric_name': 'Inventory', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_1', 'company': 'ULTRACEMCO', 'metric_name': 'Debt to Equity ratio', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_2', 'company': 'ULTRACEMCO', 'metric_name': 'Net Debt', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_3', 'company': 'ULTRACEMCO', 'metric_name': "Shareholder's Funds", 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_4', 'company': 'ULTRACEMCO', 'metric_name': 'PAT', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_5', 'company': 'ULTRACEMCO', 'metric_name': 'CFO', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_0', 'company': 'AMBUJACEM', 'metric_name': 'Inventory', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_1', 'company': 'AMBUJACEM', 'metric_name': 'Debt to Equity ratio', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_2', 'company': 'AMBUJACEM', 'metric_name': 'Net Debt', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_3', 'company': 'AMBUJACEM', 'metric_name': "Shareholder's Funds", 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_4', 'company': 'AMBUJACEM', 'metric_name': 'PAT', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_5', 'company': 'AMBUJACEM', 'metric_name': 'CFO', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_0', 'company': 'ACC', 'metric_name': 'Inventory', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_1', 'company': 'ACC', 'metric_name': 'Debt to Equity ratio', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_2', 'company': 'ACC', 'metric_name': 'Net Debt', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_3', 'company': 'ACC', 'metric_name': "Shareholder's Funds", 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_4', 'company': 'ACC', 'metric_name': 'PAT', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_5', 'company': 'ACC', 'metric_name': 'CFO', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_0', 'company': 'SHREECEM', 'metric_name': 'Inventory', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_1', 'company': 'SHREECEM', 'metric_name': 'Debt to Equity ratio', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_2', 'company': 'SHREECEM', 'metric_name': 'Net Debt', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_3', 'company': 'SHREECEM', 'metric_name': "Shareholder's Funds", 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_4', 'company': 'SHREECEM', 'metric_name': 'PAT', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_5', 'company': 'SHREECEM', 'metric_name': 'CFO', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}]
+
+
+company_slug: CENTENKA, metric_name: Inventory, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: Debt to Equity ratio, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: Net Debt, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: Shareholder's Funds, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: PAT, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: CFO, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Inventory, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Debt to Equity ratio, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Net Debt, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Shareholder's Funds, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: PAT, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: CFO, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Inventory, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Debt to Equity ratio, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Net Debt, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Shareholder's Funds, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: PAT, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: CFO, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ACC, metric_name: Inventory, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ACC, metric_name: Debt to Equity ratio, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ACC, metric_name: Net Debt, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ACC, metric_name: Shareholder's Funds, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ACC, metric_name: PAT, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ACC, metric_name: CFO, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Inventory, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Debt to Equity ratio, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Net Debt, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Shareholder's Funds, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: PAT, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: CFO, Period: Mar 2024, Period Type: Annual
+

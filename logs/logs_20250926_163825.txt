@@ -1,0 +1,446 @@
+
+Analysis Started with Query: give me receivables turnover for Ultratech from FY21 to FY25
+
+
+Decomposition LLM raw output: [{'id': '#000_0', 'company': 'ULTRACEMCO', 'metric_name': 'receivables turnover', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_0', 'company': 'ULTRACEMCO', 'metric_name': 'receivables turnover', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_0', 'company': 'ULTRACEMCO', 'metric_name': 'receivables turnover', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_0', 'company': 'ULTRACEMCO', 'metric_name': 'receivables turnover', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_0', 'company': 'ULTRACEMCO', 'metric_name': 'receivables turnover', 'periods': [{'period': 'Mar 2025', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}]
+
+
+company_slug: ULTRACEMCO, metric_name: receivables turnover, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: receivables turnover, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: receivables turnover, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: receivables turnover, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: receivables turnover, Period: Mar 2025, Period Type: Annual
+
+
+
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20250926_163825_573877
+Query: give me receivables turnover for Ultratech from FY21 to FY25
+Total Duration: 32138.79ms
+Total Records: 8
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 6,571
+Total Output Tokens: 953
+Total Tokens: 7,524
+Estimated Cost: $0.2543
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 2 (Root: 2, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 2,341 (Input: 2,009, Output: 332)
+  - Duration: 5221.27ms (Avg: 2610.64ms)
+  - Cost: $0.0802 (Avg: $0.0401)
+  - Recursion: Max Depth 0, Cost $0.0000
+DATA_RETRIEVAL:
+  - Total Calls: 3 (Root: 3, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 3,872 (Input: 3,414, Output: 458)
+  - Duration: 7994.01ms (Avg: 2664.67ms)
+  - Cost: $0.1299 (Avg: $0.0433)
+  - Recursion: Max Depth 0, Cost $0.0000
+FORMULA_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 1,311 (Input: 1,148, Output: 163)
+  - Duration: 3519.62ms (Avg: 3519.62ms)
+  - Cost: $0.0442 (Avg: $0.0442)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 10102.98ms (Avg: 10102.98ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+
+
+DETAILED_RECURSION_ANALYSIS_JSON:
+{
+  "session_id": "session_20250926_163825_573877",
+  "query": "give me receivables turnover for Ultratech from FY21 to FY25",
+  "start_time": "2025-09-26T16:38:25.573917",
+  "end_time": "2025-09-26T16:38:57.712707",
+  "total_duration_ms": 32138.79,
+  "total_records": 8,
+  "total_tokens": {
+    "input": 6571,
+    "output": 953,
+    "total": 7524
+  },
+  "total_cost_usd": 0.25431,
+  "success_rate": 1.0,
+  "recursion_analysis": {
+    "total_recursive_chains": 0,
+    "max_recursion_depth": 0,
+    "recursive_metrics": [],
+    "call_tree": {},
+    "depth_distribution": {},
+    "recursive_costs": 0.0
+  },
+  "summary_by_type": {
+    "query_decomposition": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "total_duration_ms": 0.0,
+      "avg_duration_ms": 0.0,
+      "total_cost_usd": 0.0,
+      "avg_cost_usd": 0.0,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "table_filtering": {
+      "total_calls": 2,
+      "root_calls": 2,
+      "recursive_calls": 0,
+      "successful_calls": 2,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 2009,
+        "output": 332,
+        "total": 2341
+      },
+      "total_duration_ms": 5221.273899078369,
+      "avg_duration_ms": 2610.6369495391846,
+      "total_cost_usd": 0.08018999999999998,
+      "avg_cost_usd": 0.04009499999999999,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "data_retrieval": {
+      "total_calls": 3,
+      "root_calls": 3,
+      "recursive_calls": 0,
+      "successful_calls": 3,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 3414,
+        "output": 458,
+        "total": 3872
+      },
+      "total_duration_ms": 7994.013071060181,
+      "avg_duration_ms": 2664.671023686727,
+      "total_cost_usd": 0.1299,
+      "avg_cost_usd": 0.0433,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "formula_generation": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 1148,
+        "output": 163,
+        "total": 1311
+      },
+      "total_duration_ms": 3519.618272781372,
+      "avg_duration_ms": 3519.618272781372,
+      "total_cost_usd": 0.044219999999999995,
+      "avg_cost_usd": 0.044219999999999995,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "response_generation": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "total_duration_ms": 10102.980000000001,
+      "avg_duration_ms": 10102.980000000001,
+      "total_cost_usd": 0.0,
+      "avg_cost_usd": 0.0,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    }
+  },
+  "records": [
+    {
+      "call_id": "6c68096d",
+      "parent_call_id": null,
+      "llm_type": "query_decomposition",
+      "company_slug": null,
+      "metric_name": null,
+      "recursion_depth": 0,
+      "recursion_path": [],
+      "start_time": "2025-09-26T16:38:30.371208",
+      "end_time": "2025-09-26T16:38:30.371216",
+      "duration_ms": 0,
+      "tokens_used": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "cost_usd": 0.0,
+      "model_name": null,
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "metrics_focus": [
+          "receivables turnover"
+        ],
+        "result_count": 5,
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "3e70afd0",
+      "parent_call_id": null,
+      "llm_type": "table_filtering",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-26T16:38:33.097473",
+      "end_time": "2025-09-26T16:38:33.097479",
+      "duration_ms": 2725.846767425537,
+      "tokens_used": {
+        "input": 998,
+        "output": 157,
+        "total": 1155
+      },
+      "cost_usd": 0.03936,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "3e722f33",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-26T16:38:36.399049",
+      "end_time": "2025-09-26T16:38:36.399054",
+      "duration_ms": 3257.6370239257812,
+      "tokens_used": {
+        "input": 1161,
+        "output": 211,
+        "total": 1372
+      },
+      "cost_usd": 0.04749,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "5ada4cd9",
+      "parent_call_id": null,
+      "llm_type": "formula_generation",
+      "company_slug": "multiple",
+      "metric_name": [
+        "receivables turnover"
+      ],
+      "recursion_depth": 0,
+      "recursion_path": [
+        [
+          "receivables turnover"
+        ]
+      ],
+      "start_time": "2025-09-26T16:38:39.953013",
+      "end_time": "2025-09-26T16:38:39.953016",
+      "duration_ms": 3519.618272781372,
+      "tokens_used": {
+        "input": 1148,
+        "output": 163,
+        "total": 1311
+      },
+      "cost_usd": 0.044219999999999995,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "parameters_count": 0,
+        "confidence_score": 0.0,
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "e8c237ec",
+      "parent_call_id": null,
+      "llm_type": "table_filtering",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-26T16:38:42.448725",
+      "end_time": "2025-09-26T16:38:42.448730",
+      "duration_ms": 2495.427131652832,
+      "tokens_used": {
+        "input": 1011,
+        "output": 175,
+        "total": 1186
+      },
+      "cost_usd": 0.04082999999999999,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "05596409",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-26T16:38:44.365572",
+      "end_time": "2025-09-26T16:38:44.365577",
+      "duration_ms": 1877.6891231536865,
+      "tokens_used": {
+        "input": 1093,
+        "output": 50,
+        "total": 1143
+      },
+      "cost_usd": 0.03579,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "38aac944",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-26T16:38:47.259102",
+      "end_time": "2025-09-26T16:38:47.259109",
+      "duration_ms": 2858.686923980713,
+      "tokens_used": {
+        "input": 1160,
+        "output": 197,
+        "total": 1357
+      },
+      "cost_usd": 0.046619999999999995,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "1b6498d8",
+      "parent_call_id": null,
+      "llm_type": "response_generation",
+      "company_slug": null,
+      "metric_name": null,
+      "recursion_depth": 0,
+      "recursion_path": [],
+      "start_time": "2025-09-26T16:38:57.712642",
+      "end_time": "2025-09-26T16:38:57.712643",
+      "duration_ms": 10102.980000000001,
+      "tokens_used": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "cost_usd": 0.0,
+      "model_name": null,
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "response_type": "crew_ai_response",
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    }
+  ]
+}
+

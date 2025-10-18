@@ -1,0 +1,406 @@
+
+Analysis Started with Query: Give me EBITDA for UltraTech Cement in FY2025.
+
+
+Decomposition LLM raw output: [{'id': '#000_0', 'company': 'ULTRACEMCO', 'metric_name': 'EBITDA', 'periods': [{'period': 'Mar 2025', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}]
+
+
+company_slug: ULTRACEMCO, metric_name: EBITDA, Period: Mar 2025, Period Type: Annual
+
+
+
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20250924_105633_519879
+Query: Give me EBITDA for UltraTech Cement in FY2025.
+Total Duration: 35196.29ms
+Total Records: 7
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 5,209
+Total Output Tokens: 1,072
+Total Tokens: 6,281
+Estimated Cost: $0.2206
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 2 (Root: 2, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 2,437 (Input: 2,023, Output: 414)
+  - Duration: 7084.77ms (Avg: 3542.38ms)
+  - Cost: $0.0855 (Avg: $0.0428)
+  - Recursion: Max Depth 0, Cost $0.0000
+DATA_RETRIEVAL:
+  - Total Calls: 2 (Root: 2, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 2,586 (Input: 2,087, Output: 499)
+  - Duration: 10267.77ms (Avg: 5133.89ms)
+  - Cost: $0.0925 (Avg: $0.0463)
+  - Recursion: Max Depth 0, Cost $0.0000
+FORMULA_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 1,258 (Input: 1,099, Output: 159)
+  - Duration: 2775.24ms (Avg: 2775.24ms)
+  - Cost: $0.0425 (Avg: $0.0425)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 11810.29ms (Avg: 11810.29ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+
+
+DETAILED_RECURSION_ANALYSIS_JSON:
+{
+  "session_id": "session_20250924_105633_519879",
+  "query": "Give me EBITDA for UltraTech Cement in FY2025.",
+  "start_time": "2025-09-24T10:56:33.519905",
+  "end_time": "2025-09-24T10:57:08.716191",
+  "total_duration_ms": 35196.286,
+  "total_records": 7,
+  "total_tokens": {
+    "input": 5209,
+    "output": 1072,
+    "total": 6281
+  },
+  "total_cost_usd": 0.22058999999999998,
+  "success_rate": 1.0,
+  "recursion_analysis": {
+    "total_recursive_chains": 0,
+    "max_recursion_depth": 0,
+    "recursive_metrics": [],
+    "call_tree": {},
+    "depth_distribution": {},
+    "recursive_costs": 0.0
+  },
+  "summary_by_type": {
+    "query_decomposition": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "total_duration_ms": 0.0,
+      "avg_duration_ms": 0.0,
+      "total_cost_usd": 0.0,
+      "avg_cost_usd": 0.0,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "table_filtering": {
+      "total_calls": 2,
+      "root_calls": 2,
+      "recursive_calls": 0,
+      "successful_calls": 2,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 2023,
+        "output": 414,
+        "total": 2437
+      },
+      "total_duration_ms": 7084.765434265137,
+      "avg_duration_ms": 3542.3827171325684,
+      "total_cost_usd": 0.08553,
+      "avg_cost_usd": 0.042765,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "data_retrieval": {
+      "total_calls": 2,
+      "root_calls": 2,
+      "recursive_calls": 0,
+      "successful_calls": 2,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 2087,
+        "output": 499,
+        "total": 2586
+      },
+      "total_duration_ms": 10267.774820327759,
+      "avg_duration_ms": 5133.887410163879,
+      "total_cost_usd": 0.09255,
+      "avg_cost_usd": 0.046275,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "formula_generation": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 1099,
+        "output": 159,
+        "total": 1258
+      },
+      "total_duration_ms": 2775.2439975738525,
+      "avg_duration_ms": 2775.2439975738525,
+      "total_cost_usd": 0.04251,
+      "avg_cost_usd": 0.04251,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "response_generation": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "total_duration_ms": 11810.287,
+      "avg_duration_ms": 11810.287,
+      "total_cost_usd": 0.0,
+      "avg_cost_usd": 0.0,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    }
+  },
+  "records": [
+    {
+      "call_id": "96c5186b",
+      "parent_call_id": null,
+      "llm_type": "query_decomposition",
+      "company_slug": null,
+      "metric_name": null,
+      "recursion_depth": 0,
+      "recursion_path": [],
+      "start_time": "2025-09-24T10:56:36.375116",
+      "end_time": "2025-09-24T10:56:36.375120",
+      "duration_ms": 0,
+      "tokens_used": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "cost_usd": 0.0,
+      "model_name": null,
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "metrics_focus": [
+          "EBITDA"
+        ],
+        "result_count": 1,
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "f2b1a434",
+      "parent_call_id": null,
+      "llm_type": "table_filtering",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T10:56:39.129102",
+      "end_time": "2025-09-24T10:56:39.129105",
+      "duration_ms": 2753.7052631378174,
+      "tokens_used": {
+        "input": 997,
+        "output": 120,
+        "total": 1117
+      },
+      "cost_usd": 0.03711,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "89bf00fe",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T10:56:43.346714",
+      "end_time": "2025-09-24T10:56:43.346716",
+      "duration_ms": 4176.140546798706,
+      "tokens_used": {
+        "input": 1040,
+        "output": 226,
+        "total": 1266
+      },
+      "cost_usd": 0.044759999999999994,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "cf00adda",
+      "parent_call_id": null,
+      "llm_type": "formula_generation",
+      "company_slug": "multiple",
+      "metric_name": [
+        "EBITDA"
+      ],
+      "recursion_depth": 0,
+      "recursion_path": [
+        [
+          "EBITDA"
+        ]
+      ],
+      "start_time": "2025-09-24T10:56:46.156174",
+      "end_time": "2025-09-24T10:56:46.156176",
+      "duration_ms": 2775.2439975738525,
+      "tokens_used": {
+        "input": 1099,
+        "output": 159,
+        "total": 1258
+      },
+      "cost_usd": 0.04251,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "parameters_count": 0,
+        "confidence_score": 0.0,
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "b31a964c",
+      "parent_call_id": null,
+      "llm_type": "table_filtering",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T10:56:50.487537",
+      "end_time": "2025-09-24T10:56:50.487541",
+      "duration_ms": 4331.060171127319,
+      "tokens_used": {
+        "input": 1026,
+        "output": 294,
+        "total": 1320
+      },
+      "cost_usd": 0.04842,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "e9a7d471",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T10:56:56.623371",
+      "end_time": "2025-09-24T10:56:56.623373",
+      "duration_ms": 6091.634273529053,
+      "tokens_used": {
+        "input": 1047,
+        "output": 273,
+        "total": 1320
+      },
+      "cost_usd": 0.04779,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "2fed30ee",
+      "parent_call_id": null,
+      "llm_type": "response_generation",
+      "company_slug": null,
+      "metric_name": null,
+      "recursion_depth": 0,
+      "recursion_path": [],
+      "start_time": "2025-09-24T10:57:08.716142",
+      "end_time": "2025-09-24T10:57:08.716143",
+      "duration_ms": 11810.287,
+      "tokens_used": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "cost_usd": 0.0,
+      "model_name": null,
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "response_type": "crew_ai_response",
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    }
+  ]
+}
+

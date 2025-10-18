@@ -1,0 +1,1070 @@
+
+Analysis Started with Query: what is Interest, Profit after Tax, Total Assets and EBITDA Margin for UTCL, Shreecem, ACC, Ambuja, Century enka in FY2020–FY2024.
+
+
+Decomposition LLM raw output: [{'id': '#000_0', 'company': 'ULTRACEMCO', 'metric_name': 'Interest', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#000_1', 'company': 'ULTRACEMCO', 'metric_name': 'Profit after Tax', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#000_2', 'company': 'ULTRACEMCO', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#000_3', 'company': 'ULTRACEMCO', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_0', 'company': 'ULTRACEMCO', 'metric_name': 'Interest', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_1', 'company': 'ULTRACEMCO', 'metric_name': 'Profit after Tax', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_2', 'company': 'ULTRACEMCO', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_3', 'company': 'ULTRACEMCO', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_0', 'company': 'ULTRACEMCO', 'metric_name': 'Interest', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_1', 'company': 'ULTRACEMCO', 'metric_name': 'Profit after Tax', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_2', 'company': 'ULTRACEMCO', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_3', 'company': 'ULTRACEMCO', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_0', 'company': 'ULTRACEMCO', 'metric_name': 'Interest', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_1', 'company': 'ULTRACEMCO', 'metric_name': 'Profit after Tax', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_2', 'company': 'ULTRACEMCO', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_3', 'company': 'ULTRACEMCO', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_0', 'company': 'ULTRACEMCO', 'metric_name': 'Interest', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_1', 'company': 'ULTRACEMCO', 'metric_name': 'Profit after Tax', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_2', 'company': 'ULTRACEMCO', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_3', 'company': 'ULTRACEMCO', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#005_0', 'company': 'SHREECEM', 'metric_name': 'Interest', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#005_1', 'company': 'SHREECEM', 'metric_name': 'Profit after Tax', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#005_2', 'company': 'SHREECEM', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#005_3', 'company': 'SHREECEM', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#006_0', 'company': 'SHREECEM', 'metric_name': 'Interest', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#006_1', 'company': 'SHREECEM', 'metric_name': 'Profit after Tax', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#006_2', 'company': 'SHREECEM', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#006_3', 'company': 'SHREECEM', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#007_0', 'company': 'SHREECEM', 'metric_name': 'Interest', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#007_1', 'company': 'SHREECEM', 'metric_name': 'Profit after Tax', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#007_2', 'company': 'SHREECEM', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#007_3', 'company': 'SHREECEM', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#008_0', 'company': 'SHREECEM', 'metric_name': 'Interest', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#008_1', 'company': 'SHREECEM', 'metric_name': 'Profit after Tax', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#008_2', 'company': 'SHREECEM', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#008_3', 'company': 'SHREECEM', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#009_0', 'company': 'SHREECEM', 'metric_name': 'Interest', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#009_1', 'company': 'SHREECEM', 'metric_name': 'Profit after Tax', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#009_2', 'company': 'SHREECEM', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#009_3', 'company': 'SHREECEM', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0010_0', 'company': 'ACC', 'metric_name': 'Interest', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0010_1', 'company': 'ACC', 'metric_name': 'Profit after Tax', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0010_2', 'company': 'ACC', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0010_3', 'company': 'ACC', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0011_0', 'company': 'ACC', 'metric_name': 'Interest', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0011_1', 'company': 'ACC', 'metric_name': 'Profit after Tax', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0011_2', 'company': 'ACC', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0011_3', 'company': 'ACC', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0012_0', 'company': 'ACC', 'metric_name': 'Interest', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0012_1', 'company': 'ACC', 'metric_name': 'Profit after Tax', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0012_2', 'company': 'ACC', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0012_3', 'company': 'ACC', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0013_0', 'company': 'ACC', 'metric_name': 'Interest', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0013_1', 'company': 'ACC', 'metric_name': 'Profit after Tax', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0013_2', 'company': 'ACC', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0013_3', 'company': 'ACC', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0014_0', 'company': 'ACC', 'metric_name': 'Interest', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0014_1', 'company': 'ACC', 'metric_name': 'Profit after Tax', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0014_2', 'company': 'ACC', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0014_3', 'company': 'ACC', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0015_0', 'company': 'AMBUJACEM', 'metric_name': 'Interest', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0015_1', 'company': 'AMBUJACEM', 'metric_name': 'Profit after Tax', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0015_2', 'company': 'AMBUJACEM', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0015_3', 'company': 'AMBUJACEM', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0016_0', 'company': 'AMBUJACEM', 'metric_name': 'Interest', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0016_1', 'company': 'AMBUJACEM', 'metric_name': 'Profit after Tax', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0016_2', 'company': 'AMBUJACEM', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0016_3', 'company': 'AMBUJACEM', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0017_0', 'company': 'AMBUJACEM', 'metric_name': 'Interest', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0017_1', 'company': 'AMBUJACEM', 'metric_name': 'Profit after Tax', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0017_2', 'company': 'AMBUJACEM', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0017_3', 'company': 'AMBUJACEM', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0018_0', 'company': 'AMBUJACEM', 'metric_name': 'Interest', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0018_1', 'company': 'AMBUJACEM', 'metric_name': 'Profit after Tax', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0018_2', 'company': 'AMBUJACEM', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0018_3', 'company': 'AMBUJACEM', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0019_0', 'company': 'AMBUJACEM', 'metric_name': 'Interest', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0019_1', 'company': 'AMBUJACEM', 'metric_name': 'Profit after Tax', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0019_2', 'company': 'AMBUJACEM', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0019_3', 'company': 'AMBUJACEM', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0020_0', 'company': 'CENTENKA', 'metric_name': 'Interest', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0020_1', 'company': 'CENTENKA', 'metric_name': 'Profit after Tax', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0020_2', 'company': 'CENTENKA', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0020_3', 'company': 'CENTENKA', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0021_0', 'company': 'CENTENKA', 'metric_name': 'Interest', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0021_1', 'company': 'CENTENKA', 'metric_name': 'Profit after Tax', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0021_2', 'company': 'CENTENKA', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0021_3', 'company': 'CENTENKA', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0022_0', 'company': 'CENTENKA', 'metric_name': 'Interest', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0022_1', 'company': 'CENTENKA', 'metric_name': 'Profit after Tax', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0022_2', 'company': 'CENTENKA', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0022_3', 'company': 'CENTENKA', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0023_0', 'company': 'CENTENKA', 'metric_name': 'Interest', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0023_1', 'company': 'CENTENKA', 'metric_name': 'Profit after Tax', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0023_2', 'company': 'CENTENKA', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0023_3', 'company': 'CENTENKA', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0024_0', 'company': 'CENTENKA', 'metric_name': 'Interest', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0024_1', 'company': 'CENTENKA', 'metric_name': 'Profit after Tax', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0024_2', 'company': 'CENTENKA', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0024_3', 'company': 'CENTENKA', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}]
+
+
+company_slug: ULTRACEMCO, metric_name: Interest, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Profit after Tax, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Total Assets, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: EBITDA Margin, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Interest, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Profit after Tax, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Total Assets, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: EBITDA Margin, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Interest, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Profit after Tax, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Total Assets, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: EBITDA Margin, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Interest, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Profit after Tax, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Total Assets, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: EBITDA Margin, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Interest, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Profit after Tax, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Total Assets, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: EBITDA Margin, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Interest, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Profit after Tax, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Total Assets, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: EBITDA Margin, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Interest, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Profit after Tax, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Total Assets, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: EBITDA Margin, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Interest, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Profit after Tax, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Total Assets, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: EBITDA Margin, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Interest, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Profit after Tax, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Total Assets, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: EBITDA Margin, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Interest, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Profit after Tax, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Total Assets, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: EBITDA Margin, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ACC, metric_name: Interest, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: ACC, metric_name: Profit after Tax, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: ACC, metric_name: Total Assets, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: ACC, metric_name: EBITDA Margin, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: ACC, metric_name: Interest, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: ACC, metric_name: Profit after Tax, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: ACC, metric_name: Total Assets, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: ACC, metric_name: EBITDA Margin, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: ACC, metric_name: Interest, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ACC, metric_name: Profit after Tax, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ACC, metric_name: Total Assets, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ACC, metric_name: EBITDA Margin, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ACC, metric_name: Interest, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ACC, metric_name: Profit after Tax, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ACC, metric_name: Total Assets, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ACC, metric_name: EBITDA Margin, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ACC, metric_name: Interest, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ACC, metric_name: Profit after Tax, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ACC, metric_name: Total Assets, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ACC, metric_name: EBITDA Margin, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Interest, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Profit after Tax, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Total Assets, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: EBITDA Margin, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Interest, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Profit after Tax, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Total Assets, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: EBITDA Margin, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Interest, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Profit after Tax, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Total Assets, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: EBITDA Margin, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Interest, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Profit after Tax, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Total Assets, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: EBITDA Margin, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Interest, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Profit after Tax, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Total Assets, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: EBITDA Margin, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: Interest, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: Profit after Tax, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: Total Assets, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: EBITDA Margin, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: Interest, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: Profit after Tax, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: Total Assets, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: EBITDA Margin, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: Interest, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: Profit after Tax, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: Total Assets, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: EBITDA Margin, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: Interest, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: Profit after Tax, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: Total Assets, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: EBITDA Margin, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: Interest, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: Profit after Tax, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: Total Assets, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: EBITDA Margin, Period: Mar 2024, Period Type: Annual
+
+
+
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20250924_114041_292022
+Query: what is Interest, Profit after Tax, Total Assets and EBITDA Margin for UTCL, Shreecem, ACC, Ambuja, Century enka in FY2020–FY2024.
+Total Duration: 191592.67ms
+Total Records: 20
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 19,121
+Total Output Tokens: 4,565
+Total Tokens: 23,686
+Estimated Cost: $0.8475
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 2 (Root: 2, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 2,656 (Input: 2,069, Output: 587)
+  - Duration: 8933.76ms (Avg: 4466.88ms)
+  - Cost: $0.0973 (Avg: $0.0486)
+  - Recursion: Max Depth 0, Cost $0.0000
+DATA_RETRIEVAL:
+  - Total Calls: 15 (Root: 15, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 19,724 (Input: 15,927, Output: 3,797)
+  - Duration: 60945.01ms (Avg: 4063.00ms)
+  - Cost: $0.7056 (Avg: $0.0470)
+  - Recursion: Max Depth 0, Cost $0.0000
+FORMULA_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 1,306 (Input: 1,125, Output: 181)
+  - Duration: 5624.40ms (Avg: 5624.40ms)
+  - Cost: $0.0446 (Avg: $0.0446)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 95308.74ms (Avg: 95308.74ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+
+
+DETAILED_RECURSION_ANALYSIS_JSON:
+{
+  "session_id": "session_20250924_114041_292022",
+  "query": "what is Interest, Profit after Tax, Total Assets and EBITDA Margin for UTCL, Shreecem, ACC, Ambuja, Century enka in FY2020\u2013FY2024.",
+  "start_time": "2025-09-24T11:40:41.292042",
+  "end_time": "2025-09-24T11:43:52.884716",
+  "total_duration_ms": 191592.674,
+  "total_records": 20,
+  "total_tokens": {
+    "input": 19121,
+    "output": 4565,
+    "total": 23686
+  },
+  "total_cost_usd": 0.8475299999999999,
+  "success_rate": 1.0,
+  "recursion_analysis": {
+    "total_recursive_chains": 0,
+    "max_recursion_depth": 0,
+    "recursive_metrics": [],
+    "call_tree": {},
+    "depth_distribution": {},
+    "recursive_costs": 0.0
+  },
+  "summary_by_type": {
+    "query_decomposition": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "total_duration_ms": 0.0,
+      "avg_duration_ms": 0.0,
+      "total_cost_usd": 0.0,
+      "avg_cost_usd": 0.0,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "table_filtering": {
+      "total_calls": 2,
+      "root_calls": 2,
+      "recursive_calls": 0,
+      "successful_calls": 2,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 2069,
+        "output": 587,
+        "total": 2656
+      },
+      "total_duration_ms": 8933.755159378052,
+      "avg_duration_ms": 4466.877579689026,
+      "total_cost_usd": 0.09728999999999999,
+      "avg_cost_usd": 0.048644999999999994,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "data_retrieval": {
+      "total_calls": 15,
+      "root_calls": 15,
+      "recursive_calls": 0,
+      "successful_calls": 15,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 15927,
+        "output": 3797,
+        "total": 19724
+      },
+      "total_duration_ms": 60945.013761520386,
+      "avg_duration_ms": 4063.0009174346924,
+      "total_cost_usd": 0.70563,
+      "avg_cost_usd": 0.047042,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "formula_generation": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 1125,
+        "output": 181,
+        "total": 1306
+      },
+      "total_duration_ms": 5624.403476715088,
+      "avg_duration_ms": 5624.403476715088,
+      "total_cost_usd": 0.04461,
+      "avg_cost_usd": 0.04461,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "response_generation": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "total_duration_ms": 95308.741,
+      "avg_duration_ms": 95308.741,
+      "total_cost_usd": 0.0,
+      "avg_cost_usd": 0.0,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    }
+  },
+  "records": [
+    {
+      "call_id": "b74edebe",
+      "parent_call_id": null,
+      "llm_type": "query_decomposition",
+      "company_slug": null,
+      "metric_name": null,
+      "recursion_depth": 0,
+      "recursion_path": [],
+      "start_time": "2025-09-24T11:40:56.397305",
+      "end_time": "2025-09-24T11:40:56.397309",
+      "duration_ms": 0,
+      "tokens_used": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "cost_usd": 0.0,
+      "model_name": null,
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "metrics_focus": [
+          "Interest",
+          "Profit after Tax",
+          "Total Assets",
+          "EBITDA Margin"
+        ],
+        "result_count": 100,
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "bbd5af49",
+      "parent_call_id": null,
+      "llm_type": "table_filtering",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:41:01.486759",
+      "end_time": "2025-09-24T11:41:01.486761",
+      "duration_ms": 5086.379051208496,
+      "tokens_used": {
+        "input": 1043,
+        "output": 335,
+        "total": 1378
+      },
+      "cost_usd": 0.05139,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "67aeb51a",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:41:06.406850",
+      "end_time": "2025-09-24T11:41:06.406852",
+      "duration_ms": 4873.086929321289,
+      "tokens_used": {
+        "input": 1049,
+        "output": 361,
+        "total": 1410
+      },
+      "cost_usd": 0.05313,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "7c65359d",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:41:09.196814",
+      "end_time": "2025-09-24T11:41:09.196817",
+      "duration_ms": 2755.7578086853027,
+      "tokens_used": {
+        "input": 1104,
+        "output": 134,
+        "total": 1238
+      },
+      "cost_usd": 0.041159999999999995,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "91380cea",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:41:14.316166",
+      "end_time": "2025-09-24T11:41:14.316168",
+      "duration_ms": 5085.991621017456,
+      "tokens_used": {
+        "input": 1050,
+        "output": 367,
+        "total": 1417
+      },
+      "cost_usd": 0.05352,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "6d6f1ad3",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:41:17.858307",
+      "end_time": "2025-09-24T11:41:17.858310",
+      "duration_ms": 3505.0840377807617,
+      "tokens_used": {
+        "input": 1047,
+        "output": 145,
+        "total": 1192
+      },
+      "cost_usd": 0.04011,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "db4603b2",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:41:23.156639",
+      "end_time": "2025-09-24T11:41:23.156642",
+      "duration_ms": 5264.049530029297,
+      "tokens_used": {
+        "input": 1055,
+        "output": 399,
+        "total": 1454
+      },
+      "cost_usd": 0.05559,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "41cd04dd",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:41:24.816389",
+      "end_time": "2025-09-24T11:41:24.816392",
+      "duration_ms": 1623.506784439087,
+      "tokens_used": {
+        "input": 1092,
+        "output": 52,
+        "total": 1144
+      },
+      "cost_usd": 0.035879999999999995,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "f5401349",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:41:29.633260",
+      "end_time": "2025-09-24T11:41:29.633263",
+      "duration_ms": 4778.965473175049,
+      "tokens_used": {
+        "input": 1056,
+        "output": 342,
+        "total": 1398
+      },
+      "cost_usd": 0.052199999999999996,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "e3312303",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:41:32.518722",
+      "end_time": "2025-09-24T11:41:32.518725",
+      "duration_ms": 2851.677894592285,
+      "tokens_used": {
+        "input": 1104,
+        "output": 142,
+        "total": 1246
+      },
+      "cost_usd": 0.041639999999999996,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "a8aca265",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:41:37.833426",
+      "end_time": "2025-09-24T11:41:37.833429",
+      "duration_ms": 5280.150413513184,
+      "tokens_used": {
+        "input": 1044,
+        "output": 374,
+        "total": 1418
+      },
+      "cost_usd": 0.05376,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "9f48e743",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:41:40.909151",
+      "end_time": "2025-09-24T11:41:40.909153",
+      "duration_ms": 3039.0172004699707,
+      "tokens_used": {
+        "input": 1082,
+        "output": 145,
+        "total": 1227
+      },
+      "cost_usd": 0.041159999999999995,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "c8a07865",
+      "parent_call_id": null,
+      "llm_type": "formula_generation",
+      "company_slug": "multiple",
+      "metric_name": [
+        "EBITDA Margin"
+      ],
+      "recursion_depth": 0,
+      "recursion_path": [
+        [
+          "EBITDA Margin"
+        ]
+      ],
+      "start_time": "2025-09-24T11:41:48.928432",
+      "end_time": "2025-09-24T11:41:48.928435",
+      "duration_ms": 5624.403476715088,
+      "tokens_used": {
+        "input": 1125,
+        "output": 181,
+        "total": 1306
+      },
+      "cost_usd": 0.04461,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "parameters_count": 0,
+        "confidence_score": 0.0,
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "bc2c68a6",
+      "parent_call_id": null,
+      "llm_type": "table_filtering",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:41:52.776491",
+      "end_time": "2025-09-24T11:41:52.776512",
+      "duration_ms": 3847.3761081695557,
+      "tokens_used": {
+        "input": 1026,
+        "output": 252,
+        "total": 1278
+      },
+      "cost_usd": 0.045899999999999996,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "eb7ebfaf",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:41:56.482730",
+      "end_time": "2025-09-24T11:41:56.482733",
+      "duration_ms": 3666.2991046905518,
+      "tokens_used": {
+        "input": 1047,
+        "output": 256,
+        "total": 1303
+      },
+      "cost_usd": 0.04677,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "885bf6b3",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:42:00.128013",
+      "end_time": "2025-09-24T11:42:00.128015",
+      "duration_ms": 3610.4350090026855,
+      "tokens_used": {
+        "input": 1048,
+        "output": 265,
+        "total": 1313
+      },
+      "cost_usd": 0.04733999999999999,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "ebf5e0f3",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:42:04.407204",
+      "end_time": "2025-09-24T11:42:04.407207",
+      "duration_ms": 4243.894815444946,
+      "tokens_used": {
+        "input": 1053,
+        "output": 274,
+        "total": 1327
+      },
+      "cost_usd": 0.04803,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "0879c558",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:42:08.556913",
+      "end_time": "2025-09-24T11:42:08.556916",
+      "duration_ms": 4113.883972167969,
+      "tokens_used": {
+        "input": 1054,
+        "output": 270,
+        "total": 1324
+      },
+      "cost_usd": 0.047819999999999994,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "00d2d354",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:42:14.845475",
+      "end_time": "2025-09-24T11:42:14.845477",
+      "duration_ms": 6253.213167190552,
+      "tokens_used": {
+        "input": 1042,
+        "output": 271,
+        "total": 1313
+      },
+      "cost_usd": 0.04751999999999999,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "e9efbac3",
+      "parent_call_id": null,
+      "llm_type": "response_generation",
+      "company_slug": null,
+      "metric_name": null,
+      "recursion_depth": 0,
+      "recursion_path": [],
+      "start_time": "2025-09-24T11:43:52.881394",
+      "end_time": "2025-09-24T11:43:52.881395",
+      "duration_ms": 95308.741,
+      "tokens_used": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "cost_usd": 0.0,
+      "model_name": null,
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "response_type": "crew_ai_response",
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    }
+  ]
+}
+

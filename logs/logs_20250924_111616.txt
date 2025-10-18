@@ -1,0 +1,1432 @@
+
+Analysis Started with Query: what is net current assets, Debt to Equity ratio, PAT Margin, Return on Capital Employed and Interest Coverage Ratio for Shreecem, ACC, Ambuja, UTCL, Century enka in FY2020–FY2024.
+
+
+Decomposition LLM raw output: [{'id': '#000_0', 'company': 'SHREECEM', 'metric_name': 'net current assets', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#000_1', 'company': 'SHREECEM', 'metric_name': 'debt to equity ratio', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#000_2', 'company': 'SHREECEM', 'metric_name': 'PAT margin', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#000_3', 'company': 'SHREECEM', 'metric_name': 'return on capital employed', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#000_4', 'company': 'SHREECEM', 'metric_name': 'interest coverage ratio', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_0', 'company': 'SHREECEM', 'metric_name': 'net current assets', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_1', 'company': 'SHREECEM', 'metric_name': 'debt to equity ratio', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_2', 'company': 'SHREECEM', 'metric_name': 'PAT margin', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_3', 'company': 'SHREECEM', 'metric_name': 'return on capital employed', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_4', 'company': 'SHREECEM', 'metric_name': 'interest coverage ratio', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_0', 'company': 'SHREECEM', 'metric_name': 'net current assets', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_1', 'company': 'SHREECEM', 'metric_name': 'debt to equity ratio', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_2', 'company': 'SHREECEM', 'metric_name': 'PAT margin', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_3', 'company': 'SHREECEM', 'metric_name': 'return on capital employed', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_4', 'company': 'SHREECEM', 'metric_name': 'interest coverage ratio', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_0', 'company': 'SHREECEM', 'metric_name': 'net current assets', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_1', 'company': 'SHREECEM', 'metric_name': 'debt to equity ratio', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_2', 'company': 'SHREECEM', 'metric_name': 'PAT margin', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_3', 'company': 'SHREECEM', 'metric_name': 'return on capital employed', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_4', 'company': 'SHREECEM', 'metric_name': 'interest coverage ratio', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_0', 'company': 'SHREECEM', 'metric_name': 'net current assets', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_1', 'company': 'SHREECEM', 'metric_name': 'debt to equity ratio', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_2', 'company': 'SHREECEM', 'metric_name': 'PAT margin', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_3', 'company': 'SHREECEM', 'metric_name': 'return on capital employed', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_4', 'company': 'SHREECEM', 'metric_name': 'interest coverage ratio', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#005_0', 'company': 'ACC', 'metric_name': 'net current assets', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#005_1', 'company': 'ACC', 'metric_name': 'debt to equity ratio', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#005_2', 'company': 'ACC', 'metric_name': 'PAT margin', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#005_3', 'company': 'ACC', 'metric_name': 'return on capital employed', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#005_4', 'company': 'ACC', 'metric_name': 'interest coverage ratio', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#006_0', 'company': 'ACC', 'metric_name': 'net current assets', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#006_1', 'company': 'ACC', 'metric_name': 'debt to equity ratio', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#006_2', 'company': 'ACC', 'metric_name': 'PAT margin', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#006_3', 'company': 'ACC', 'metric_name': 'return on capital employed', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#006_4', 'company': 'ACC', 'metric_name': 'interest coverage ratio', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#007_0', 'company': 'ACC', 'metric_name': 'net current assets', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#007_1', 'company': 'ACC', 'metric_name': 'debt to equity ratio', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#007_2', 'company': 'ACC', 'metric_name': 'PAT margin', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#007_3', 'company': 'ACC', 'metric_name': 'return on capital employed', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#007_4', 'company': 'ACC', 'metric_name': 'interest coverage ratio', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#008_0', 'company': 'ACC', 'metric_name': 'net current assets', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#008_1', 'company': 'ACC', 'metric_name': 'debt to equity ratio', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#008_2', 'company': 'ACC', 'metric_name': 'PAT margin', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#008_3', 'company': 'ACC', 'metric_name': 'return on capital employed', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#008_4', 'company': 'ACC', 'metric_name': 'interest coverage ratio', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#009_0', 'company': 'ACC', 'metric_name': 'net current assets', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#009_1', 'company': 'ACC', 'metric_name': 'debt to equity ratio', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#009_2', 'company': 'ACC', 'metric_name': 'PAT margin', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#009_3', 'company': 'ACC', 'metric_name': 'return on capital employed', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#009_4', 'company': 'ACC', 'metric_name': 'interest coverage ratio', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0010_0', 'company': 'AMBUJACEM', 'metric_name': 'net current assets', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0010_1', 'company': 'AMBUJACEM', 'metric_name': 'debt to equity ratio', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0010_2', 'company': 'AMBUJACEM', 'metric_name': 'PAT margin', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0010_3', 'company': 'AMBUJACEM', 'metric_name': 'return on capital employed', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0010_4', 'company': 'AMBUJACEM', 'metric_name': 'interest coverage ratio', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0011_0', 'company': 'AMBUJACEM', 'metric_name': 'net current assets', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0011_1', 'company': 'AMBUJACEM', 'metric_name': 'debt to equity ratio', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0011_2', 'company': 'AMBUJACEM', 'metric_name': 'PAT margin', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0011_3', 'company': 'AMBUJACEM', 'metric_name': 'return on capital employed', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0011_4', 'company': 'AMBUJACEM', 'metric_name': 'interest coverage ratio', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0012_0', 'company': 'AMBUJACEM', 'metric_name': 'net current assets', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0012_1', 'company': 'AMBUJACEM', 'metric_name': 'debt to equity ratio', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0012_2', 'company': 'AMBUJACEM', 'metric_name': 'PAT margin', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0012_3', 'company': 'AMBUJACEM', 'metric_name': 'return on capital employed', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0012_4', 'company': 'AMBUJACEM', 'metric_name': 'interest coverage ratio', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0013_0', 'company': 'AMBUJACEM', 'metric_name': 'net current assets', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0013_1', 'company': 'AMBUJACEM', 'metric_name': 'debt to equity ratio', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0013_2', 'company': 'AMBUJACEM', 'metric_name': 'PAT margin', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0013_3', 'company': 'AMBUJACEM', 'metric_name': 'return on capital employed', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0013_4', 'company': 'AMBUJACEM', 'metric_name': 'interest coverage ratio', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0014_0', 'company': 'AMBUJACEM', 'metric_name': 'net current assets', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0014_1', 'company': 'AMBUJACEM', 'metric_name': 'debt to equity ratio', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0014_2', 'company': 'AMBUJACEM', 'metric_name': 'PAT margin', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0014_3', 'company': 'AMBUJACEM', 'metric_name': 'return on capital employed', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0014_4', 'company': 'AMBUJACEM', 'metric_name': 'interest coverage ratio', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0015_0', 'company': 'ULTRACEMCO', 'metric_name': 'net current assets', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0015_1', 'company': 'ULTRACEMCO', 'metric_name': 'debt to equity ratio', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0015_2', 'company': 'ULTRACEMCO', 'metric_name': 'PAT margin', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0015_3', 'company': 'ULTRACEMCO', 'metric_name': 'return on capital employed', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0015_4', 'company': 'ULTRACEMCO', 'metric_name': 'interest coverage ratio', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0016_0', 'company': 'ULTRACEMCO', 'metric_name': 'net current assets', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0016_1', 'company': 'ULTRACEMCO', 'metric_name': 'debt to equity ratio', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0016_2', 'company': 'ULTRACEMCO', 'metric_name': 'PAT margin', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0016_3', 'company': 'ULTRACEMCO', 'metric_name': 'return on capital employed', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0016_4', 'company': 'ULTRACEMCO', 'metric_name': 'interest coverage ratio', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0017_0', 'company': 'ULTRACEMCO', 'metric_name': 'net current assets', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0017_1', 'company': 'ULTRACEMCO', 'metric_name': 'debt to equity ratio', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0017_2', 'company': 'ULTRACEMCO', 'metric_name': 'PAT margin', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0017_3', 'company': 'ULTRACEMCO', 'metric_name': 'return on capital employed', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0017_4', 'company': 'ULTRACEMCO', 'metric_name': 'interest coverage ratio', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0018_0', 'company': 'ULTRACEMCO', 'metric_name': 'net current assets', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0018_1', 'company': 'ULTRACEMCO', 'metric_name': 'debt to equity ratio', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0018_2', 'company': 'ULTRACEMCO', 'metric_name': 'PAT margin', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0018_3', 'company': 'ULTRACEMCO', 'metric_name': 'return on capital employed', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0018_4', 'company': 'ULTRACEMCO', 'metric_name': 'interest coverage ratio', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0019_0', 'company': 'ULTRACEMCO', 'metric_name': 'net current assets', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0019_1', 'company': 'ULTRACEMCO', 'metric_name': 'debt to equity ratio', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0019_2', 'company': 'ULTRACEMCO', 'metric_name': 'PAT margin', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0019_3', 'company': 'ULTRACEMCO', 'metric_name': 'return on capital employed', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0019_4', 'company': 'ULTRACEMCO', 'metric_name': 'interest coverage ratio', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0020_0', 'company': 'CENTENKA', 'metric_name': 'net current assets', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0020_1', 'company': 'CENTENKA', 'metric_name': 'debt to equity ratio', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0020_2', 'company': 'CENTENKA', 'metric_name': 'PAT margin', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0020_3', 'company': 'CENTENKA', 'metric_name': 'return on capital employed', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0020_4', 'company': 'CENTENKA', 'metric_name': 'interest coverage ratio', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0021_0', 'company': 'CENTENKA', 'metric_name': 'net current assets', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0021_1', 'company': 'CENTENKA', 'metric_name': 'debt to equity ratio', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0021_2', 'company': 'CENTENKA', 'metric_name': 'PAT margin', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0021_3', 'company': 'CENTENKA', 'metric_name': 'return on capital employed', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0021_4', 'company': 'CENTENKA', 'metric_name': 'interest coverage ratio', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0022_0', 'company': 'CENTENKA', 'metric_name': 'net current assets', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0022_1', 'company': 'CENTENKA', 'metric_name': 'debt to equity ratio', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0022_2', 'company': 'CENTENKA', 'metric_name': 'PAT margin', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0022_3', 'company': 'CENTENKA', 'metric_name': 'return on capital employed', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0022_4', 'company': 'CENTENKA', 'metric_name': 'interest coverage ratio', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0023_0', 'company': 'CENTENKA', 'metric_name': 'net current assets', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0023_1', 'company': 'CENTENKA', 'metric_name': 'debt to equity ratio', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0023_2', 'company': 'CENTENKA', 'metric_name': 'PAT margin', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0023_3', 'company': 'CENTENKA', 'metric_name': 'return on capital employed', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0023_4', 'company': 'CENTENKA', 'metric_name': 'interest coverage ratio', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0024_0', 'company': 'CENTENKA', 'metric_name': 'net current assets', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0024_1', 'company': 'CENTENKA', 'metric_name': 'debt to equity ratio', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0024_2', 'company': 'CENTENKA', 'metric_name': 'PAT margin', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0024_3', 'company': 'CENTENKA', 'metric_name': 'return on capital employed', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0024_4', 'company': 'CENTENKA', 'metric_name': 'interest coverage ratio', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}]
+
+
+company_slug: SHREECEM, metric_name: net current assets, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: debt to equity ratio, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: PAT margin, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: return on capital employed, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: interest coverage ratio, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: net current assets, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: debt to equity ratio, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: PAT margin, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: return on capital employed, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: interest coverage ratio, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: net current assets, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: debt to equity ratio, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: PAT margin, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: return on capital employed, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: interest coverage ratio, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: net current assets, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: debt to equity ratio, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: PAT margin, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: return on capital employed, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: interest coverage ratio, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: net current assets, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: debt to equity ratio, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: PAT margin, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: return on capital employed, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: interest coverage ratio, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ACC, metric_name: net current assets, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: ACC, metric_name: debt to equity ratio, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: ACC, metric_name: PAT margin, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: ACC, metric_name: return on capital employed, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: ACC, metric_name: interest coverage ratio, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: ACC, metric_name: net current assets, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: ACC, metric_name: debt to equity ratio, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: ACC, metric_name: PAT margin, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: ACC, metric_name: return on capital employed, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: ACC, metric_name: interest coverage ratio, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: ACC, metric_name: net current assets, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ACC, metric_name: debt to equity ratio, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ACC, metric_name: PAT margin, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ACC, metric_name: return on capital employed, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ACC, metric_name: interest coverage ratio, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ACC, metric_name: net current assets, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ACC, metric_name: debt to equity ratio, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ACC, metric_name: PAT margin, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ACC, metric_name: return on capital employed, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ACC, metric_name: interest coverage ratio, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ACC, metric_name: net current assets, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ACC, metric_name: debt to equity ratio, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ACC, metric_name: PAT margin, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ACC, metric_name: return on capital employed, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ACC, metric_name: interest coverage ratio, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: net current assets, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: debt to equity ratio, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: PAT margin, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: return on capital employed, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: interest coverage ratio, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: net current assets, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: debt to equity ratio, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: PAT margin, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: return on capital employed, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: interest coverage ratio, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: net current assets, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: debt to equity ratio, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: PAT margin, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: return on capital employed, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: interest coverage ratio, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: net current assets, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: debt to equity ratio, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: PAT margin, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: return on capital employed, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: interest coverage ratio, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: net current assets, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: debt to equity ratio, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: PAT margin, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: return on capital employed, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: interest coverage ratio, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: net current assets, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: debt to equity ratio, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: PAT margin, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: return on capital employed, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: interest coverage ratio, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: net current assets, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: debt to equity ratio, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: PAT margin, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: return on capital employed, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: interest coverage ratio, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: net current assets, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: debt to equity ratio, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: PAT margin, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: return on capital employed, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: interest coverage ratio, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: net current assets, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: debt to equity ratio, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: PAT margin, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: return on capital employed, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: interest coverage ratio, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: net current assets, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: debt to equity ratio, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: PAT margin, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: return on capital employed, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: interest coverage ratio, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: net current assets, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: debt to equity ratio, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: PAT margin, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: return on capital employed, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: interest coverage ratio, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: net current assets, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: debt to equity ratio, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: PAT margin, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: return on capital employed, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: interest coverage ratio, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: net current assets, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: debt to equity ratio, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: PAT margin, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: return on capital employed, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: interest coverage ratio, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: net current assets, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: debt to equity ratio, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: PAT margin, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: return on capital employed, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: interest coverage ratio, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: net current assets, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: debt to equity ratio, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: PAT margin, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: return on capital employed, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: interest coverage ratio, Period: Mar 2024, Period Type: Annual
+
+
+
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20250924_111616_948078
+Query: what is net current assets, Debt to Equity ratio, PAT Margin, Return on Capital Employed and Interest Coverage Ratio for Shreecem, ACC, Ambuja, UTCL, Century enka in FY2020–FY2024.
+Total Duration: 348120.94ms
+Total Records: 30
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 29,973
+Total Output Tokens: 9,616
+Total Tokens: 39,589
+Estimated Cost: $1.4761
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 2 (Root: 2, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 3,783 (Input: 2,292, Output: 1,491)
+  - Duration: 17027.32ms (Avg: 8513.66ms)
+  - Cost: $0.1582 (Avg: $0.0791)
+  - Recursion: Max Depth 0, Cost $0.0000
+DATA_RETRIEVAL:
+  - Total Calls: 25 (Root: 25, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 34,057 (Input: 26,541, Output: 7,516)
+  - Duration: 114652.74ms (Avg: 4586.11ms)
+  - Cost: $1.2472 (Avg: $0.0499)
+  - Recursion: Max Depth 0, Cost $0.0000
+FORMULA_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 1,749 (Input: 1,140, Output: 609)
+  - Duration: 7165.65ms (Avg: 7165.65ms)
+  - Cost: $0.0707 (Avg: $0.0707)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 80756.74ms (Avg: 80756.74ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+
+
+DETAILED_RECURSION_ANALYSIS_JSON:
+{
+  "session_id": "session_20250924_111616_948078",
+  "query": "what is net current assets, Debt to Equity ratio, PAT Margin, Return on Capital Employed and Interest Coverage Ratio for Shreecem, ACC, Ambuja, UTCL, Century enka in FY2020\u2013FY2024.",
+  "start_time": "2025-09-24T11:16:16.948104",
+  "end_time": "2025-09-24T11:22:05.069040",
+  "total_duration_ms": 348120.936,
+  "total_records": 30,
+  "total_tokens": {
+    "input": 29973,
+    "output": 9616,
+    "total": 39589
+  },
+  "total_cost_usd": 1.4761499999999999,
+  "success_rate": 1.0,
+  "recursion_analysis": {
+    "total_recursive_chains": 0,
+    "max_recursion_depth": 0,
+    "recursive_metrics": [],
+    "call_tree": {},
+    "depth_distribution": {},
+    "recursive_costs": 0.0
+  },
+  "summary_by_type": {
+    "query_decomposition": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "total_duration_ms": 0.0,
+      "avg_duration_ms": 0.0,
+      "total_cost_usd": 0.0,
+      "avg_cost_usd": 0.0,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "table_filtering": {
+      "total_calls": 2,
+      "root_calls": 2,
+      "recursive_calls": 0,
+      "successful_calls": 2,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 2292,
+        "output": 1491,
+        "total": 3783
+      },
+      "total_duration_ms": 17027.315139770508,
+      "avg_duration_ms": 8513.657569885254,
+      "total_cost_usd": 0.15821999999999997,
+      "avg_cost_usd": 0.07910999999999999,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "data_retrieval": {
+      "total_calls": 25,
+      "root_calls": 25,
+      "recursive_calls": 0,
+      "successful_calls": 25,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 26541,
+        "output": 7516,
+        "total": 34057
+      },
+      "total_duration_ms": 114652.73642539978,
+      "avg_duration_ms": 4586.109457015991,
+      "total_cost_usd": 1.2471899999999998,
+      "avg_cost_usd": 0.04988759999999999,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "formula_generation": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 1140,
+        "output": 609,
+        "total": 1749
+      },
+      "total_duration_ms": 7165.654897689819,
+      "avg_duration_ms": 7165.654897689819,
+      "total_cost_usd": 0.07074,
+      "avg_cost_usd": 0.07074,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "response_generation": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "total_duration_ms": 80756.745,
+      "avg_duration_ms": 80756.745,
+      "total_cost_usd": 0.0,
+      "avg_cost_usd": 0.0,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    }
+  },
+  "records": [
+    {
+      "call_id": "802131c5",
+      "parent_call_id": null,
+      "llm_type": "query_decomposition",
+      "company_slug": null,
+      "metric_name": null,
+      "recursion_depth": 0,
+      "recursion_path": [],
+      "start_time": "2025-09-24T11:16:32.030938",
+      "end_time": "2025-09-24T11:16:32.030943",
+      "duration_ms": 0,
+      "tokens_used": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "cost_usd": 0.0,
+      "model_name": null,
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "metrics_focus": [
+          "net current assets",
+          "debt to equity ratio",
+          "PAT margin",
+          "return on capital employed",
+          "interest coverage ratio"
+        ],
+        "result_count": 125,
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "1b82e3d6",
+      "parent_call_id": null,
+      "llm_type": "table_filtering",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:16:37.666029",
+      "end_time": "2025-09-24T11:16:37.666031",
+      "duration_ms": 5632.120847702026,
+      "tokens_used": {
+        "input": 1063,
+        "output": 427,
+        "total": 1490
+      },
+      "cost_usd": 0.05750999999999999,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "14522138",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:16:42.053242",
+      "end_time": "2025-09-24T11:16:42.053245",
+      "duration_ms": 4342.283725738525,
+      "tokens_used": {
+        "input": 1055,
+        "output": 294,
+        "total": 1349
+      },
+      "cost_usd": 0.04929,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "5d66e894",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:16:56.248468",
+      "end_time": "2025-09-24T11:16:56.248470",
+      "duration_ms": 14158.801317214966,
+      "tokens_used": {
+        "input": 1045,
+        "output": 345,
+        "total": 1390
+      },
+      "cost_usd": 0.05205,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "e1bb0c96",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:16:59.042887",
+      "end_time": "2025-09-24T11:16:59.042890",
+      "duration_ms": 2759.181261062622,
+      "tokens_used": {
+        "input": 978,
+        "output": 154,
+        "total": 1132
+      },
+      "cost_usd": 0.038579999999999996,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "60a294c2",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:17:03.466439",
+      "end_time": "2025-09-24T11:17:03.466441",
+      "duration_ms": 4389.488697052002,
+      "tokens_used": {
+        "input": 1100,
+        "output": 297,
+        "total": 1397
+      },
+      "cost_usd": 0.05081999999999999,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "288a21aa",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:17:07.888858",
+      "end_time": "2025-09-24T11:17:07.888861",
+      "duration_ms": 4385.396480560303,
+      "tokens_used": {
+        "input": 1050,
+        "output": 270,
+        "total": 1320
+      },
+      "cost_usd": 0.0477,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "92d7615c",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:17:10.602456",
+      "end_time": "2025-09-24T11:17:10.602458",
+      "duration_ms": 2678.926467895508,
+      "tokens_used": {
+        "input": 978,
+        "output": 154,
+        "total": 1132
+      },
+      "cost_usd": 0.038579999999999996,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "d5fc0fee",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:17:15.742824",
+      "end_time": "2025-09-24T11:17:15.742826",
+      "duration_ms": 5103.249073028564,
+      "tokens_used": {
+        "input": 1112,
+        "output": 312,
+        "total": 1424
+      },
+      "cost_usd": 0.05207999999999999,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "ed0a2685",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:17:20.511920",
+      "end_time": "2025-09-24T11:17:20.511922",
+      "duration_ms": 4734.55286026001,
+      "tokens_used": {
+        "input": 1051,
+        "output": 302,
+        "total": 1353
+      },
+      "cost_usd": 0.04964999999999999,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "cf1b5ff7",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:17:23.137589",
+      "end_time": "2025-09-24T11:17:23.137592",
+      "duration_ms": 2590.897560119629,
+      "tokens_used": {
+        "input": 978,
+        "output": 149,
+        "total": 1127
+      },
+      "cost_usd": 0.038279999999999995,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "437dc077",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:17:28.384535",
+      "end_time": "2025-09-24T11:17:28.384538",
+      "duration_ms": 5193.614959716797,
+      "tokens_used": {
+        "input": 1112,
+        "output": 379,
+        "total": 1491
+      },
+      "cost_usd": 0.05609999999999999,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "d864391d",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:17:34.293872",
+      "end_time": "2025-09-24T11:17:34.293875",
+      "duration_ms": 5869.6863651275635,
+      "tokens_used": {
+        "input": 1044,
+        "output": 276,
+        "total": 1320
+      },
+      "cost_usd": 0.04788,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "6c9e52fc",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:17:36.322266",
+      "end_time": "2025-09-24T11:17:36.322268",
+      "duration_ms": 1993.6530590057373,
+      "tokens_used": {
+        "input": 978,
+        "output": 54,
+        "total": 1032
+      },
+      "cost_usd": 0.03258,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "ade1d21a",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:17:42.023233",
+      "end_time": "2025-09-24T11:17:42.023236",
+      "duration_ms": 5665.138244628906,
+      "tokens_used": {
+        "input": 1090,
+        "output": 319,
+        "total": 1409
+      },
+      "cost_usd": 0.05184,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "9a2dd7e7",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:17:46.599278",
+      "end_time": "2025-09-24T11:17:46.599280",
+      "duration_ms": 4541.06879234314,
+      "tokens_used": {
+        "input": 1039,
+        "output": 280,
+        "total": 1319
+      },
+      "cost_usd": 0.04797,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "9b007c99",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:17:48.267275",
+      "end_time": "2025-09-24T11:17:48.267277",
+      "duration_ms": 1634.7482204437256,
+      "tokens_used": {
+        "input": 978,
+        "output": 54,
+        "total": 1032
+      },
+      "cost_usd": 0.03258,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "4169bb8a",
+      "parent_call_id": null,
+      "llm_type": "formula_generation",
+      "company_slug": "multiple",
+      "metric_name": [
+        "debt to equity ratio",
+        "net current assets",
+        "PAT margin",
+        "interest coverage ratio"
+      ],
+      "recursion_depth": 0,
+      "recursion_path": [
+        [
+          "debt to equity ratio",
+          "net current assets",
+          "PAT margin",
+          "interest coverage ratio"
+        ]
+      ],
+      "start_time": "2025-09-24T11:17:56.330112",
+      "end_time": "2025-09-24T11:17:56.330113",
+      "duration_ms": 7165.654897689819,
+      "tokens_used": {
+        "input": 1140,
+        "output": 609,
+        "total": 1749
+      },
+      "cost_usd": 0.07074,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "parameters_count": 0,
+        "confidence_score": 0.0,
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "2ccf386b",
+      "parent_call_id": null,
+      "llm_type": "table_filtering",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:18:07.727350",
+      "end_time": "2025-09-24T11:18:07.727352",
+      "duration_ms": 11395.194292068481,
+      "tokens_used": {
+        "input": 1229,
+        "output": 1064,
+        "total": 2293
+      },
+      "cost_usd": 0.10071,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "55c3ac78",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:18:11.762128",
+      "end_time": "2025-09-24T11:18:11.762131",
+      "duration_ms": 3988.126277923584,
+      "tokens_used": {
+        "input": 1096,
+        "output": 457,
+        "total": 1553
+      },
+      "cost_usd": 0.06029999999999999,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "595ce5fc",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:18:15.887391",
+      "end_time": "2025-09-24T11:18:15.887393",
+      "duration_ms": 4089.4951820373535,
+      "tokens_used": {
+        "input": 1055,
+        "output": 309,
+        "total": 1364
+      },
+      "cost_usd": 0.05019,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "aa800fa1",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:18:20.621065",
+      "end_time": "2025-09-24T11:18:20.621068",
+      "duration_ms": 4699.016809463501,
+      "tokens_used": {
+        "input": 1141,
+        "output": 470,
+        "total": 1611
+      },
+      "cost_usd": 0.06242999999999999,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "f51c7865",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:18:27.497218",
+      "end_time": "2025-09-24T11:18:27.497220",
+      "duration_ms": 6839.194536209106,
+      "tokens_used": {
+        "input": 1060,
+        "output": 307,
+        "total": 1367
+      },
+      "cost_usd": 0.050219999999999994,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "b69fb16b",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:18:31.373390",
+      "end_time": "2025-09-24T11:18:31.373393",
+      "duration_ms": 3839.7021293640137,
+      "tokens_used": {
+        "input": 1153,
+        "output": 470,
+        "total": 1623
+      },
+      "cost_usd": 0.06278999999999998,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "28c4f3c8",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:18:35.000012",
+      "end_time": "2025-09-24T11:18:35.000015",
+      "duration_ms": 3592.2558307647705,
+      "tokens_used": {
+        "input": 1061,
+        "output": 309,
+        "total": 1370
+      },
+      "cost_usd": 0.05037,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "9fbaf49e",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:18:39.496447",
+      "end_time": "2025-09-24T11:18:39.496450",
+      "duration_ms": 4460.618495941162,
+      "tokens_used": {
+        "input": 1153,
+        "output": 470,
+        "total": 1623
+      },
+      "cost_usd": 0.06278999999999998,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "9bc2a429",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:18:43.066824",
+      "end_time": "2025-09-24T11:18:43.066827",
+      "duration_ms": 3534.3220233917236,
+      "tokens_used": {
+        "input": 1054,
+        "output": 307,
+        "total": 1361
+      },
+      "cost_usd": 0.050039999999999994,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "59cadeeb",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:18:47.267182",
+      "end_time": "2025-09-24T11:18:47.267184",
+      "duration_ms": 4164.919376373291,
+      "tokens_used": {
+        "input": 1131,
+        "output": 470,
+        "total": 1601
+      },
+      "cost_usd": 0.06212999999999999,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "c3184bf1",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:18:52.705277",
+      "end_time": "2025-09-24T11:18:52.705279",
+      "duration_ms": 5404.398679733276,
+      "tokens_used": {
+        "input": 1049,
+        "output": 308,
+        "total": 1357
+      },
+      "cost_usd": 0.049949999999999994,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "d975a47e",
+      "parent_call_id": null,
+      "llm_type": "response_generation",
+      "company_slug": null,
+      "metric_name": null,
+      "recursion_depth": 0,
+      "recursion_path": [],
+      "start_time": "2025-09-24T11:22:05.065552",
+      "end_time": "2025-09-24T11:22:05.065553",
+      "duration_ms": 80756.745,
+      "tokens_used": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "cost_usd": 0.0,
+      "model_name": null,
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "response_type": "crew_ai_response",
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    }
+  ]
+}
+

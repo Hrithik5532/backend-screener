@@ -1,0 +1,828 @@
+
+Analysis Started with Query: what is EBITDA Margin, Interest Coverage Ratio, Asset Turnover Ratio, Return on Capital Employed and PAT Margin for Ambuja, UTCL, Shreecem FY2022–FY2024.
+
+
+Decomposition LLM raw output: [{'id': '#000_0', 'company': 'AMBUJACEM', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#000_1', 'company': 'AMBUJACEM', 'metric_name': 'Interest Coverage Ratio', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#000_2', 'company': 'AMBUJACEM', 'metric_name': 'Asset Turnover Ratio', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#000_3', 'company': 'AMBUJACEM', 'metric_name': 'Return on Capital Employed', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#000_4', 'company': 'AMBUJACEM', 'metric_name': 'PAT Margin', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_0', 'company': 'AMBUJACEM', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_1', 'company': 'AMBUJACEM', 'metric_name': 'Interest Coverage Ratio', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_2', 'company': 'AMBUJACEM', 'metric_name': 'Asset Turnover Ratio', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_3', 'company': 'AMBUJACEM', 'metric_name': 'Return on Capital Employed', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_4', 'company': 'AMBUJACEM', 'metric_name': 'PAT Margin', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_0', 'company': 'AMBUJACEM', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_1', 'company': 'AMBUJACEM', 'metric_name': 'Interest Coverage Ratio', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_2', 'company': 'AMBUJACEM', 'metric_name': 'Asset Turnover Ratio', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_3', 'company': 'AMBUJACEM', 'metric_name': 'Return on Capital Employed', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_4', 'company': 'AMBUJACEM', 'metric_name': 'PAT Margin', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_0', 'company': 'ULTRACEMCO', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_1', 'company': 'ULTRACEMCO', 'metric_name': 'Interest Coverage Ratio', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_2', 'company': 'ULTRACEMCO', 'metric_name': 'Asset Turnover Ratio', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_3', 'company': 'ULTRACEMCO', 'metric_name': 'Return on Capital Employed', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_4', 'company': 'ULTRACEMCO', 'metric_name': 'PAT Margin', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_0', 'company': 'ULTRACEMCO', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_1', 'company': 'ULTRACEMCO', 'metric_name': 'Interest Coverage Ratio', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_2', 'company': 'ULTRACEMCO', 'metric_name': 'Asset Turnover Ratio', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_3', 'company': 'ULTRACEMCO', 'metric_name': 'Return on Capital Employed', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_4', 'company': 'ULTRACEMCO', 'metric_name': 'PAT Margin', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#005_0', 'company': 'ULTRACEMCO', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#005_1', 'company': 'ULTRACEMCO', 'metric_name': 'Interest Coverage Ratio', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#005_2', 'company': 'ULTRACEMCO', 'metric_name': 'Asset Turnover Ratio', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#005_3', 'company': 'ULTRACEMCO', 'metric_name': 'Return on Capital Employed', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#005_4', 'company': 'ULTRACEMCO', 'metric_name': 'PAT Margin', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#006_0', 'company': 'SHREECEM', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#006_1', 'company': 'SHREECEM', 'metric_name': 'Interest Coverage Ratio', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#006_2', 'company': 'SHREECEM', 'metric_name': 'Asset Turnover Ratio', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#006_3', 'company': 'SHREECEM', 'metric_name': 'Return on Capital Employed', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#006_4', 'company': 'SHREECEM', 'metric_name': 'PAT Margin', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#007_0', 'company': 'SHREECEM', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#007_1', 'company': 'SHREECEM', 'metric_name': 'Interest Coverage Ratio', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#007_2', 'company': 'SHREECEM', 'metric_name': 'Asset Turnover Ratio', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#007_3', 'company': 'SHREECEM', 'metric_name': 'Return on Capital Employed', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#007_4', 'company': 'SHREECEM', 'metric_name': 'PAT Margin', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#008_0', 'company': 'SHREECEM', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#008_1', 'company': 'SHREECEM', 'metric_name': 'Interest Coverage Ratio', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#008_2', 'company': 'SHREECEM', 'metric_name': 'Asset Turnover Ratio', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#008_3', 'company': 'SHREECEM', 'metric_name': 'Return on Capital Employed', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#008_4', 'company': 'SHREECEM', 'metric_name': 'PAT Margin', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}]
+
+
+company_slug: AMBUJACEM, metric_name: EBITDA Margin, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Interest Coverage Ratio, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Asset Turnover Ratio, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Return on Capital Employed, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: PAT Margin, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: EBITDA Margin, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Interest Coverage Ratio, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Asset Turnover Ratio, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Return on Capital Employed, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: PAT Margin, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: EBITDA Margin, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Interest Coverage Ratio, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Asset Turnover Ratio, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Return on Capital Employed, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: PAT Margin, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: EBITDA Margin, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Interest Coverage Ratio, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Asset Turnover Ratio, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Return on Capital Employed, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: PAT Margin, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: EBITDA Margin, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Interest Coverage Ratio, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Asset Turnover Ratio, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Return on Capital Employed, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: PAT Margin, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: EBITDA Margin, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Interest Coverage Ratio, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Asset Turnover Ratio, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Return on Capital Employed, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: PAT Margin, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: EBITDA Margin, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Interest Coverage Ratio, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Asset Turnover Ratio, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Return on Capital Employed, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: PAT Margin, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: EBITDA Margin, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Interest Coverage Ratio, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Asset Turnover Ratio, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Return on Capital Employed, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: PAT Margin, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: EBITDA Margin, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Interest Coverage Ratio, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Asset Turnover Ratio, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Return on Capital Employed, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: PAT Margin, Period: Mar 2024, Period Type: Annual
+
+
+
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20250924_120046_288532
+Query: what is EBITDA Margin, Interest Coverage Ratio, Asset Turnover Ratio, Return on Capital Employed and PAT Margin for Ambuja, UTCL, Shreecem FY2022–FY2024.
+Total Duration: 173120.82ms
+Total Records: 17
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 15,812
+Total Output Tokens: 4,774
+Total Tokens: 20,586
+Estimated Cost: $0.7608
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 2 (Root: 2, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 2,997 (Input: 2,134, Output: 863)
+  - Duration: 15189.02ms (Avg: 7594.51ms)
+  - Cost: $0.1158 (Avg: $0.0579)
+  - Recursion: Max Depth 0, Cost $0.0000
+DATA_RETRIEVAL:
+  - Total Calls: 12 (Root: 12, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 16,047 (Input: 12,538, Output: 3,509)
+  - Duration: 66311.74ms (Avg: 5525.98ms)
+  - Cost: $0.5867 (Avg: $0.0489)
+  - Recursion: Max Depth 0, Cost $0.0000
+FORMULA_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 1,542 (Input: 1,140, Output: 402)
+  - Duration: 4673.47ms (Avg: 4673.47ms)
+  - Cost: $0.0583 (Avg: $0.0583)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 76498.24ms (Avg: 76498.24ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+
+
+DETAILED_RECURSION_ANALYSIS_JSON:
+{
+  "session_id": "session_20250924_120046_288532",
+  "query": "what is EBITDA Margin, Interest Coverage Ratio, Asset Turnover Ratio, Return on Capital Employed and PAT Margin for Ambuja, UTCL, Shreecem FY2022\u2013FY2024.",
+  "start_time": "2025-09-24T12:00:46.288570",
+  "end_time": "2025-09-24T12:03:39.409391",
+  "total_duration_ms": 173120.821,
+  "total_records": 17,
+  "total_tokens": {
+    "input": 15812,
+    "output": 4774,
+    "total": 20586
+  },
+  "total_cost_usd": 0.7607999999999999,
+  "success_rate": 1.0,
+  "recursion_analysis": {
+    "total_recursive_chains": 0,
+    "max_recursion_depth": 0,
+    "recursive_metrics": [],
+    "call_tree": {},
+    "depth_distribution": {},
+    "recursive_costs": 0.0
+  },
+  "summary_by_type": {
+    "query_decomposition": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "total_duration_ms": 0.0,
+      "avg_duration_ms": 0.0,
+      "total_cost_usd": 0.0,
+      "avg_cost_usd": 0.0,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "table_filtering": {
+      "total_calls": 2,
+      "root_calls": 2,
+      "recursive_calls": 0,
+      "successful_calls": 2,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 2134,
+        "output": 863,
+        "total": 2997
+      },
+      "total_duration_ms": 15189.015626907349,
+      "avg_duration_ms": 7594.507813453674,
+      "total_cost_usd": 0.11579999999999999,
+      "avg_cost_usd": 0.05789999999999999,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "data_retrieval": {
+      "total_calls": 12,
+      "root_calls": 12,
+      "recursive_calls": 0,
+      "successful_calls": 12,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 12538,
+        "output": 3509,
+        "total": 16047
+      },
+      "total_duration_ms": 66311.73872947693,
+      "avg_duration_ms": 5525.97822745641,
+      "total_cost_usd": 0.5866799999999999,
+      "avg_cost_usd": 0.04888999999999999,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "formula_generation": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 1140,
+        "output": 402,
+        "total": 1542
+      },
+      "total_duration_ms": 4673.470973968506,
+      "avg_duration_ms": 4673.470973968506,
+      "total_cost_usd": 0.05832,
+      "avg_cost_usd": 0.05832,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "response_generation": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "total_duration_ms": 76498.239,
+      "avg_duration_ms": 76498.239,
+      "total_cost_usd": 0.0,
+      "avg_cost_usd": 0.0,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    }
+  },
+  "records": [
+    {
+      "call_id": "d7c9c106",
+      "parent_call_id": null,
+      "llm_type": "query_decomposition",
+      "company_slug": null,
+      "metric_name": null,
+      "recursion_depth": 0,
+      "recursion_path": [],
+      "start_time": "2025-09-24T12:00:54.149394",
+      "end_time": "2025-09-24T12:00:54.149397",
+      "duration_ms": 0,
+      "tokens_used": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "cost_usd": 0.0,
+      "model_name": null,
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "metrics_focus": [
+          "EBITDA Margin",
+          "Interest Coverage Ratio",
+          "Asset Turnover Ratio",
+          "Return on Capital Employed",
+          "PAT Margin"
+        ],
+        "result_count": 45,
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "f2fba266",
+      "parent_call_id": null,
+      "llm_type": "table_filtering",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T12:00:59.143752",
+      "end_time": "2025-09-24T12:00:59.143756",
+      "duration_ms": 4992.674350738525,
+      "tokens_used": {
+        "input": 1064,
+        "output": 447,
+        "total": 1511
+      },
+      "cost_usd": 0.058739999999999994,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "e5895f36",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T12:01:07.403551",
+      "end_time": "2025-09-24T12:01:07.403553",
+      "duration_ms": 8216.14933013916,
+      "tokens_used": {
+        "input": 1057,
+        "output": 456,
+        "total": 1513
+      },
+      "cost_usd": 0.05907,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "4d9a158c",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T12:01:11.516928",
+      "end_time": "2025-09-24T12:01:11.516931",
+      "duration_ms": 4077.667474746704,
+      "tokens_used": {
+        "input": 985,
+        "output": 249,
+        "total": 1234
+      },
+      "cost_usd": 0.044489999999999995,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "52d16983",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T12:01:17.459326",
+      "end_time": "2025-09-24T12:01:17.459328",
+      "duration_ms": 5908.245086669922,
+      "tokens_used": {
+        "input": 1050,
+        "output": 426,
+        "total": 1476
+      },
+      "cost_usd": 0.05706,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "6639f6c4",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T12:01:22.320911",
+      "end_time": "2025-09-24T12:01:22.320914",
+      "duration_ms": 4826.2200355529785,
+      "tokens_used": {
+        "input": 985,
+        "output": 272,
+        "total": 1257
+      },
+      "cost_usd": 0.045869999999999994,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "e244a53f",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T12:01:34.733597",
+      "end_time": "2025-09-24T12:01:34.733600",
+      "duration_ms": 12378.916025161743,
+      "tokens_used": {
+        "input": 1051,
+        "output": 447,
+        "total": 1498
+      },
+      "cost_usd": 0.05834999999999999,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "11434bd2",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T12:01:38.731380",
+      "end_time": "2025-09-24T12:01:38.731384",
+      "duration_ms": 3963.1011486053467,
+      "tokens_used": {
+        "input": 985,
+        "output": 298,
+        "total": 1283
+      },
+      "cost_usd": 0.04743,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "18dbf3e8",
+      "parent_call_id": null,
+      "llm_type": "formula_generation",
+      "company_slug": "multiple",
+      "metric_name": [
+        "EBITDA Margin",
+        "Interest Coverage Ratio",
+        "PAT Margin",
+        "Asset Turnover Ratio"
+      ],
+      "recursion_depth": 0,
+      "recursion_path": [
+        [
+          "EBITDA Margin",
+          "Interest Coverage Ratio",
+          "PAT Margin",
+          "Asset Turnover Ratio"
+        ]
+      ],
+      "start_time": "2025-09-24T12:01:43.618684",
+      "end_time": "2025-09-24T12:01:43.618686",
+      "duration_ms": 4673.470973968506,
+      "tokens_used": {
+        "input": 1140,
+        "output": 402,
+        "total": 1542
+      },
+      "cost_usd": 0.05832,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "parameters_count": 0,
+        "confidence_score": 0.0,
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "3f873c91",
+      "parent_call_id": null,
+      "llm_type": "table_filtering",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T12:01:53.815751",
+      "end_time": "2025-09-24T12:01:53.815754",
+      "duration_ms": 10196.341276168823,
+      "tokens_used": {
+        "input": 1070,
+        "output": 416,
+        "total": 1486
+      },
+      "cost_usd": 0.05705999999999999,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "0d72f3a6",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T12:01:59.861008",
+      "end_time": "2025-09-24T12:01:59.861011",
+      "duration_ms": 6000.199556350708,
+      "tokens_used": {
+        "input": 1061,
+        "output": 305,
+        "total": 1366
+      },
+      "cost_usd": 0.050129999999999994,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "40b0f611",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T12:02:03.828561",
+      "end_time": "2025-09-24T12:02:03.828565",
+      "duration_ms": 3932.091474533081,
+      "tokens_used": {
+        "input": 1104,
+        "output": 145,
+        "total": 1249
+      },
+      "cost_usd": 0.041819999999999996,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "d31da569",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T12:02:09.614908",
+      "end_time": "2025-09-24T12:02:09.614910",
+      "duration_ms": 5743.773937225342,
+      "tokens_used": {
+        "input": 1054,
+        "output": 308,
+        "total": 1362
+      },
+      "cost_usd": 0.05009999999999999,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "1a8d69ae",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T12:02:14.319619",
+      "end_time": "2025-09-24T12:02:14.319622",
+      "duration_ms": 4657.6828956604,
+      "tokens_used": {
+        "input": 1104,
+        "output": 145,
+        "total": 1249
+      },
+      "cost_usd": 0.041819999999999996,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "e6d4eafc",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T12:02:18.281894",
+      "end_time": "2025-09-24T12:02:18.281896",
+      "duration_ms": 3926.0568618774414,
+      "tokens_used": {
+        "input": 1055,
+        "output": 313,
+        "total": 1368
+      },
+      "cost_usd": 0.050429999999999996,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "e2619dd8",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T12:02:20.996607",
+      "end_time": "2025-09-24T12:02:20.996609",
+      "duration_ms": 2681.6349029541016,
+      "tokens_used": {
+        "input": 1047,
+        "output": 145,
+        "total": 1192
+      },
+      "cost_usd": 0.04011,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "c01fdc96",
+      "parent_call_id": null,
+      "llm_type": "response_generation",
+      "company_slug": null,
+      "metric_name": null,
+      "recursion_depth": 0,
+      "recursion_path": [],
+      "start_time": "2025-09-24T12:03:39.405454",
+      "end_time": "2025-09-24T12:03:39.405455",
+      "duration_ms": 76498.239,
+      "tokens_used": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "cost_usd": 0.0,
+      "model_name": null,
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "response_type": "crew_ai_response",
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    }
+  ]
+}
+

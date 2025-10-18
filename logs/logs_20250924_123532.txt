@@ -1,0 +1,544 @@
+
+Analysis Started with Query: what is Interest, PAT Margin, EBITDA Margin, Debt to Equity ratio and Asset Turnover Ratio for Shree Cement in FY2020–FY2024.
+
+
+Decomposition LLM raw output: [{'id': '#000_0', 'company': 'SHREECEM', 'metric_name': 'interest', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#000_1', 'company': 'SHREECEM', 'metric_name': 'pat_margin', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#000_2', 'company': 'SHREECEM', 'metric_name': 'ebitda_margin', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#000_3', 'company': 'SHREECEM', 'metric_name': 'debt_to_equity_ratio', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#000_4', 'company': 'SHREECEM', 'metric_name': 'asset_turnover_ratio', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_0', 'company': 'SHREECEM', 'metric_name': 'interest', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_1', 'company': 'SHREECEM', 'metric_name': 'pat_margin', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_2', 'company': 'SHREECEM', 'metric_name': 'ebitda_margin', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_3', 'company': 'SHREECEM', 'metric_name': 'debt_to_equity_ratio', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_4', 'company': 'SHREECEM', 'metric_name': 'asset_turnover_ratio', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_0', 'company': 'SHREECEM', 'metric_name': 'interest', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_1', 'company': 'SHREECEM', 'metric_name': 'pat_margin', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_2', 'company': 'SHREECEM', 'metric_name': 'ebitda_margin', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_3', 'company': 'SHREECEM', 'metric_name': 'debt_to_equity_ratio', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_4', 'company': 'SHREECEM', 'metric_name': 'asset_turnover_ratio', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_0', 'company': 'SHREECEM', 'metric_name': 'interest', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_1', 'company': 'SHREECEM', 'metric_name': 'pat_margin', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_2', 'company': 'SHREECEM', 'metric_name': 'ebitda_margin', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_3', 'company': 'SHREECEM', 'metric_name': 'debt_to_equity_ratio', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_4', 'company': 'SHREECEM', 'metric_name': 'asset_turnover_ratio', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_0', 'company': 'SHREECEM', 'metric_name': 'interest', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_1', 'company': 'SHREECEM', 'metric_name': 'pat_margin', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_2', 'company': 'SHREECEM', 'metric_name': 'ebitda_margin', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_3', 'company': 'SHREECEM', 'metric_name': 'debt_to_equity_ratio', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_4', 'company': 'SHREECEM', 'metric_name': 'asset_turnover_ratio', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}]
+
+
+company_slug: SHREECEM, metric_name: interest, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: pat_margin, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: ebitda_margin, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: debt_to_equity_ratio, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: asset_turnover_ratio, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: interest, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: pat_margin, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: ebitda_margin, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: debt_to_equity_ratio, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: asset_turnover_ratio, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: interest, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: pat_margin, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: ebitda_margin, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: debt_to_equity_ratio, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: asset_turnover_ratio, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: interest, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: pat_margin, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: ebitda_margin, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: debt_to_equity_ratio, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: asset_turnover_ratio, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: interest, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: pat_margin, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: ebitda_margin, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: debt_to_equity_ratio, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: asset_turnover_ratio, Period: Mar 2024, Period Type: Annual
+
+
+
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20250924_123532_251054
+Query: what is Interest, PAT Margin, EBITDA Margin, Debt to Equity ratio and Asset Turnover Ratio for Shree Cement in FY2020–FY2024.
+Total Duration: 101360.14ms
+Total Records: 9
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 7,455
+Total Output Tokens: 2,944
+Total Tokens: 10,399
+Estimated Cost: $0.4003
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 2 (Root: 2, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 3,263 (Input: 2,165, Output: 1,098)
+  - Duration: 16928.79ms (Avg: 8464.39ms)
+  - Cost: $0.1308 (Avg: $0.0654)
+  - Recursion: Max Depth 0, Cost $0.0000
+DATA_RETRIEVAL:
+  - Total Calls: 4 (Root: 4, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 5,511 (Input: 4,147, Output: 1,364)
+  - Duration: 20098.13ms (Avg: 5024.53ms)
+  - Cost: $0.2062 (Avg: $0.0516)
+  - Recursion: Max Depth 0, Cost $0.0000
+FORMULA_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 1,625 (Input: 1,143, Output: 482)
+  - Duration: 5341.56ms (Avg: 5341.56ms)
+  - Cost: $0.0632 (Avg: $0.0632)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 52423.81ms (Avg: 52423.81ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+
+
+DETAILED_RECURSION_ANALYSIS_JSON:
+{
+  "session_id": "session_20250924_123532_251054",
+  "query": "what is Interest, PAT Margin, EBITDA Margin, Debt to Equity ratio and Asset Turnover Ratio for Shree Cement in FY2020\u2013FY2024.",
+  "start_time": "2025-09-24T12:35:32.251075",
+  "end_time": "2025-09-24T12:37:13.611212",
+  "total_duration_ms": 101360.13699999999,
+  "total_records": 9,
+  "total_tokens": {
+    "input": 7455,
+    "output": 2944,
+    "total": 10399
+  },
+  "total_cost_usd": 0.40029,
+  "success_rate": 1.0,
+  "recursion_analysis": {
+    "total_recursive_chains": 0,
+    "max_recursion_depth": 0,
+    "recursive_metrics": [],
+    "call_tree": {},
+    "depth_distribution": {},
+    "recursive_costs": 0.0
+  },
+  "summary_by_type": {
+    "query_decomposition": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "total_duration_ms": 0.0,
+      "avg_duration_ms": 0.0,
+      "total_cost_usd": 0.0,
+      "avg_cost_usd": 0.0,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "table_filtering": {
+      "total_calls": 2,
+      "root_calls": 2,
+      "recursive_calls": 0,
+      "successful_calls": 2,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 2165,
+        "output": 1098,
+        "total": 3263
+      },
+      "total_duration_ms": 16928.788661956787,
+      "avg_duration_ms": 8464.394330978394,
+      "total_cost_usd": 0.13083,
+      "avg_cost_usd": 0.065415,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "data_retrieval": {
+      "total_calls": 4,
+      "root_calls": 4,
+      "recursive_calls": 0,
+      "successful_calls": 4,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 4147,
+        "output": 1364,
+        "total": 5511
+      },
+      "total_duration_ms": 20098.12617301941,
+      "avg_duration_ms": 5024.531543254852,
+      "total_cost_usd": 0.20624999999999996,
+      "avg_cost_usd": 0.05156249999999999,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "formula_generation": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 1143,
+        "output": 482,
+        "total": 1625
+      },
+      "total_duration_ms": 5341.555833816528,
+      "avg_duration_ms": 5341.555833816528,
+      "total_cost_usd": 0.06320999999999999,
+      "avg_cost_usd": 0.06320999999999999,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "response_generation": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "total_duration_ms": 52423.806,
+      "avg_duration_ms": 52423.806,
+      "total_cost_usd": 0.0,
+      "avg_cost_usd": 0.0,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    }
+  },
+  "records": [
+    {
+      "call_id": "f4741b35",
+      "parent_call_id": null,
+      "llm_type": "query_decomposition",
+      "company_slug": null,
+      "metric_name": null,
+      "recursion_depth": 0,
+      "recursion_path": [],
+      "start_time": "2025-09-24T12:35:37.788952",
+      "end_time": "2025-09-24T12:35:37.788955",
+      "duration_ms": 0,
+      "tokens_used": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "cost_usd": 0.0,
+      "model_name": null,
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "metrics_focus": [
+          "interest",
+          "pat_margin",
+          "ebitda_margin",
+          "debt_to_equity_ratio",
+          "asset_turnover_ratio"
+        ],
+        "result_count": 25,
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "06f804c9",
+      "parent_call_id": null,
+      "llm_type": "table_filtering",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T12:35:44.065830",
+      "end_time": "2025-09-24T12:35:44.065832",
+      "duration_ms": 6275.958776473999,
+      "tokens_used": {
+        "input": 1063,
+        "output": 425,
+        "total": 1488
+      },
+      "cost_usd": 0.05739,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "fef08c39",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T12:35:49.174090",
+      "end_time": "2025-09-24T12:35:49.174093",
+      "duration_ms": 5064.016342163086,
+      "tokens_used": {
+        "input": 1049,
+        "output": 392,
+        "total": 1441
+      },
+      "cost_usd": 0.05499,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "b2934534",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T12:35:53.754728",
+      "end_time": "2025-09-24T12:35:53.754731",
+      "duration_ms": 4544.694185256958,
+      "tokens_used": {
+        "input": 986,
+        "output": 333,
+        "total": 1319
+      },
+      "cost_usd": 0.04955999999999999,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "ed6f202e",
+      "parent_call_id": null,
+      "llm_type": "formula_generation",
+      "company_slug": "multiple",
+      "metric_name": [
+        "ebitda_margin",
+        "pat_margin",
+        "asset_turnover_ratio",
+        "debt_to_equity_ratio"
+      ],
+      "recursion_depth": 0,
+      "recursion_path": [
+        [
+          "ebitda_margin",
+          "pat_margin",
+          "asset_turnover_ratio",
+          "debt_to_equity_ratio"
+        ]
+      ],
+      "start_time": "2025-09-24T12:35:59.165047",
+      "end_time": "2025-09-24T12:35:59.165049",
+      "duration_ms": 5341.555833816528,
+      "tokens_used": {
+        "input": 1143,
+        "output": 482,
+        "total": 1625
+      },
+      "cost_usd": 0.06320999999999999,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "parameters_count": 0,
+        "confidence_score": 0.0,
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "c227375f",
+      "parent_call_id": null,
+      "llm_type": "table_filtering",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T12:36:09.818813",
+      "end_time": "2025-09-24T12:36:09.818816",
+      "duration_ms": 10652.829885482788,
+      "tokens_used": {
+        "input": 1102,
+        "output": 673,
+        "total": 1775
+      },
+      "cost_usd": 0.07344,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "eb0d094c",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T12:36:15.543242",
+      "end_time": "2025-09-24T12:36:15.543245",
+      "duration_ms": 5678.124189376831,
+      "tokens_used": {
+        "input": 1052,
+        "output": 313,
+        "total": 1365
+      },
+      "cost_usd": 0.050339999999999996,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "f4b3285a",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T12:36:20.388658",
+      "end_time": "2025-09-24T12:36:20.388661",
+      "duration_ms": 4811.291456222534,
+      "tokens_used": {
+        "input": 1060,
+        "output": 326,
+        "total": 1386
+      },
+      "cost_usd": 0.05135999999999999,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "50e5629d",
+      "parent_call_id": null,
+      "llm_type": "response_generation",
+      "company_slug": null,
+      "metric_name": null,
+      "recursion_depth": 0,
+      "recursion_path": [],
+      "start_time": "2025-09-24T12:37:13.610835",
+      "end_time": "2025-09-24T12:37:13.610835",
+      "duration_ms": 52423.806,
+      "tokens_used": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "cost_usd": 0.0,
+      "model_name": null,
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "response_type": "crew_ai_response",
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    }
+  ]
+}
+

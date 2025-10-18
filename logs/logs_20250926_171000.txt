@@ -1,0 +1,512 @@
+
+Analysis Started with Query: what is net current assets, Debt to Equity ratio, PAT Margin, Return on Capital Employed and Interest Coverage Ratio for UTCL, for FY2024.
+
+
+Decomposition LLM raw output: [{'id': '#000_0', 'company': 'ULTRACEMCO', 'metric_name': 'net current assets', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#000_1', 'company': 'ULTRACEMCO', 'metric_name': 'debt to equity ratio', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#000_2', 'company': 'ULTRACEMCO', 'metric_name': 'PAT margin', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#000_3', 'company': 'ULTRACEMCO', 'metric_name': 'return on capital employed', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#000_4', 'company': 'ULTRACEMCO', 'metric_name': 'interest coverage ratio', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}]
+
+
+company_slug: ULTRACEMCO, metric_name: net current assets, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: debt to equity ratio, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: PAT margin, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: return on capital employed, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: interest coverage ratio, Period: Mar 2024, Period Type: Annual
+
+
+
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20250926_171000_830042
+Query: what is net current assets, Debt to Equity ratio, PAT Margin, Return on Capital Employed and Interest Coverage Ratio for UTCL, for FY2024.
+Total Duration: 225231.80ms
+Total Records: 10
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 10,193
+Total Output Tokens: 4,079
+Total Tokens: 14,272
+Estimated Cost: $0.5505
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 2 (Root: 2, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 3,911 (Input: 2,293, Output: 1,618)
+  - Duration: 15673.99ms (Avg: 7837.00ms)
+  - Cost: $0.1659 (Avg: $0.0829)
+  - Recursion: Max Depth 0, Cost $0.0000
+DATA_RETRIEVAL:
+  - Total Calls: 5 (Root: 5, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 8,573 (Input: 6,737, Output: 1,836)
+  - Duration: 22219.11ms (Avg: 4443.82ms)
+  - Cost: $0.3123 (Avg: $0.0625)
+  - Recursion: Max Depth 0, Cost $0.0000
+FORMULA_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 1,788 (Input: 1,163, Output: 625)
+  - Duration: 5704.52ms (Avg: 5704.52ms)
+  - Cost: $0.0724 (Avg: $0.0724)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 177459.67ms (Avg: 177459.67ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+
+
+DETAILED_RECURSION_ANALYSIS_JSON:
+{
+  "session_id": "session_20250926_171000_830042",
+  "query": "what is net current assets, Debt to Equity ratio, PAT Margin, Return on Capital Employed and Interest Coverage Ratio for UTCL, for FY2024.",
+  "start_time": "2025-09-26T17:10:00.830086",
+  "end_time": "2025-09-26T17:13:46.061882",
+  "total_duration_ms": 225231.796,
+  "total_records": 10,
+  "total_tokens": {
+    "input": 10193,
+    "output": 4079,
+    "total": 14272
+  },
+  "total_cost_usd": 0.55053,
+  "success_rate": 1.0,
+  "recursion_analysis": {
+    "total_recursive_chains": 0,
+    "max_recursion_depth": 0,
+    "recursive_metrics": [],
+    "call_tree": {},
+    "depth_distribution": {},
+    "recursive_costs": 0.0
+  },
+  "summary_by_type": {
+    "query_decomposition": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "total_duration_ms": 0.0,
+      "avg_duration_ms": 0.0,
+      "total_cost_usd": 0.0,
+      "avg_cost_usd": 0.0,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "table_filtering": {
+      "total_calls": 2,
+      "root_calls": 2,
+      "recursive_calls": 0,
+      "successful_calls": 2,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 2293,
+        "output": 1618,
+        "total": 3911
+      },
+      "total_duration_ms": 15673.993110656738,
+      "avg_duration_ms": 7836.996555328369,
+      "total_cost_usd": 0.16586999999999996,
+      "avg_cost_usd": 0.08293499999999998,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "data_retrieval": {
+      "total_calls": 5,
+      "root_calls": 5,
+      "recursive_calls": 0,
+      "successful_calls": 5,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 6737,
+        "output": 1836,
+        "total": 8573
+      },
+      "total_duration_ms": 22219.107151031494,
+      "avg_duration_ms": 4443.821430206299,
+      "total_cost_usd": 0.31227,
+      "avg_cost_usd": 0.062453999999999996,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "formula_generation": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 1163,
+        "output": 625,
+        "total": 1788
+      },
+      "total_duration_ms": 5704.516887664795,
+      "avg_duration_ms": 5704.516887664795,
+      "total_cost_usd": 0.07239,
+      "avg_cost_usd": 0.07239,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "response_generation": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "total_duration_ms": 177459.674,
+      "avg_duration_ms": 177459.674,
+      "total_cost_usd": 0.0,
+      "avg_cost_usd": 0.0,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    }
+  },
+  "records": [
+    {
+      "call_id": "b7f9fdb7",
+      "parent_call_id": null,
+      "llm_type": "query_decomposition",
+      "company_slug": null,
+      "metric_name": null,
+      "recursion_depth": 0,
+      "recursion_path": [],
+      "start_time": "2025-09-26T17:10:04.402894",
+      "end_time": "2025-09-26T17:10:04.402903",
+      "duration_ms": 0,
+      "tokens_used": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "cost_usd": 0.0,
+      "model_name": null,
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "metrics_focus": [
+          "net current assets",
+          "debt to equity ratio",
+          "PAT margin",
+          "return on capital employed",
+          "interest coverage ratio"
+        ],
+        "result_count": 5,
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "c5e68d18",
+      "parent_call_id": null,
+      "llm_type": "table_filtering",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-26T17:10:10.758756",
+      "end_time": "2025-09-26T17:10:10.758763",
+      "duration_ms": 6355.469226837158,
+      "tokens_used": {
+        "input": 1063,
+        "output": 478,
+        "total": 1541
+      },
+      "cost_usd": 0.06056999999999999,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "6c22666e",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-26T17:10:15.265866",
+      "end_time": "2025-09-26T17:10:15.265875",
+      "duration_ms": 4463.035583496094,
+      "tokens_used": {
+        "input": 1391,
+        "output": 291,
+        "total": 1682
+      },
+      "cost_usd": 0.05918999999999999,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "d91ed09b",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-26T17:10:18.988745",
+      "end_time": "2025-09-26T17:10:18.988750",
+      "duration_ms": 3687.7048015594482,
+      "tokens_used": {
+        "input": 1323,
+        "output": 247,
+        "total": 1570
+      },
+      "cost_usd": 0.054509999999999996,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "e6b5d16d",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-26T17:10:21.352333",
+      "end_time": "2025-09-26T17:10:21.352339",
+      "duration_ms": 2329.0748596191406,
+      "tokens_used": {
+        "input": 1257,
+        "output": 122,
+        "total": 1379
+      },
+      "cost_usd": 0.045029999999999994,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "02f43881",
+      "parent_call_id": null,
+      "llm_type": "formula_generation",
+      "company_slug": "multiple",
+      "metric_name": [
+        "debt to equity ratio",
+        "net current assets",
+        "PAT margin",
+        "interest coverage ratio"
+      ],
+      "recursion_depth": 0,
+      "recursion_path": [
+        [
+          "debt to equity ratio",
+          "net current assets",
+          "PAT margin",
+          "interest coverage ratio"
+        ]
+      ],
+      "start_time": "2025-09-26T17:10:27.099212",
+      "end_time": "2025-09-26T17:10:27.099215",
+      "duration_ms": 5704.516887664795,
+      "tokens_used": {
+        "input": 1163,
+        "output": 625,
+        "total": 1788
+      },
+      "cost_usd": 0.07239,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "parameters_count": 0,
+        "confidence_score": 0.0,
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "67028689",
+      "parent_call_id": null,
+      "llm_type": "table_filtering",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-26T17:10:36.418130",
+      "end_time": "2025-09-26T17:10:36.418135",
+      "duration_ms": 9318.52388381958,
+      "tokens_used": {
+        "input": 1230,
+        "output": 1140,
+        "total": 2370
+      },
+      "cost_usd": 0.10529999999999998,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "9877e630",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-26T17:10:44.783250",
+      "end_time": "2025-09-26T17:10:44.783255",
+      "duration_ms": 8318.231582641602,
+      "tokens_used": {
+        "input": 1438,
+        "output": 862,
+        "total": 2300
+      },
+      "cost_usd": 0.09486,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "745c5381",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-26T17:10:48.237680",
+      "end_time": "2025-09-26T17:10:48.237685",
+      "duration_ms": 3421.06032371521,
+      "tokens_used": {
+        "input": 1328,
+        "output": 314,
+        "total": 1642
+      },
+      "cost_usd": 0.058679999999999996,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "ee56f460",
+      "parent_call_id": null,
+      "llm_type": "response_generation",
+      "company_slug": null,
+      "metric_name": null,
+      "recursion_depth": 0,
+      "recursion_path": [],
+      "start_time": "2025-09-26T17:13:46.061700",
+      "end_time": "2025-09-26T17:13:46.061701",
+      "duration_ms": 177459.674,
+      "tokens_used": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "cost_usd": 0.0,
+      "model_name": null,
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "response_type": "crew_ai_response",
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    }
+  ]
+}
+

@@ -1,0 +1,1352 @@
+
+Analysis Started with Query: what is Total Assets, Depreciation, EBITDA Margin and Asset Turnover Ratio for UTCL, Shreecem, ACC, Century enka, Ambuja in FY2020–FY2024.
+
+
+Decomposition LLM raw output: [{'id': '#000_0', 'company': 'ULTRACEMCO', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#000_1', 'company': 'ULTRACEMCO', 'metric_name': 'Depreciation', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#000_2', 'company': 'ULTRACEMCO', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#000_3', 'company': 'ULTRACEMCO', 'metric_name': 'Asset Turnover Ratio', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_0', 'company': 'ULTRACEMCO', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_1', 'company': 'ULTRACEMCO', 'metric_name': 'Depreciation', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_2', 'company': 'ULTRACEMCO', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_3', 'company': 'ULTRACEMCO', 'metric_name': 'Asset Turnover Ratio', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_0', 'company': 'ULTRACEMCO', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_1', 'company': 'ULTRACEMCO', 'metric_name': 'Depreciation', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_2', 'company': 'ULTRACEMCO', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_3', 'company': 'ULTRACEMCO', 'metric_name': 'Asset Turnover Ratio', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_0', 'company': 'ULTRACEMCO', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_1', 'company': 'ULTRACEMCO', 'metric_name': 'Depreciation', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_2', 'company': 'ULTRACEMCO', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_3', 'company': 'ULTRACEMCO', 'metric_name': 'Asset Turnover Ratio', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_0', 'company': 'ULTRACEMCO', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_1', 'company': 'ULTRACEMCO', 'metric_name': 'Depreciation', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_2', 'company': 'ULTRACEMCO', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_3', 'company': 'ULTRACEMCO', 'metric_name': 'Asset Turnover Ratio', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#005_0', 'company': 'SHREECEM', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#005_1', 'company': 'SHREECEM', 'metric_name': 'Depreciation', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#005_2', 'company': 'SHREECEM', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#005_3', 'company': 'SHREECEM', 'metric_name': 'Asset Turnover Ratio', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#006_0', 'company': 'SHREECEM', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#006_1', 'company': 'SHREECEM', 'metric_name': 'Depreciation', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#006_2', 'company': 'SHREECEM', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#006_3', 'company': 'SHREECEM', 'metric_name': 'Asset Turnover Ratio', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#007_0', 'company': 'SHREECEM', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#007_1', 'company': 'SHREECEM', 'metric_name': 'Depreciation', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#007_2', 'company': 'SHREECEM', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#007_3', 'company': 'SHREECEM', 'metric_name': 'Asset Turnover Ratio', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#008_0', 'company': 'SHREECEM', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#008_1', 'company': 'SHREECEM', 'metric_name': 'Depreciation', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#008_2', 'company': 'SHREECEM', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#008_3', 'company': 'SHREECEM', 'metric_name': 'Asset Turnover Ratio', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#009_0', 'company': 'SHREECEM', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#009_1', 'company': 'SHREECEM', 'metric_name': 'Depreciation', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#009_2', 'company': 'SHREECEM', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#009_3', 'company': 'SHREECEM', 'metric_name': 'Asset Turnover Ratio', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0010_0', 'company': 'ACC', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0010_1', 'company': 'ACC', 'metric_name': 'Depreciation', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0010_2', 'company': 'ACC', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0010_3', 'company': 'ACC', 'metric_name': 'Asset Turnover Ratio', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0011_0', 'company': 'ACC', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0011_1', 'company': 'ACC', 'metric_name': 'Depreciation', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0011_2', 'company': 'ACC', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0011_3', 'company': 'ACC', 'metric_name': 'Asset Turnover Ratio', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0012_0', 'company': 'ACC', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0012_1', 'company': 'ACC', 'metric_name': 'Depreciation', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0012_2', 'company': 'ACC', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0012_3', 'company': 'ACC', 'metric_name': 'Asset Turnover Ratio', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0013_0', 'company': 'ACC', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0013_1', 'company': 'ACC', 'metric_name': 'Depreciation', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0013_2', 'company': 'ACC', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0013_3', 'company': 'ACC', 'metric_name': 'Asset Turnover Ratio', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0014_0', 'company': 'ACC', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0014_1', 'company': 'ACC', 'metric_name': 'Depreciation', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0014_2', 'company': 'ACC', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0014_3', 'company': 'ACC', 'metric_name': 'Asset Turnover Ratio', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0015_0', 'company': 'CENTENKA', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0015_1', 'company': 'CENTENKA', 'metric_name': 'Depreciation', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0015_2', 'company': 'CENTENKA', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0015_3', 'company': 'CENTENKA', 'metric_name': 'Asset Turnover Ratio', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0016_0', 'company': 'CENTENKA', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0016_1', 'company': 'CENTENKA', 'metric_name': 'Depreciation', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0016_2', 'company': 'CENTENKA', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0016_3', 'company': 'CENTENKA', 'metric_name': 'Asset Turnover Ratio', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0017_0', 'company': 'CENTENKA', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0017_1', 'company': 'CENTENKA', 'metric_name': 'Depreciation', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0017_2', 'company': 'CENTENKA', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0017_3', 'company': 'CENTENKA', 'metric_name': 'Asset Turnover Ratio', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0018_0', 'company': 'CENTENKA', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0018_1', 'company': 'CENTENKA', 'metric_name': 'Depreciation', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0018_2', 'company': 'CENTENKA', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0018_3', 'company': 'CENTENKA', 'metric_name': 'Asset Turnover Ratio', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0019_0', 'company': 'CENTENKA', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0019_1', 'company': 'CENTENKA', 'metric_name': 'Depreciation', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0019_2', 'company': 'CENTENKA', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0019_3', 'company': 'CENTENKA', 'metric_name': 'Asset Turnover Ratio', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0020_0', 'company': 'AMBUJACEM', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0020_1', 'company': 'AMBUJACEM', 'metric_name': 'Depreciation', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0020_2', 'company': 'AMBUJACEM', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0020_3', 'company': 'AMBUJACEM', 'metric_name': 'Asset Turnover Ratio', 'periods': [{'period': 'Mar 2020', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0021_0', 'company': 'AMBUJACEM', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0021_1', 'company': 'AMBUJACEM', 'metric_name': 'Depreciation', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0021_2', 'company': 'AMBUJACEM', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0021_3', 'company': 'AMBUJACEM', 'metric_name': 'Asset Turnover Ratio', 'periods': [{'period': 'Mar 2021', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0022_0', 'company': 'AMBUJACEM', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0022_1', 'company': 'AMBUJACEM', 'metric_name': 'Depreciation', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0022_2', 'company': 'AMBUJACEM', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0022_3', 'company': 'AMBUJACEM', 'metric_name': 'Asset Turnover Ratio', 'periods': [{'period': 'Mar 2022', 'period_type': 'Annual', 'available': False}], 'company_available_status': True, 'period_available_status': False, 'available': False, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0023_0', 'company': 'AMBUJACEM', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0023_1', 'company': 'AMBUJACEM', 'metric_name': 'Depreciation', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0023_2', 'company': 'AMBUJACEM', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0023_3', 'company': 'AMBUJACEM', 'metric_name': 'Asset Turnover Ratio', 'periods': [{'period': 'Mar 2023', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0024_0', 'company': 'AMBUJACEM', 'metric_name': 'Total Assets', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0024_1', 'company': 'AMBUJACEM', 'metric_name': 'Depreciation', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0024_2', 'company': 'AMBUJACEM', 'metric_name': 'EBITDA Margin', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#0024_3', 'company': 'AMBUJACEM', 'metric_name': 'Asset Turnover Ratio', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}]
+
+
+company_slug: ULTRACEMCO, metric_name: Total Assets, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Depreciation, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: EBITDA Margin, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Asset Turnover Ratio, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Total Assets, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Depreciation, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: EBITDA Margin, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Asset Turnover Ratio, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Total Assets, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Depreciation, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: EBITDA Margin, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Asset Turnover Ratio, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Total Assets, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Depreciation, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: EBITDA Margin, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Asset Turnover Ratio, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Total Assets, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Depreciation, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: EBITDA Margin, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: Asset Turnover Ratio, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Total Assets, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Depreciation, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: EBITDA Margin, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Asset Turnover Ratio, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Total Assets, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Depreciation, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: EBITDA Margin, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Asset Turnover Ratio, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Total Assets, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Depreciation, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: EBITDA Margin, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Asset Turnover Ratio, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Total Assets, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Depreciation, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: EBITDA Margin, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Asset Turnover Ratio, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Total Assets, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Depreciation, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: EBITDA Margin, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: Asset Turnover Ratio, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ACC, metric_name: Total Assets, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: ACC, metric_name: Depreciation, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: ACC, metric_name: EBITDA Margin, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: ACC, metric_name: Asset Turnover Ratio, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: ACC, metric_name: Total Assets, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: ACC, metric_name: Depreciation, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: ACC, metric_name: EBITDA Margin, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: ACC, metric_name: Asset Turnover Ratio, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: ACC, metric_name: Total Assets, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ACC, metric_name: Depreciation, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ACC, metric_name: EBITDA Margin, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ACC, metric_name: Asset Turnover Ratio, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: ACC, metric_name: Total Assets, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ACC, metric_name: Depreciation, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ACC, metric_name: EBITDA Margin, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ACC, metric_name: Asset Turnover Ratio, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: ACC, metric_name: Total Assets, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ACC, metric_name: Depreciation, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ACC, metric_name: EBITDA Margin, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ACC, metric_name: Asset Turnover Ratio, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: Total Assets, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: Depreciation, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: EBITDA Margin, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: Asset Turnover Ratio, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: Total Assets, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: Depreciation, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: EBITDA Margin, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: Asset Turnover Ratio, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: Total Assets, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: Depreciation, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: EBITDA Margin, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: Asset Turnover Ratio, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: Total Assets, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: Depreciation, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: EBITDA Margin, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: Asset Turnover Ratio, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: Total Assets, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: Depreciation, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: EBITDA Margin, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: Asset Turnover Ratio, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Total Assets, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Depreciation, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: EBITDA Margin, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Asset Turnover Ratio, Period: Mar 2020, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Total Assets, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Depreciation, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: EBITDA Margin, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Asset Turnover Ratio, Period: Mar 2021, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Total Assets, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Depreciation, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: EBITDA Margin, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Asset Turnover Ratio, Period: Mar 2022, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Total Assets, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Depreciation, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: EBITDA Margin, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Asset Turnover Ratio, Period: Mar 2023, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Total Assets, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Depreciation, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: EBITDA Margin, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: Asset Turnover Ratio, Period: Mar 2024, Period Type: Annual
+
+
+
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20250924_114518_562844
+Query: what is Total Assets, Depreciation, EBITDA Margin and Asset Turnover Ratio for UTCL, Shreecem, ACC, Century enka, Ambuja in FY2020–FY2024.
+Total Duration: 335249.90ms
+Total Records: 30
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 29,449
+Total Output Tokens: 6,217
+Total Tokens: 35,666
+Estimated Cost: $1.2565
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 2 (Root: 2, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 2,833 (Input: 2,087, Output: 746)
+  - Duration: 11392.64ms (Avg: 5696.32ms)
+  - Cost: $0.1074 (Avg: $0.0537)
+  - Recursion: Max Depth 0, Cost $0.0000
+DATA_RETRIEVAL:
+  - Total Calls: 25 (Root: 25, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 31,417 (Input: 26,231, Output: 5,186)
+  - Duration: 92250.72ms (Avg: 3690.03ms)
+  - Cost: $1.0981 (Avg: $0.0439)
+  - Recursion: Max Depth 0, Cost $0.0000
+FORMULA_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 1,416 (Input: 1,131, Output: 285)
+  - Duration: 3670.87ms (Avg: 3670.87ms)
+  - Cost: $0.0510 (Avg: $0.0510)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 55033.40ms (Avg: 55033.40ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+
+
+DETAILED_RECURSION_ANALYSIS_JSON:
+{
+  "session_id": "session_20250924_114518_562844",
+  "query": "what is Total Assets, Depreciation, EBITDA Margin and Asset Turnover Ratio for UTCL, Shreecem, ACC, Century enka, Ambuja in FY2020\u2013FY2024.",
+  "start_time": "2025-09-24T11:45:18.562867",
+  "end_time": "2025-09-24T11:50:53.812768",
+  "total_duration_ms": 335249.901,
+  "total_records": 30,
+  "total_tokens": {
+    "input": 29449,
+    "output": 6217,
+    "total": 35666
+  },
+  "total_cost_usd": 1.2564899999999999,
+  "success_rate": 1.0,
+  "recursion_analysis": {
+    "total_recursive_chains": 0,
+    "max_recursion_depth": 0,
+    "recursive_metrics": [],
+    "call_tree": {},
+    "depth_distribution": {},
+    "recursive_costs": 0.0
+  },
+  "summary_by_type": {
+    "query_decomposition": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "total_duration_ms": 0.0,
+      "avg_duration_ms": 0.0,
+      "total_cost_usd": 0.0,
+      "avg_cost_usd": 0.0,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "table_filtering": {
+      "total_calls": 2,
+      "root_calls": 2,
+      "recursive_calls": 0,
+      "successful_calls": 2,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 2087,
+        "output": 746,
+        "total": 2833
+      },
+      "total_duration_ms": 11392.636775970459,
+      "avg_duration_ms": 5696.3183879852295,
+      "total_cost_usd": 0.10737,
+      "avg_cost_usd": 0.053685,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "data_retrieval": {
+      "total_calls": 25,
+      "root_calls": 25,
+      "recursive_calls": 0,
+      "successful_calls": 25,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 26231,
+        "output": 5186,
+        "total": 31417
+      },
+      "total_duration_ms": 92250.72169303894,
+      "avg_duration_ms": 3690.0288677215576,
+      "total_cost_usd": 1.0980899999999998,
+      "avg_cost_usd": 0.04392359999999999,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "formula_generation": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 1131,
+        "output": 285,
+        "total": 1416
+      },
+      "total_duration_ms": 3670.8664894104004,
+      "avg_duration_ms": 3670.8664894104004,
+      "total_cost_usd": 0.05102999999999999,
+      "avg_cost_usd": 0.05102999999999999,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "response_generation": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "total_duration_ms": 55033.398,
+      "avg_duration_ms": 55033.398,
+      "total_cost_usd": 0.0,
+      "avg_cost_usd": 0.0,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    }
+  },
+  "records": [
+    {
+      "call_id": "4810b595",
+      "parent_call_id": null,
+      "llm_type": "query_decomposition",
+      "company_slug": null,
+      "metric_name": null,
+      "recursion_depth": 0,
+      "recursion_path": [],
+      "start_time": "2025-09-24T11:45:32.805771",
+      "end_time": "2025-09-24T11:45:32.805773",
+      "duration_ms": 0,
+      "tokens_used": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "cost_usd": 0.0,
+      "model_name": null,
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "metrics_focus": [
+          "Total Assets",
+          "Depreciation",
+          "EBITDA Margin",
+          "Asset Turnover Ratio"
+        ],
+        "result_count": 100,
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "cf1aebea",
+      "parent_call_id": null,
+      "llm_type": "table_filtering",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:45:38.253132",
+      "end_time": "2025-09-24T11:45:38.253134",
+      "duration_ms": 5445.353269577026,
+      "tokens_used": {
+        "input": 1046,
+        "output": 364,
+        "total": 1410
+      },
+      "cost_usd": 0.053219999999999996,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "b50583ee",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:45:41.201649",
+      "end_time": "2025-09-24T11:45:41.201652",
+      "duration_ms": 2890.793800354004,
+      "tokens_used": {
+        "input": 1104,
+        "output": 145,
+        "total": 1249
+      },
+      "cost_usd": 0.041819999999999996,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "a91fcc74",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:45:45.576155",
+      "end_time": "2025-09-24T11:45:45.576158",
+      "duration_ms": 4340.730667114258,
+      "tokens_used": {
+        "input": 1046,
+        "output": 300,
+        "total": 1346
+      },
+      "cost_usd": 0.04937999999999999,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "eef12fcd",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:45:49.154889",
+      "end_time": "2025-09-24T11:45:49.154892",
+      "duration_ms": 3543.940782546997,
+      "tokens_used": {
+        "input": 978,
+        "output": 225,
+        "total": 1203
+      },
+      "cost_usd": 0.042839999999999996,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "bbca30d6",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:45:53.438603",
+      "end_time": "2025-09-24T11:45:53.438606",
+      "duration_ms": 4247.906923294067,
+      "tokens_used": {
+        "input": 1047,
+        "output": 143,
+        "total": 1190
+      },
+      "cost_usd": 0.03999,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "a6c1884a",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:45:57.135940",
+      "end_time": "2025-09-24T11:45:57.135943",
+      "duration_ms": 3662.0545387268066,
+      "tokens_used": {
+        "input": 1047,
+        "output": 262,
+        "total": 1309
+      },
+      "cost_usd": 0.04713,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "4e6198a8",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:46:00.633390",
+      "end_time": "2025-09-24T11:46:00.633393",
+      "duration_ms": 3464.3399715423584,
+      "tokens_used": {
+        "input": 978,
+        "output": 239,
+        "total": 1217
+      },
+      "cost_usd": 0.04368,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "f5dda9be",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:46:03.167358",
+      "end_time": "2025-09-24T11:46:03.167361",
+      "duration_ms": 2496.610164642334,
+      "tokens_used": {
+        "input": 1092,
+        "output": 134,
+        "total": 1226
+      },
+      "cost_usd": 0.040799999999999996,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "82e6890f",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:46:06.940896",
+      "end_time": "2025-09-24T11:46:06.940900",
+      "duration_ms": 3735.4722023010254,
+      "tokens_used": {
+        "input": 1052,
+        "output": 254,
+        "total": 1306
+      },
+      "cost_usd": 0.046799999999999994,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "aef59347",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:46:11.273550",
+      "end_time": "2025-09-24T11:46:11.273553",
+      "duration_ms": 4269.095420837402,
+      "tokens_used": {
+        "input": 978,
+        "output": 271,
+        "total": 1249
+      },
+      "cost_usd": 0.0456,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "4240ee8b",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:46:14.537558",
+      "end_time": "2025-09-24T11:46:14.537561",
+      "duration_ms": 3229.0003299713135,
+      "tokens_used": {
+        "input": 1082,
+        "output": 136,
+        "total": 1218
+      },
+      "cost_usd": 0.040619999999999996,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "79714ba3",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:46:19.431573",
+      "end_time": "2025-09-24T11:46:19.431576",
+      "duration_ms": 4854.326486587524,
+      "tokens_used": {
+        "input": 1041,
+        "output": 234,
+        "total": 1275
+      },
+      "cost_usd": 0.04527,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "107136fb",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:46:23.332371",
+      "end_time": "2025-09-24T11:46:23.332378",
+      "duration_ms": 3867.6209449768066,
+      "tokens_used": {
+        "input": 978,
+        "output": 249,
+        "total": 1227
+      },
+      "cost_usd": 0.04428,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "d47dca41",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:46:25.997994",
+      "end_time": "2025-09-24T11:46:25.997997",
+      "duration_ms": 2612.839460372925,
+      "tokens_used": {
+        "input": 1104,
+        "output": 141,
+        "total": 1245
+      },
+      "cost_usd": 0.04157999999999999,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "3c133bd8",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:46:30.561077",
+      "end_time": "2025-09-24T11:46:30.561079",
+      "duration_ms": 4527.977228164673,
+      "tokens_used": {
+        "input": 1053,
+        "output": 284,
+        "total": 1337
+      },
+      "cost_usd": 0.04863,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "9c9f0165",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:46:34.245378",
+      "end_time": "2025-09-24T11:46:34.245382",
+      "duration_ms": 3650.310516357422,
+      "tokens_used": {
+        "input": 978,
+        "output": 237,
+        "total": 1215
+      },
+      "cost_usd": 0.043559999999999995,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "3f99ee8a",
+      "parent_call_id": null,
+      "llm_type": "formula_generation",
+      "company_slug": "multiple",
+      "metric_name": [
+        "EBITDA Margin",
+        "Asset Turnover Ratio"
+      ],
+      "recursion_depth": 0,
+      "recursion_path": [
+        [
+          "EBITDA Margin",
+          "Asset Turnover Ratio"
+        ]
+      ],
+      "start_time": "2025-09-24T11:48:08.302090",
+      "end_time": "2025-09-24T11:48:08.302092",
+      "duration_ms": 3670.8664894104004,
+      "tokens_used": {
+        "input": 1131,
+        "output": 285,
+        "total": 1416
+      },
+      "cost_usd": 0.05102999999999999,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "parameters_count": 0,
+        "confidence_score": 0.0,
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "08a996a9",
+      "parent_call_id": null,
+      "llm_type": "table_filtering",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:48:14.250170",
+      "end_time": "2025-09-24T11:48:14.250173",
+      "duration_ms": 5947.283506393433,
+      "tokens_used": {
+        "input": 1041,
+        "output": 382,
+        "total": 1423
+      },
+      "cost_usd": 0.05415,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "986f2cb0",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:48:18.637834",
+      "end_time": "2025-09-24T11:48:18.637837",
+      "duration_ms": 4315.496444702148,
+      "tokens_used": {
+        "input": 1047,
+        "output": 265,
+        "total": 1312
+      },
+      "cost_usd": 0.04731,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "0a0f4bcd",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:48:22.048874",
+      "end_time": "2025-09-24T11:48:22.048876",
+      "duration_ms": 3358.945846557617,
+      "tokens_used": {
+        "input": 1104,
+        "output": 145,
+        "total": 1249
+      },
+      "cost_usd": 0.041819999999999996,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "07b0ab45",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:48:26.916923",
+      "end_time": "2025-09-24T11:48:26.916926",
+      "duration_ms": 4826.437473297119,
+      "tokens_used": {
+        "input": 1048,
+        "output": 267,
+        "total": 1315
+      },
+      "cost_usd": 0.047459999999999995,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "7f7667ce",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:48:29.652421",
+      "end_time": "2025-09-24T11:48:29.652424",
+      "duration_ms": 2701.0657787323,
+      "tokens_used": {
+        "input": 1047,
+        "output": 142,
+        "total": 1189
+      },
+      "cost_usd": 0.03993,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "9e9fb2cc",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:48:34.324225",
+      "end_time": "2025-09-24T11:48:34.324228",
+      "duration_ms": 4637.897729873657,
+      "tokens_used": {
+        "input": 1053,
+        "output": 263,
+        "total": 1316
+      },
+      "cost_usd": 0.047369999999999995,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "08b88211",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:48:37.844809",
+      "end_time": "2025-09-24T11:48:37.844811",
+      "duration_ms": 3486.9229793548584,
+      "tokens_used": {
+        "input": 1092,
+        "output": 143,
+        "total": 1235
+      },
+      "cost_usd": 0.041339999999999995,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "28f2bc0e",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:48:41.739910",
+      "end_time": "2025-09-24T11:48:41.739913",
+      "duration_ms": 3857.245683670044,
+      "tokens_used": {
+        "input": 1042,
+        "output": 259,
+        "total": 1301
+      },
+      "cost_usd": 0.046799999999999994,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "1d6532fc",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:49:07.128211",
+      "end_time": "2025-09-24T11:49:07.128215",
+      "duration_ms": 2511.6219520568848,
+      "tokens_used": {
+        "input": 1082,
+        "output": 131,
+        "total": 1213
+      },
+      "cost_usd": 0.040319999999999995,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "0f1ce675",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:49:12.704513",
+      "end_time": "2025-09-24T11:49:12.704516",
+      "duration_ms": 5528.589248657227,
+      "tokens_used": {
+        "input": 1054,
+        "output": 265,
+        "total": 1319
+      },
+      "cost_usd": 0.04751999999999999,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "fc4ef2f1",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:49:14.372404",
+      "end_time": "2025-09-24T11:49:14.372407",
+      "duration_ms": 1633.479118347168,
+      "tokens_used": {
+        "input": 1104,
+        "output": 52,
+        "total": 1156
+      },
+      "cost_usd": 0.036239999999999994,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "545e3fc9",
+      "parent_call_id": null,
+      "llm_type": "response_generation",
+      "company_slug": null,
+      "metric_name": null,
+      "recursion_depth": 0,
+      "recursion_path": [],
+      "start_time": "2025-09-24T11:50:53.810152",
+      "end_time": "2025-09-24T11:50:53.810153",
+      "duration_ms": 55033.398,
+      "tokens_used": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "cost_usd": 0.0,
+      "model_name": null,
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "response_type": "crew_ai_response",
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    }
+  ]
+}
+

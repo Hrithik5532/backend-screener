@@ -1,0 +1,116 @@
+
+Analysis Started with Query: what is net current assets, Debt to Equity ratio, PAT Margin, Return on Capital Employed and Interest Coverage Ratio for Shreecem, ACC, Ambuja, UTCL, Century enka in FY2020–FY2024.
+
+
+Decomposition LLM raw output: []
+
+
+
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20250924_111549_671402
+Query: what is net current assets, Debt to Equity ratio, PAT Margin, Return on Capital Employed and Interest Coverage Ratio for Shreecem, ACC, Ambuja, UTCL, Century enka in FY2020–FY2024.
+Total Duration: 1391.25ms
+Total Records: 1
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 0
+Total Output Tokens: 0
+Total Tokens: 0
+Estimated Cost: $0.0000
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+
+
+DETAILED_RECURSION_ANALYSIS_JSON:
+{
+  "session_id": "session_20250924_111549_671402",
+  "query": "what is net current assets, Debt to Equity ratio, PAT Margin, Return on Capital Employed and Interest Coverage Ratio for Shreecem, ACC, Ambuja, UTCL, Century enka in FY2020\u2013FY2024.",
+  "start_time": "2025-09-24T11:15:49.671430",
+  "end_time": "2025-09-24T11:15:51.062685",
+  "total_duration_ms": 1391.2549999999999,
+  "total_records": 1,
+  "total_tokens": {
+    "input": 0,
+    "output": 0,
+    "total": 0
+  },
+  "total_cost_usd": 0.0,
+  "success_rate": 1.0,
+  "recursion_analysis": {
+    "total_recursive_chains": 0,
+    "max_recursion_depth": 0,
+    "recursive_metrics": [],
+    "call_tree": {},
+    "depth_distribution": {},
+    "recursive_costs": 0.0
+  },
+  "summary_by_type": {
+    "query_decomposition": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "total_duration_ms": 0.0,
+      "avg_duration_ms": 0.0,
+      "total_cost_usd": 0.0,
+      "avg_cost_usd": 0.0,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    }
+  },
+  "records": [
+    {
+      "call_id": "61b88088",
+      "parent_call_id": null,
+      "llm_type": "query_decomposition",
+      "company_slug": null,
+      "metric_name": null,
+      "recursion_depth": 0,
+      "recursion_path": [],
+      "start_time": "2025-09-24T11:15:51.062620",
+      "end_time": "2025-09-24T11:15:51.062622",
+      "duration_ms": 0,
+      "tokens_used": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "cost_usd": 0.0,
+      "model_name": null,
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "metrics_focus": [],
+        "result_count": 0,
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    }
+  ]
+}
+

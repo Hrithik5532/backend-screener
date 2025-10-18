@@ -1,0 +1,1496 @@
+[CUSTOM TEST] 2025-10-03 13:12:22,872 | User Query: hi
+[CUSTOM TEST] 2025-10-03 13:12:24,047 | 
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20251003_131222_869733
+Query: hi
+Total Duration: 1174.49ms
+Total Records: 1
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 0
+Total Output Tokens: 0
+Total Tokens: 0
+Estimated Cost: $0.0000
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+[CUSTOM TEST] 2025-10-03 13:13:14,696 | User Query: ebidta for the month of april 2024 of abcapital
+[CUSTOM TEST] 2025-10-03 13:13:16,763 | 
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20251003_131314_693923
+Query: ebidta for the month of april 2024 of abcapital
+Total Duration: 2065.11ms
+Total Records: 0
+Success Rate: 0.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 0
+Total Output Tokens: 0
+Total Tokens: 0
+Estimated Cost: $0.0000
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+[CUSTOM TEST] 2025-10-03 13:15:41,195 | User Query: ebidta for the month of april 2024 of abcapital
+[CUSTOM TEST] 2025-10-03 13:15:43,448 | 
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20251003_131541_192449
+Query: ebidta for the month of april 2024 of abcapital
+Total Duration: 2247.58ms
+Total Records: 0
+Success Rate: 0.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 0
+Total Output Tokens: 0
+Total Tokens: 0
+Estimated Cost: $0.0000
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+[CUSTOM TEST] 2025-10-03 13:18:49,251 | User Query: ebidta for the month of april 2024 of abcapital
+[CUSTOM TEST] 2025-10-03 13:18:51,514 | 
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20251003_131849_244298
+Query: ebidta for the month of april 2024 of abcapital
+Total Duration: 2263.87ms
+Total Records: 0
+Success Rate: 0.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 0
+Total Output Tokens: 0
+Total Tokens: 0
+Estimated Cost: $0.0000
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+[CUSTOM TEST] 2025-10-03 13:21:30,952 | User Query: ebidta for the month of april 2024 of abcapital
+[CUSTOM TEST] 2025-10-03 13:21:33,349 | 
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20251003_132130_945216
+Query: ebidta for the month of april 2024 of abcapital
+Total Duration: 2398.93ms
+Total Records: 0
+Success Rate: 0.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 0
+Total Output Tokens: 0
+Total Tokens: 0
+Estimated Cost: $0.0000
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+[CUSTOM TEST] 2025-10-03 13:24:28,148 | User Query: ebidta for the month of april 2024 of abcapital
+[CUSTOM TEST] 2025-10-03 13:24:41,984 | 
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20251003_132428_142978
+Query: ebidta for the month of april 2024 of abcapital
+Total Duration: 13837.59ms
+Total Records: 3
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 995
+Total Output Tokens: 59
+Total Tokens: 1,054
+Estimated Cost: $0.0334
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 1,054 (Input: 995, Output: 59)
+  - Duration: 1141.21ms (Avg: 1141.21ms)
+  - Cost: $0.0334 (Avg: $0.0334)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 10366.88ms (Avg: 10366.88ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+[CUSTOM TEST] 2025-10-03 13:26:09,069 | User Query: ebidta for the month of april 2024 and 2023 of abcapital
+[CUSTOM TEST] 2025-10-03 13:26:18,557 | 
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20251003_132609_066310
+Query: ebidta for the month of april 2024 and 2023 of abcapital
+Total Duration: 9488.19ms
+Total Records: 3
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 995
+Total Output Tokens: 59
+Total Tokens: 1,054
+Estimated Cost: $0.0334
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 1,054 (Input: 995, Output: 59)
+  - Duration: 953.50ms (Avg: 953.50ms)
+  - Cost: $0.0334 (Avg: $0.0334)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 5399.86ms (Avg: 5399.86ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+[CUSTOM TEST] 2025-10-03 13:59:24,879 | User Query: ebidta for the month of april 2024 and 2023 of abcapital
+[CUSTOM TEST] 2025-10-03 13:59:27,975 | 
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20251003_135924_874318
+Query: ebidta for the month of april 2024 and 2023 of abcapital
+Total Duration: 3090.32ms
+Total Records: 1
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 0
+Total Output Tokens: 0
+Total Tokens: 0
+Estimated Cost: $0.0000
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+[CUSTOM TEST] 2025-10-03 14:05:51,668 | User Query: ebidta for the month of april 2024 and 2023 of abcapital
+[CUSTOM TEST] 2025-10-03 14:05:54,381 | 
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20251003_140551_662120
+Query: ebidta for the month of april 2024 and 2023 of abcapital
+Total Duration: 2714.16ms
+Total Records: 1
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 0
+Total Output Tokens: 0
+Total Tokens: 0
+Estimated Cost: $0.0000
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+[CUSTOM TEST] 2025-10-03 15:15:38,944 | User Query: ebidta for the month of april 2024 and 2023 of abcapital
+[CUSTOM TEST] 2025-10-03 15:15:50,413 | 
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20251003_151538_942406
+Query: ebidta for the month of april 2024 and 2023 of abcapital
+Total Duration: 11468.83ms
+Total Records: 3
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 1,013
+Total Output Tokens: 161
+Total Tokens: 1,174
+Estimated Cost: $0.0400
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 1,174 (Input: 1,013, Output: 161)
+  - Duration: 1718.67ms (Avg: 1718.67ms)
+  - Cost: $0.0400 (Avg: $0.0400)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 6663.16ms (Avg: 6663.16ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+[CUSTOM TEST] 2025-10-03 15:29:01,506 | User Query: ebidta for the month of april 2024 and 2023 of abcapital
+[CUSTOM TEST] 2025-10-03 15:29:12,663 | 
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20251003_152901_499583
+Query: ebidta for the month of april 2024 and 2023 of abcapital
+Total Duration: 11159.76ms
+Total Records: 3
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 545
+Total Output Tokens: 93
+Total Tokens: 638
+Estimated Cost: $0.0219
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 638 (Input: 545, Output: 93)
+  - Duration: 1319.66ms (Avg: 1319.66ms)
+  - Cost: $0.0219 (Avg: $0.0219)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 7224.85ms (Avg: 7224.85ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+[CUSTOM TEST] 2025-10-03 15:43:36,375 | User Query: ebidta for the month of april 2024 and 2023 of abcapital
+[CUSTOM TEST] 2025-10-03 15:43:47,759 | 
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20251003_154336_371242
+Query: ebidta for the month of april 2024 and 2023 of abcapital
+Total Duration: 11385.39ms
+Total Records: 3
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 545
+Total Output Tokens: 90
+Total Tokens: 635
+Estimated Cost: $0.0217
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 635 (Input: 545, Output: 90)
+  - Duration: 1113.84ms (Avg: 1113.84ms)
+  - Cost: $0.0217 (Avg: $0.0217)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 7339.03ms (Avg: 7339.03ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+[CUSTOM TEST] 2025-10-03 15:50:21,239 | User Query: ebidta for the month of april 2024 and 2023 of abcapital
+[CUSTOM TEST] 2025-10-03 15:50:31,759 | 
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20251003_155021_235183
+Query: ebidta for the month of april 2024 and 2023 of abcapital
+Total Duration: 10521.35ms
+Total Records: 3
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 545
+Total Output Tokens: 93
+Total Tokens: 638
+Estimated Cost: $0.0219
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 638 (Input: 545, Output: 93)
+  - Duration: 978.82ms (Avg: 978.82ms)
+  - Cost: $0.0219 (Avg: $0.0219)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 6635.72ms (Avg: 6635.72ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+[CUSTOM TEST] 2025-10-03 15:52:30,675 | User Query: ebidta for the month of april 2024 and 2023 of abcapital
+[CUSTOM TEST] 2025-10-03 15:52:42,739 | 
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20251003_155230_670803
+Query: ebidta for the month of april 2024 and 2023 of abcapital
+Total Duration: 12064.34ms
+Total Records: 3
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 545
+Total Output Tokens: 90
+Total Tokens: 635
+Estimated Cost: $0.0217
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 635 (Input: 545, Output: 90)
+  - Duration: 1283.04ms (Avg: 1283.04ms)
+  - Cost: $0.0217 (Avg: $0.0217)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 7816.57ms (Avg: 7816.57ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+[CUSTOM TEST] 2025-10-03 15:53:06,062 | User Query: ebidta for the month of april 2024 and 2023 of abcapital
+[CUSTOM TEST] 2025-10-03 15:53:35,464 | 
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20251003_155306_057589
+Query: ebidta for the month of april 2024 and 2023 of abcapital
+Total Duration: 29402.08ms
+Total Records: 9
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 6,307
+Total Output Tokens: 1,120
+Total Tokens: 7,427
+Estimated Cost: $0.2564
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 3 (Root: 3, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 2,209 (Input: 1,697, Output: 512)
+  - Duration: 6637.79ms (Avg: 2212.60ms)
+  - Cost: $0.0816 (Avg: $0.0272)
+  - Recursion: Max Depth 0, Cost $0.0000
+DATA_RETRIEVAL:
+  - Total Calls: 2 (Root: 2, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 2,613 (Input: 2,312, Output: 301)
+  - Duration: 3619.73ms (Avg: 1809.86ms)
+  - Cost: $0.0874 (Avg: $0.0437)
+  - Recursion: Max Depth 0, Cost $0.0000
+FORMULA_GENERATION:
+  - Total Calls: 2 (Root: 2, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 2,605 (Input: 2,298, Output: 307)
+  - Duration: 4035.22ms (Avg: 2017.61ms)
+  - Cost: $0.0874 (Avg: $0.0437)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 11393.09ms (Avg: 11393.09ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+[CUSTOM TEST] 2025-10-03 15:58:56,226 | User Query: ebidta for the month of april 2024 and 2023 of abcapital
+[CUSTOM TEST] 2025-10-03 15:59:08,162 | 
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20251003_155856_217705
+Query: ebidta for the month of april 2024 and 2023 of abcapital
+Total Duration: 11938.33ms
+Total Records: 3
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 545
+Total Output Tokens: 90
+Total Tokens: 635
+Estimated Cost: $0.0217
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 635 (Input: 545, Output: 90)
+  - Duration: 1224.70ms (Avg: 1224.70ms)
+  - Cost: $0.0217 (Avg: $0.0217)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 7647.99ms (Avg: 7647.99ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+[CUSTOM TEST] 2025-10-03 16:00:06,528 | User Query: ebidta for the month of april 2024 and 2023 of abcapital
+[CUSTOM TEST] 2025-10-03 16:00:18,562 | 
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20251003_160006_518445
+Query: ebidta for the month of april 2024 and 2023 of abcapital
+Total Duration: 12038.79ms
+Total Records: 3
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 545
+Total Output Tokens: 94
+Total Tokens: 639
+Estimated Cost: $0.0220
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 639 (Input: 545, Output: 94)
+  - Duration: 1149.49ms (Avg: 1149.49ms)
+  - Cost: $0.0220 (Avg: $0.0220)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 7030.85ms (Avg: 7030.85ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+[CUSTOM TEST] 2025-10-03 16:01:02,984 | User Query: ebidta for the month of april 2024 and 2023 of abcapital
+[CUSTOM TEST] 2025-10-03 16:01:18,874 | 
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20251003_160102_982202
+Query: ebidta for the month of april 2024 and 2023 of abcapital
+Total Duration: 15890.33ms
+Total Records: 4
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 1,813
+Total Output Tokens: 195
+Total Tokens: 2,008
+Estimated Cost: $0.0661
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 635 (Input: 545, Output: 90)
+  - Duration: 1219.52ms (Avg: 1219.52ms)
+  - Cost: $0.0217 (Avg: $0.0217)
+  - Recursion: Max Depth 0, Cost $0.0000
+DATA_RETRIEVAL:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 1,373 (Input: 1,268, Output: 105)
+  - Duration: 1420.36ms (Avg: 1420.36ms)
+  - Cost: $0.0443 (Avg: $0.0443)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 10366.04ms (Avg: 10366.04ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+[CUSTOM TEST] 2025-10-03 16:05:52,209 | User Query: ebidta for the month of april 2024 and 2023 of abcapital
+[CUSTOM TEST] 2025-10-03 16:06:07,636 | 
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20251003_160552_203861
+Query: ebidta for the month of april 2024 and 2023 of abcapital
+Total Duration: 15429.10ms
+Total Records: 4
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 1,813
+Total Output Tokens: 211
+Total Tokens: 2,024
+Estimated Cost: $0.0670
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 651 (Input: 545, Output: 106)
+  - Duration: 1359.22ms (Avg: 1359.22ms)
+  - Cost: $0.0227 (Avg: $0.0227)
+  - Recursion: Max Depth 0, Cost $0.0000
+DATA_RETRIEVAL:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 1,373 (Input: 1,268, Output: 105)
+  - Duration: 1210.73ms (Avg: 1210.73ms)
+  - Cost: $0.0443 (Avg: $0.0443)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 8525.27ms (Avg: 8525.27ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+[CUSTOM TEST] 2025-10-03 16:06:47,769 | User Query: ebidta,ocf, fcff for the month of april 2024 and 2023 of abcapital
+[CUSTOM TEST] 2025-10-03 16:07:08,272 | 
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20251003_160647_759183
+Query: ebidta,ocf, fcff for the month of april 2024 and 2023 of abcapital
+Total Duration: 20508.86ms
+Total Records: 4
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 1,883
+Total Output Tokens: 548
+Total Tokens: 2,431
+Estimated Cost: $0.0894
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 886 (Input: 607, Output: 279)
+  - Duration: 3381.33ms (Avg: 3381.33ms)
+  - Cost: $0.0349 (Avg: $0.0349)
+  - Recursion: Max Depth 0, Cost $0.0000
+DATA_RETRIEVAL:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 1,545 (Input: 1,276, Output: 269)
+  - Duration: 2794.21ms (Avg: 2794.21ms)
+  - Cost: $0.0544 (Avg: $0.0544)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 9643.68ms (Avg: 9643.68ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+[CUSTOM TEST] 2025-10-03 16:09:57,816 | User Query: ebidta  projected value and deviation for the month of april 2024 and 2025 of abcapital 
+[CUSTOM TEST] 2025-10-03 16:10:12,861 | 
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20251003_160957_812184
+Query: ebidta  projected value and deviation for the month of april 2024 and 2025 of abcapital 
+Total Duration: 15044.56ms
+Total Records: 4
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 1,846
+Total Output Tokens: 309
+Total Tokens: 2,155
+Estimated Cost: $0.0739
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 782 (Input: 578, Output: 204)
+  - Duration: 1850.75ms (Avg: 1850.75ms)
+  - Cost: $0.0296 (Avg: $0.0296)
+  - Recursion: Max Depth 0, Cost $0.0000
+DATA_RETRIEVAL:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 1,373 (Input: 1,268, Output: 105)
+  - Duration: 1239.34ms (Avg: 1239.34ms)
+  - Cost: $0.0443 (Avg: $0.0443)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 7213.52ms (Avg: 7213.52ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+[CUSTOM TEST] 2025-10-03 16:14:05,469 | User Query: ebidta projected value and deviation for the month of april 2024 and 2025 of abcapital
+[CUSTOM TEST] 2025-10-03 16:14:22,393 | 
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20251003_161405_467289
+Query: ebidta projected value and deviation for the month of april 2024 and 2025 of abcapital
+Total Duration: 16923.87ms
+Total Records: 4
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 1,846
+Total Output Tokens: 293
+Total Tokens: 2,139
+Estimated Cost: $0.0730
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 766 (Input: 578, Output: 188)
+  - Duration: 1793.22ms (Avg: 1793.22ms)
+  - Cost: $0.0286 (Avg: $0.0286)
+  - Recursion: Max Depth 0, Cost $0.0000
+DATA_RETRIEVAL:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 1,373 (Input: 1,268, Output: 105)
+  - Duration: 1237.90ms (Avg: 1237.90ms)
+  - Cost: $0.0443 (Avg: $0.0443)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 8795.69ms (Avg: 8795.69ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+[CUSTOM TEST] 2025-10-03 16:17:28,985 | User Query: ebidta projected value and deviation for the month of april 2024 and 2025 of abcapital
+[CUSTOM TEST] 2025-10-03 16:17:50,267 | 
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20251003_161728_980812
+Query: ebidta projected value and deviation for the month of april 2024 and 2025 of abcapital
+Total Duration: 21281.46ms
+Total Records: 4
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 1,846
+Total Output Tokens: 303
+Total Tokens: 2,149
+Estimated Cost: $0.0736
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 776 (Input: 578, Output: 198)
+  - Duration: 2258.73ms (Avg: 2258.73ms)
+  - Cost: $0.0292 (Avg: $0.0292)
+  - Recursion: Max Depth 0, Cost $0.0000
+DATA_RETRIEVAL:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 1,373 (Input: 1,268, Output: 105)
+  - Duration: 1456.85ms (Avg: 1456.85ms)
+  - Cost: $0.0443 (Avg: $0.0443)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 12419.73ms (Avg: 12419.73ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+[CUSTOM TEST] 2025-10-03 16:24:57,892 | User Query: i want to validate ebidta values - actual, projected and deviation for the month of april 2024 and 2025 of abcapital, calculate deviatoin using actual and projected and compare it with deviation saved in db
+[CUSTOM TEST] 2025-10-03 16:25:14,460 | 
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20251003_162457_887797
+Query: i want to validate ebidta values - actual, projected and deviation for the month of april 2024 and 2025 of abcapital, calculate deviatoin using actual and projected and compare it with deviation saved in db
+Total Duration: 16570.00ms
+Total Records: 3
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 576
+Total Output Tokens: 208
+Total Tokens: 784
+Estimated Cost: $0.0298
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 784 (Input: 576, Output: 208)
+  - Duration: 1967.74ms (Avg: 1967.74ms)
+  - Cost: $0.0298 (Avg: $0.0298)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 11658.26ms (Avg: 11658.26ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+[CUSTOM TEST] 2025-10-03 16:26:30,362 | User Query: Validate EBITDA values for AB Capital in April 2024 and April 2025 by fetching actual, projected, and deviation entries from the database. Calculate deviation as actual – projected and compare it with the saved deviation to check for mismatches.
+[CUSTOM TEST] 2025-10-03 16:26:44,779 | 
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20251003_162630_351933
+Query: Validate EBITDA values for AB Capital in April 2024 and April 2025 by fetching actual, projected, and deviation entries from the database. Calculate deviation as actual – projected and compare it with the saved deviation to check for mismatches.
+Total Duration: 14419.31ms
+Total Records: 4
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 1,878
+Total Output Tokens: 406
+Total Tokens: 2,284
+Estimated Cost: $0.0807
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 907 (Input: 610, Output: 297)
+  - Duration: 1933.48ms (Avg: 1933.48ms)
+  - Cost: $0.0361 (Avg: $0.0361)
+  - Recursion: Max Depth 0, Cost $0.0000
+DATA_RETRIEVAL:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 1,377 (Input: 1,268, Output: 109)
+  - Duration: 1175.37ms (Avg: 1175.37ms)
+  - Cost: $0.0446 (Avg: $0.0446)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 6507.92ms (Avg: 6507.92ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+[CUSTOM TEST] 2025-10-03 16:27:38,840 | User Query: Validate EBITDA values for AB Capital in April 2024 and march 2024 by fetching actual, projected, and deviation entries from the database. Calculate deviation as actual – projected and compare it with the saved deviation to check for mismatches.
+[CUSTOM TEST] 2025-10-03 16:27:52,173 | 
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20251003_162738_835762
+Query: Validate EBITDA values for AB Capital in April 2024 and march 2024 by fetching actual, projected, and deviation entries from the database. Calculate deviation as actual – projected and compare it with the saved deviation to check for mismatches.
+Total Duration: 13332.74ms
+Total Records: 4
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 1,813
+Total Output Tokens: 193
+Total Tokens: 2,006
+Estimated Cost: $0.0660
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 629 (Input: 545, Output: 84)
+  - Duration: 1016.32ms (Avg: 1016.32ms)
+  - Cost: $0.0214 (Avg: $0.0214)
+  - Recursion: Max Depth 0, Cost $0.0000
+DATA_RETRIEVAL:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 1,377 (Input: 1,268, Output: 109)
+  - Duration: 1585.24ms (Avg: 1585.24ms)
+  - Cost: $0.0446 (Avg: $0.0446)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 7075.07ms (Avg: 7075.07ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+[CUSTOM TEST] 2025-10-03 16:28:13,032 | User Query: Validate EBITDA values for AB Capital in April 2024 and April 2025 by fetching actual, projected, and deviation entries from the database. Calculate deviation as actual – projected and compare it with the saved deviation to check for mismatches.
+[CUSTOM TEST] 2025-10-03 16:28:37,595 | 
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20251003_162813_029850
+Query: Validate EBITDA values for AB Capital in April 2024 and April 2025 by fetching actual, projected, and deviation entries from the database. Calculate deviation as actual – projected and compare it with the saved deviation to check for mismatches.
+Total Duration: 24562.82ms
+Total Records: 4
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 1,878
+Total Output Tokens: 389
+Total Tokens: 2,267
+Estimated Cost: $0.0797
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 890 (Input: 610, Output: 280)
+  - Duration: 3561.10ms (Avg: 3561.10ms)
+  - Cost: $0.0351 (Avg: $0.0351)
+  - Recursion: Max Depth 0, Cost $0.0000
+DATA_RETRIEVAL:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 1,377 (Input: 1,268, Output: 109)
+  - Duration: 1311.42ms (Avg: 1311.42ms)
+  - Cost: $0.0446 (Avg: $0.0446)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 14414.16ms (Avg: 14414.16ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+[CUSTOM TEST] 2025-10-03 16:29:44,471 | User Query: ebidta projected value and deviation for the month of april 2024 and 2025 of abcapital
+[CUSTOM TEST] 2025-10-03 16:30:03,245 | 
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20251003_162944_464745
+Query: ebidta projected value and deviation for the month of april 2024 and 2025 of abcapital
+Total Duration: 18775.42ms
+Total Records: 4
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 1,846
+Total Output Tokens: 304
+Total Tokens: 2,150
+Estimated Cost: $0.0736
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 777 (Input: 578, Output: 199)
+  - Duration: 1994.27ms (Avg: 1994.27ms)
+  - Cost: $0.0293 (Avg: $0.0293)
+  - Recursion: Max Depth 0, Cost $0.0000
+DATA_RETRIEVAL:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 1,373 (Input: 1,268, Output: 105)
+  - Duration: 1575.25ms (Avg: 1575.25ms)
+  - Cost: $0.0443 (Avg: $0.0443)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 9711.62ms (Avg: 9711.62ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+[CUSTOM TEST] 2025-10-03 16:32:51,640 | User Query: ebidta projected value and deviation for the month of April 2024 and 2025 of abcapital
+[CUSTOM TEST] 2025-10-03 16:33:12,069 | 
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20251003_163251_632678
+Query: ebidta projected value and deviation for the month of April 2024 and 2025 of abcapital
+Total Duration: 20431.03ms
+Total Records: 4
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 1,846
+Total Output Tokens: 307
+Total Tokens: 2,153
+Estimated Cost: $0.0738
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 780 (Input: 578, Output: 202)
+  - Duration: 1865.13ms (Avg: 1865.13ms)
+  - Cost: $0.0295 (Avg: $0.0295)
+  - Recursion: Max Depth 0, Cost $0.0000
+DATA_RETRIEVAL:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 1,373 (Input: 1,268, Output: 105)
+  - Duration: 1276.58ms (Avg: 1276.58ms)
+  - Cost: $0.0443 (Avg: $0.0443)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 12054.03ms (Avg: 12054.03ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+[CUSTOM TEST] 2025-10-03 16:33:45,266 | User Query: Validate EBITDA values for AB Capital in April 2024 and April 2025 by fetching actual, projected, and deviation entries from the database. Calculate deviation as actual – projected and compare it with the saved deviation to check for mismatches.
+[CUSTOM TEST] 2025-10-03 16:33:59,222 | 
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20251003_163345_259059
+Query: Validate EBITDA values for AB Capital in April 2024 and April 2025 by fetching actual, projected, and deviation entries from the database. Calculate deviation as actual – projected and compare it with the saved deviation to check for mismatches.
+Total Duration: 13959.23ms
+Total Records: 4
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 1,813
+Total Output Tokens: 193
+Total Tokens: 2,006
+Estimated Cost: $0.0660
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 629 (Input: 545, Output: 84)
+  - Duration: 1114.35ms (Avg: 1114.35ms)
+  - Cost: $0.0214 (Avg: $0.0214)
+  - Recursion: Max Depth 0, Cost $0.0000
+DATA_RETRIEVAL:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 1,377 (Input: 1,268, Output: 109)
+  - Duration: 1346.18ms (Avg: 1346.18ms)
+  - Cost: $0.0446 (Avg: $0.0446)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 7693.89ms (Avg: 7693.89ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+[CUSTOM TEST] 2025-10-03 16:34:53,151 | User Query: compare ebidta projected value and deviation for the month of April 2024 and 2025 of abcapital and Century Textile
+[CUSTOM TEST] 2025-10-03 16:35:15,422 | 
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20251003_163453_144126
+Query: compare ebidta projected value and deviation for the month of April 2024 and 2025 of abcapital and Century Textile
+Total Duration: 22272.81ms
+Total Records: 4
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 1,846
+Total Output Tokens: 302
+Total Tokens: 2,148
+Estimated Cost: $0.0735
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 775 (Input: 578, Output: 197)
+  - Duration: 1835.61ms (Avg: 1835.61ms)
+  - Cost: $0.0292 (Avg: $0.0292)
+  - Recursion: Max Depth 0, Cost $0.0000
+DATA_RETRIEVAL:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 1,373 (Input: 1,268, Output: 105)
+  - Duration: 1357.48ms (Avg: 1357.48ms)
+  - Cost: $0.0443 (Avg: $0.0443)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 11128.61ms (Avg: 11128.61ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+[CUSTOM TEST] 2025-10-03 16:36:48,676 | User Query: compare ebidta projected value and deviation for the month of April 2024 and narch 2024 of abcapital and ABML
+[CUSTOM TEST] 2025-10-03 16:37:26,094 | 
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20251003_163648_673039
+Query: compare ebidta projected value and deviation for the month of April 2024 and narch 2024 of abcapital and ABML
+Total Duration: 37418.99ms
+Total Records: 5
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 3,012
+Total Output Tokens: 409
+Total Tokens: 3,421
+Estimated Cost: $0.1149
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 777 (Input: 578, Output: 199)
+  - Duration: 1899.88ms (Avg: 1899.88ms)
+  - Cost: $0.0293 (Avg: $0.0293)
+  - Recursion: Max Depth 0, Cost $0.0000
+DATA_RETRIEVAL:
+  - Total Calls: 2 (Root: 2, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 2,644 (Input: 2,434, Output: 210)
+  - Duration: 2543.81ms (Avg: 1271.90ms)
+  - Cost: $0.0856 (Avg: $0.0428)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 13216.47ms (Avg: 13216.47ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+[CUSTOM TEST] 2025-10-05 21:58:34,227 | User Query: compare ebidta projected value and deviation for the month of April 2024 and march 2024 also q1and q2 of abcapital and ABML
+[CUSTOM TEST] 2025-10-05 21:59:24,726 | 
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20251005_215834_223278
+Query: compare ebidta projected value and deviation for the month of April 2024 and march 2024 also q1and q2 of abcapital and ABML
+Total Duration: 50499.90ms
+Total Records: 6
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 4,254
+Total Output Tokens: 736
+Total Tokens: 4,990
+Estimated Cost: $0.1718
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 1,064 (Input: 643, Output: 421)
+  - Duration: 2580.19ms (Avg: 2580.19ms)
+  - Cost: $0.0445 (Avg: $0.0445)
+  - Recursion: Max Depth 0, Cost $0.0000
+DATA_RETRIEVAL:
+  - Total Calls: 3 (Root: 3, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 3,926 (Input: 3,611, Output: 315)
+  - Duration: 3463.76ms (Avg: 1154.59ms)
+  - Cost: $0.1272 (Avg: $0.0424)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 10972.32ms (Avg: 10972.32ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+[CUSTOM TEST] 2025-10-05 22:04:12,243 | User Query: compare ebidta projected value and deviation for the month of  q1 2024 and q2 2025 of abcapital and ABML
+[CUSTOM TEST] 2025-10-05 22:04:29,608 | 
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20251005_220412_239012
+Query: compare ebidta projected value and deviation for the month of  q1 2024 and q2 2025 of abcapital and ABML
+Total Duration: 17365.24ms
+Total Records: 4
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 1,755
+Total Output Tokens: 314
+Total Tokens: 2,069
+Estimated Cost: $0.0715
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 787 (Input: 578, Output: 209)
+  - Duration: 1858.99ms (Avg: 1858.99ms)
+  - Cost: $0.0299 (Avg: $0.0299)
+  - Recursion: Max Depth 0, Cost $0.0000
+DATA_RETRIEVAL:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 1,282 (Input: 1,177, Output: 105)
+  - Duration: 1209.04ms (Avg: 1209.04ms)
+  - Cost: $0.0416 (Avg: $0.0416)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 6464.66ms (Avg: 6464.66ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000

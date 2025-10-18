@@ -1,0 +1,428 @@
+
+Analysis Started with Query: What is the Net income Margin for UTCL, Shreecem, ACC, Ambuja, Century enka in FY2024?
+
+
+Decomposition LLM raw output: [{'id': '#000_0', 'company': 'ULTRACEMCO', 'metric_name': 'revenue', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#000_1', 'company': 'ULTRACEMCO', 'metric_name': 'profit', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_0', 'company': 'SHREECEM', 'metric_name': 'revenue', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_1', 'company': 'SHREECEM', 'metric_name': 'profit', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_0', 'company': 'ACC', 'metric_name': 'revenue', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_1', 'company': 'ACC', 'metric_name': 'profit', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_0', 'company': 'AMBUJACEM', 'metric_name': 'revenue', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_1', 'company': 'AMBUJACEM', 'metric_name': 'profit', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_0', 'company': 'CENTENKA', 'metric_name': 'revenue', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#004_1', 'company': 'CENTENKA', 'metric_name': 'profit', 'periods': [{'period': 'Mar 2024', 'period_type': 'Annual', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}]
+
+
+company_slug: ULTRACEMCO, metric_name: revenue, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ULTRACEMCO, metric_name: profit, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: revenue, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: SHREECEM, metric_name: profit, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ACC, metric_name: revenue, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: ACC, metric_name: profit, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: revenue, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: AMBUJACEM, metric_name: profit, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: revenue, Period: Mar 2024, Period Type: Annual
+
+
+company_slug: CENTENKA, metric_name: profit, Period: Mar 2024, Period Type: Annual
+
+
+
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20250924_113225_801976
+Query: What is the Net income Margin for UTCL, Shreecem, ACC, Ambuja, Century enka in FY2024?
+Total Duration: 86865.22ms
+Total Records: 8
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 6,229
+Total Output Tokens: 1,489
+Total Tokens: 7,718
+Estimated Cost: $0.2762
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 1,233 (Input: 1,010, Output: 223)
+  - Duration: 3219.14ms (Avg: 3219.14ms)
+  - Cost: $0.0437 (Avg: $0.0437)
+  - Recursion: Max Depth 0, Cost $0.0000
+DATA_RETRIEVAL:
+  - Total Calls: 5 (Root: 5, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 6,485 (Input: 5,219, Output: 1,266)
+  - Duration: 21084.85ms (Avg: 4216.97ms)
+  - Cost: $0.2325 (Avg: $0.0465)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 56219.36ms (Avg: 56219.36ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+
+
+DETAILED_RECURSION_ANALYSIS_JSON:
+{
+  "session_id": "session_20250924_113225_801976",
+  "query": "What is the Net income Margin for UTCL, Shreecem, ACC, Ambuja, Century enka in FY2024?",
+  "start_time": "2025-09-24T11:32:25.801996",
+  "end_time": "2025-09-24T11:33:52.667212",
+  "total_duration_ms": 86865.216,
+  "total_records": 8,
+  "total_tokens": {
+    "input": 6229,
+    "output": 1489,
+    "total": 7718
+  },
+  "total_cost_usd": 0.27620999999999996,
+  "success_rate": 1.0,
+  "recursion_analysis": {
+    "total_recursive_chains": 0,
+    "max_recursion_depth": 0,
+    "recursive_metrics": [],
+    "call_tree": {},
+    "depth_distribution": {},
+    "recursive_costs": 0.0
+  },
+  "summary_by_type": {
+    "query_decomposition": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "total_duration_ms": 0.0,
+      "avg_duration_ms": 0.0,
+      "total_cost_usd": 0.0,
+      "avg_cost_usd": 0.0,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "table_filtering": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 1010,
+        "output": 223,
+        "total": 1233
+      },
+      "total_duration_ms": 3219.1436290740967,
+      "avg_duration_ms": 3219.1436290740967,
+      "total_cost_usd": 0.04368,
+      "avg_cost_usd": 0.04368,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "data_retrieval": {
+      "total_calls": 5,
+      "root_calls": 5,
+      "recursive_calls": 0,
+      "successful_calls": 5,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 5219,
+        "output": 1266,
+        "total": 6485
+      },
+      "total_duration_ms": 21084.84959602356,
+      "avg_duration_ms": 4216.969919204712,
+      "total_cost_usd": 0.23253,
+      "avg_cost_usd": 0.046506,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "response_generation": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "total_duration_ms": 56219.357,
+      "avg_duration_ms": 56219.357,
+      "total_cost_usd": 0.0,
+      "avg_cost_usd": 0.0,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    }
+  },
+  "records": [
+    {
+      "call_id": "c0a142de",
+      "parent_call_id": null,
+      "llm_type": "query_decomposition",
+      "company_slug": null,
+      "metric_name": null,
+      "recursion_depth": 0,
+      "recursion_path": [],
+      "start_time": "2025-09-24T11:32:31.429007",
+      "end_time": "2025-09-24T11:32:31.429010",
+      "duration_ms": 0,
+      "tokens_used": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "cost_usd": 0.0,
+      "model_name": null,
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "metrics_focus": [
+          "revenue",
+          "profit"
+        ],
+        "result_count": 10,
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "6b7e2898",
+      "parent_call_id": null,
+      "llm_type": "table_filtering",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:32:34.648478",
+      "end_time": "2025-09-24T11:32:34.648480",
+      "duration_ms": 3219.1436290740967,
+      "tokens_used": {
+        "input": 1010,
+        "output": 223,
+        "total": 1233
+      },
+      "cost_usd": 0.04368,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "7783110c",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:32:38.820182",
+      "end_time": "2025-09-24T11:32:38.820185",
+      "duration_ms": 4129.356622695923,
+      "tokens_used": {
+        "input": 1042,
+        "output": 266,
+        "total": 1308
+      },
+      "cost_usd": 0.04722,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "c3f9c87b",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:32:42.688449",
+      "end_time": "2025-09-24T11:32:42.688452",
+      "duration_ms": 3831.1688899993896,
+      "tokens_used": {
+        "input": 1043,
+        "output": 254,
+        "total": 1297
+      },
+      "cost_usd": 0.046529999999999995,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "0246d433",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:32:46.263745",
+      "end_time": "2025-09-24T11:32:46.263747",
+      "duration_ms": 3541.2628650665283,
+      "tokens_used": {
+        "input": 1048,
+        "output": 234,
+        "total": 1282
+      },
+      "cost_usd": 0.04547999999999999,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "9ae4c5f3",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:32:50.638928",
+      "end_time": "2025-09-24T11:32:50.638931",
+      "duration_ms": 4339.399337768555,
+      "tokens_used": {
+        "input": 1049,
+        "output": 266,
+        "total": 1315
+      },
+      "cost_usd": 0.04743,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "40c33bd8",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T11:32:55.917658",
+      "end_time": "2025-09-24T11:32:55.917661",
+      "duration_ms": 5243.661880493164,
+      "tokens_used": {
+        "input": 1037,
+        "output": 246,
+        "total": 1283
+      },
+      "cost_usd": 0.045869999999999994,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "eb86f5e1",
+      "parent_call_id": null,
+      "llm_type": "response_generation",
+      "company_slug": null,
+      "metric_name": null,
+      "recursion_depth": 0,
+      "recursion_path": [],
+      "start_time": "2025-09-24T11:33:52.666545",
+      "end_time": "2025-09-24T11:33:52.666546",
+      "duration_ms": 56219.357,
+      "tokens_used": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "cost_usd": 0.0,
+      "model_name": null,
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "response_type": "crew_ai_response",
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    }
+  ]
+}
+

@@ -1,0 +1,456 @@
+
+Analysis Started with Query: what is operating margin, tax %, PAT margin and Ebitda margin for UTCL in all quarters of FY25
+
+
+Decomposition LLM raw output: [{'id': '#000_0', 'company': 'ULTRACEMCO', 'metric_name': 'operating margin', 'periods': [{'period': 'Jun 2024', 'period_type': 'Quarter', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#000_1', 'company': 'ULTRACEMCO', 'metric_name': 'tax %', 'periods': [{'period': 'Jun 2024', 'period_type': 'Quarter', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#000_2', 'company': 'ULTRACEMCO', 'metric_name': 'PAT margin', 'periods': [{'period': 'Jun 2024', 'period_type': 'Quarter', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#000_3', 'company': 'ULTRACEMCO', 'metric_name': 'EBITDA margin', 'periods': [{'period': 'Jun 2024', 'period_type': 'Quarter', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_0', 'company': 'ULTRACEMCO', 'metric_name': 'operating margin', 'periods': [{'period': 'Sep 2024', 'period_type': 'Quarter', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_1', 'company': 'ULTRACEMCO', 'metric_name': 'tax %', 'periods': [{'period': 'Sep 2024', 'period_type': 'Quarter', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_2', 'company': 'ULTRACEMCO', 'metric_name': 'PAT margin', 'periods': [{'period': 'Sep 2024', 'period_type': 'Quarter', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#001_3', 'company': 'ULTRACEMCO', 'metric_name': 'EBITDA margin', 'periods': [{'period': 'Sep 2024', 'period_type': 'Quarter', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_0', 'company': 'ULTRACEMCO', 'metric_name': 'operating margin', 'periods': [{'period': 'Dec 2024', 'period_type': 'Quarter', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_1', 'company': 'ULTRACEMCO', 'metric_name': 'tax %', 'periods': [{'period': 'Dec 2024', 'period_type': 'Quarter', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_2', 'company': 'ULTRACEMCO', 'metric_name': 'PAT margin', 'periods': [{'period': 'Dec 2024', 'period_type': 'Quarter', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#002_3', 'company': 'ULTRACEMCO', 'metric_name': 'EBITDA margin', 'periods': [{'period': 'Dec 2024', 'period_type': 'Quarter', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_0', 'company': 'ULTRACEMCO', 'metric_name': 'operating margin', 'periods': [{'period': 'Mar 2025', 'period_type': 'Quarter', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_1', 'company': 'ULTRACEMCO', 'metric_name': 'tax %', 'periods': [{'period': 'Mar 2025', 'period_type': 'Quarter', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_2', 'company': 'ULTRACEMCO', 'metric_name': 'PAT margin', 'periods': [{'period': 'Mar 2025', 'period_type': 'Quarter', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}, {'id': '#003_3', 'company': 'ULTRACEMCO', 'metric_name': 'EBITDA margin', 'periods': [{'period': 'Mar 2025', 'period_type': 'Quarter', 'available': True}], 'company_available_status': True, 'period_available_status': True, 'available': True, 'data_type': 'consolidated', 'llm_understanding': ''}]
+
+
+company_slug: ULTRACEMCO, metric_name: operating margin, Period: Jun 2024, Period Type: Quarter
+
+
+company_slug: ULTRACEMCO, metric_name: tax %, Period: Jun 2024, Period Type: Quarter
+
+
+company_slug: ULTRACEMCO, metric_name: PAT margin, Period: Jun 2024, Period Type: Quarter
+
+
+company_slug: ULTRACEMCO, metric_name: EBITDA margin, Period: Jun 2024, Period Type: Quarter
+
+
+company_slug: ULTRACEMCO, metric_name: operating margin, Period: Sep 2024, Period Type: Quarter
+
+
+company_slug: ULTRACEMCO, metric_name: tax %, Period: Sep 2024, Period Type: Quarter
+
+
+company_slug: ULTRACEMCO, metric_name: PAT margin, Period: Sep 2024, Period Type: Quarter
+
+
+company_slug: ULTRACEMCO, metric_name: EBITDA margin, Period: Sep 2024, Period Type: Quarter
+
+
+company_slug: ULTRACEMCO, metric_name: operating margin, Period: Dec 2024, Period Type: Quarter
+
+
+company_slug: ULTRACEMCO, metric_name: tax %, Period: Dec 2024, Period Type: Quarter
+
+
+company_slug: ULTRACEMCO, metric_name: PAT margin, Period: Dec 2024, Period Type: Quarter
+
+
+company_slug: ULTRACEMCO, metric_name: EBITDA margin, Period: Dec 2024, Period Type: Quarter
+
+
+company_slug: ULTRACEMCO, metric_name: operating margin, Period: Mar 2025, Period Type: Quarter
+
+
+company_slug: ULTRACEMCO, metric_name: tax %, Period: Mar 2025, Period Type: Quarter
+
+
+company_slug: ULTRACEMCO, metric_name: PAT margin, Period: Mar 2025, Period Type: Quarter
+
+
+company_slug: ULTRACEMCO, metric_name: EBITDA margin, Period: Mar 2025, Period Type: Quarter
+
+
+
+=== ENHANCED LLM USAGE SUMMARY ===
+Session ID: session_20250924_122243_869656
+Query: what is operating margin, tax %, PAT margin and Ebitda margin for UTCL in all quarters of FY25
+Total Duration: 77826.48ms
+Total Records: 7
+Success Rate: 100.00%
+
+=== TOKEN USAGE ===
+Total Input Tokens: 5,287
+Total Output Tokens: 1,670
+Total Tokens: 6,957
+Estimated Cost: $0.2588
+
+=== RECURSION ANALYSIS ===
+Recursive Chains: 0
+Max Recursion Depth: 0
+Recursive Metrics: 
+Recursive Cost: $0.0000
+Depth Distribution: {}
+
+=== BREAKDOWN BY LLM TYPE ===
+QUERY_DECOMPOSITION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 0.00ms (Avg: 0.00ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+TABLE_FILTERING:
+  - Total Calls: 2 (Root: 2, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 2,816 (Input: 2,085, Output: 731)
+  - Duration: 9191.80ms (Avg: 4595.90ms)
+  - Cost: $0.1064 (Avg: $0.0532)
+  - Recursion: Max Depth 0, Cost $0.0000
+DATA_RETRIEVAL:
+  - Total Calls: 2 (Root: 2, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 2,753 (Input: 2,073, Output: 680)
+  - Duration: 8262.46ms (Avg: 4131.23ms)
+  - Cost: $0.1030 (Avg: $0.0515)
+  - Recursion: Max Depth 0, Cost $0.0000
+FORMULA_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 1,388 (Input: 1,129, Output: 259)
+  - Duration: 3721.16ms (Avg: 3721.16ms)
+  - Cost: $0.0494 (Avg: $0.0494)
+  - Recursion: Max Depth 0, Cost $0.0000
+RESPONSE_GENERATION:
+  - Total Calls: 1 (Root: 1, Recursive: 0)
+  - Success Rate: 100.00%
+  - Tokens: 0 (Input: 0, Output: 0)
+  - Duration: 49758.33ms (Avg: 49758.33ms)
+  - Cost: $0.0000 (Avg: $0.0000)
+  - Recursion: Max Depth 0, Cost $0.0000
+
+
+DETAILED_RECURSION_ANALYSIS_JSON:
+{
+  "session_id": "session_20250924_122243_869656",
+  "query": "what is operating margin, tax %, PAT margin and Ebitda margin for UTCL in all quarters of FY25",
+  "start_time": "2025-09-24T12:22:43.869675",
+  "end_time": "2025-09-24T12:24:01.696156",
+  "total_duration_ms": 77826.481,
+  "total_records": 7,
+  "total_tokens": {
+    "input": 5287,
+    "output": 1670,
+    "total": 6957
+  },
+  "total_cost_usd": 0.25881,
+  "success_rate": 1.0,
+  "recursion_analysis": {
+    "total_recursive_chains": 0,
+    "max_recursion_depth": 0,
+    "recursive_metrics": [],
+    "call_tree": {},
+    "depth_distribution": {},
+    "recursive_costs": 0.0
+  },
+  "summary_by_type": {
+    "query_decomposition": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "total_duration_ms": 0.0,
+      "avg_duration_ms": 0.0,
+      "total_cost_usd": 0.0,
+      "avg_cost_usd": 0.0,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "table_filtering": {
+      "total_calls": 2,
+      "root_calls": 2,
+      "recursive_calls": 0,
+      "successful_calls": 2,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 2085,
+        "output": 731,
+        "total": 2816
+      },
+      "total_duration_ms": 9191.797494888306,
+      "avg_duration_ms": 4595.898747444153,
+      "total_cost_usd": 0.10640999999999999,
+      "avg_cost_usd": 0.053204999999999995,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "data_retrieval": {
+      "total_calls": 2,
+      "root_calls": 2,
+      "recursive_calls": 0,
+      "successful_calls": 2,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 2073,
+        "output": 680,
+        "total": 2753
+      },
+      "total_duration_ms": 8262.460947036743,
+      "avg_duration_ms": 4131.230473518372,
+      "total_cost_usd": 0.10298999999999998,
+      "avg_cost_usd": 0.05149499999999999,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "formula_generation": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 1129,
+        "output": 259,
+        "total": 1388
+      },
+      "total_duration_ms": 3721.163511276245,
+      "avg_duration_ms": 3721.163511276245,
+      "total_cost_usd": 0.049409999999999996,
+      "avg_cost_usd": 0.049409999999999996,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    },
+    "response_generation": {
+      "total_calls": 1,
+      "root_calls": 1,
+      "recursive_calls": 0,
+      "successful_calls": 1,
+      "success_rate": 1.0,
+      "total_tokens": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "total_duration_ms": 49758.333,
+      "avg_duration_ms": 49758.333,
+      "total_cost_usd": 0.0,
+      "avg_cost_usd": 0.0,
+      "recursion_breakdown": {
+        "max_depth": 0,
+        "recursive_cost": 0,
+        "recursive_duration": 0
+      }
+    }
+  },
+  "records": [
+    {
+      "call_id": "ca6c15ce",
+      "parent_call_id": null,
+      "llm_type": "query_decomposition",
+      "company_slug": null,
+      "metric_name": null,
+      "recursion_depth": 0,
+      "recursion_path": [],
+      "start_time": "2025-09-24T12:22:50.045147",
+      "end_time": "2025-09-24T12:22:50.045152",
+      "duration_ms": 0,
+      "tokens_used": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "cost_usd": 0.0,
+      "model_name": null,
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "metrics_focus": [
+          "operating margin",
+          "tax %",
+          "PAT margin",
+          "EBITDA margin"
+        ],
+        "result_count": 16,
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "06070b36",
+      "parent_call_id": null,
+      "llm_type": "table_filtering",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T12:22:54.496109",
+      "end_time": "2025-09-24T12:22:54.496112",
+      "duration_ms": 4450.238466262817,
+      "tokens_used": {
+        "input": 1044,
+        "output": 364,
+        "total": 1408
+      },
+      "cost_usd": 0.05316,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "c719e799",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T12:22:59.450616",
+      "end_time": "2025-09-24T12:22:59.450619",
+      "duration_ms": 4914.583206176758,
+      "tokens_used": {
+        "input": 1038,
+        "output": 412,
+        "total": 1450
+      },
+      "cost_usd": 0.05585999999999999,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "36c283d0",
+      "parent_call_id": null,
+      "llm_type": "formula_generation",
+      "company_slug": "multiple",
+      "metric_name": [
+        "EBITDA margin",
+        "PAT margin"
+      ],
+      "recursion_depth": 0,
+      "recursion_path": [
+        [
+          "EBITDA margin",
+          "PAT margin"
+        ]
+      ],
+      "start_time": "2025-09-24T12:23:03.264278",
+      "end_time": "2025-09-24T12:23:03.264280",
+      "duration_ms": 3721.163511276245,
+      "tokens_used": {
+        "input": 1129,
+        "output": 259,
+        "total": 1388
+      },
+      "cost_usd": 0.049409999999999996,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "parameters_count": 0,
+        "confidence_score": 0.0,
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "c3e41e41",
+      "parent_call_id": null,
+      "llm_type": "table_filtering",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T12:23:08.006255",
+      "end_time": "2025-09-24T12:23:08.006257",
+      "duration_ms": 4741.559028625488,
+      "tokens_used": {
+        "input": 1041,
+        "output": 367,
+        "total": 1408
+      },
+      "cost_usd": 0.05324999999999999,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "2fcd5f50",
+      "parent_call_id": null,
+      "llm_type": "data_retrieval",
+      "company_slug": "multiple",
+      "metric_name": "multiple",
+      "recursion_depth": 0,
+      "recursion_path": [
+        "multiple"
+      ],
+      "start_time": "2025-09-24T12:23:11.392530",
+      "end_time": "2025-09-24T12:23:11.392532",
+      "duration_ms": 3347.8777408599854,
+      "tokens_used": {
+        "input": 1035,
+        "output": 268,
+        "total": 1303
+      },
+      "cost_usd": 0.04712999999999999,
+      "model_name": "gpt-4.1",
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    },
+    {
+      "call_id": "169c8d48",
+      "parent_call_id": null,
+      "llm_type": "response_generation",
+      "company_slug": null,
+      "metric_name": null,
+      "recursion_depth": 0,
+      "recursion_path": [],
+      "start_time": "2025-09-24T12:24:01.695909",
+      "end_time": "2025-09-24T12:24:01.695909",
+      "duration_ms": 49758.333,
+      "tokens_used": {
+        "input": 0,
+        "output": 0,
+        "total": 0
+      },
+      "cost_usd": 0.0,
+      "model_name": null,
+      "success": true,
+      "error_message": null,
+      "additional_info": {
+        "response_type": "crew_ai_response",
+        "call_stack_depth": 0,
+        "is_recursive_call": false,
+        "recursion_trigger": false
+      }
+    }
+  ]
+}
+
